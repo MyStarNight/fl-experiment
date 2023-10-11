@@ -55,8 +55,9 @@ F-->G[联邦学习搭建]
 ### Part2 torch 和 torchvision
 
 作为我们最主要目标的pysyft的dependencies，这两个库的选择及其重要。
-
+要做到 **python/torch/torchvison/syft**四个库的版本相对应。
+目标实验的所有bnben
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMzU5MTY0OSwxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbLTMzMjExNDUzMCwxNzI2NjcwNzQwXX0=
 -->
