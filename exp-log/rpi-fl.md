@@ -75,9 +75,10 @@ F-->G[联邦学习搭建]
 ### Part3 syft
 
 这个可以说是非常折磨的一步。
-在使用指令`
+在使用指令`pip install syft --no-dependencies `指令的时候安装有时候可能会比较慢，可以采用国内的镜像源，这样速度就会比较快。
+
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MjkwMDI2MSwxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbLTIwMTg1MTY0MDcsMTcyNjY3MDc0MF19
 -->
