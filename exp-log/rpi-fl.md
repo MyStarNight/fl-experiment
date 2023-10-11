@@ -37,16 +37,18 @@ F-->G[联邦学习搭建]
 ###  Part1 系统选择
 使用的是树莓派的官方镜像源，会使用最新支持版本的Python。
 
-在10/10当天我们烧录的时候，树莓派的Python版本还是3.9。
+在10/10当天烧录的时候，树莓派的Python版本还是3.9。
 当10/11即第二天晚上烧录的时候树莓派的版本居然更新了，版本为3.11。
 
 这里面有一个很大的麻烦，后续也会提及，就是Python版本超过了树莓派上所支持的torch和torchvision的版本（最多只到了3.10）。
 
 目前想的是两个解决方案：
 
-	1. 选择旧版本的树莓派镜像文件进行sha
+	1. 选择旧版本的树莓派镜像文件进行烧录
+	2. 在树莓派上对Python进行降级
 
+关于方案2对Python进行降级，也ch
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNzY4NzU1NCwxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbMzMwODcyNjg1LDE3MjY2NzA3NDBdfQ==
 -->
