@@ -61,6 +61,10 @@ F-->G[联邦学习搭建]
 要做到 **python/torch/torchvison/syft**四个库的版本相对应。
 目标实验的所有版本都很低，所以我使用了默认的3.9。
 
+并且在实验中还遇到了一个问题：
+
+	在官方的文档中torch1.10.0和torchvision
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMDk5NDk3LDE3MjY2NzA3NDBdfQ==
+eyJoaXN0b3J5IjpbMTE1Mjg2OTYyNSwxNzI2NjcwNzQwXX0=
 -->
