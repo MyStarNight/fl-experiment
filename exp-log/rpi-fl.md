@@ -21,7 +21,9 @@
 
 ```mermaid
 graph
-A[树莓派烧录系统]--B[]
+A[树莓派烧录系统]-->B[安装pytorch和torchvision]
+B-->C[安装syft(不安装dependencies)]
+C-->
 
 ```
 
@@ -31,5 +33,5 @@ A[树莓派烧录系统]--B[]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDkwOTQzNywxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbLTIwODc5OTI4NjksMTcyNjY3MDc0MF19
 -->
