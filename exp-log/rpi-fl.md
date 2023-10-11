@@ -7,7 +7,7 @@
 
 ## 参考实验信息
 选取[联邦学习小系统搭建和测试（PySyft + Raspberry Pi 4） ](https://zhuanlan.zhihu.com/p/181733116)作为参考的demo。
-这是2020年的一篇实验文章，很多
+这是2020年的一篇实验文章，很多东西版本都非常的老旧，如下所示。
 
 |Harwared&Software|Information |
 |--|--|
@@ -17,8 +17,19 @@
 | Pytorch | version:1.4.0 |
 | Torchvision | version:0.5.0 |
 
+实验步骤
+
+```mermaid
+graph
+A[]
+
+```
+
+
+## 具体实验
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMjEwMjMyMywxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbODQzODI2NzczLDE3MjY2NzA3NDBdfQ==
 -->
