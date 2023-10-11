@@ -50,8 +50,13 @@ F-->G[联邦学习搭建]
 关于方案2对Python进行降级，也产生过问题：
 
 	1. 删除python3.9，命令行输入python时，运行的python仍然为3.9
-	2. 新安装的python3.7在jiey以后
+	2. 新安装的python3.7在解压以后无法使用
+
+### Part2 torch 和 torchvision
+
+作为我们最主要目标的pysyft的dependencies，这两个库的选择及其重要。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNTM0ODIwMCwxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbLTkzMzU5MTY0OSwxNzI2NjcwNzQwXX0=
 -->
