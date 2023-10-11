@@ -16,6 +16,7 @@
 | Python | version:3.7 |
 | Pytorch | version:1.4.0 |
 | Torchvision | version:0.5.0 |
+|Pysyft | version:0.2.4|
 
 实验步骤
 
@@ -25,14 +26,14 @@ A[树莓派烧录系统]-->B[安装pytorch和torchvision]
 B-->C[安装syft,不安装dependencies]
 C-->D[单独安装syft所缺少的dependencies]
 D-->F[测试环境]
-
+F-->G[联邦学习搭建]
 ```
 
 
-## 具体实验
+## 具体实验-环境搭建
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjM2NDc3ODMsMTcyNjY3MDc0MF19
+eyJoaXN0b3J5IjpbOTAxNDM0NDAsMTcyNjY3MDc0MF19
 -->
