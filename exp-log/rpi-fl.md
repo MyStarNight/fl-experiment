@@ -34,8 +34,9 @@ F-->G[联邦学习搭建]
 
 因为在每一个地方基本上都踩过一些坑，并且也有一些经验。就按照上述步骤一步步展开：
 
-## 
+###  Part1 系统选择
+使用的是树莓派的官方镜像源，每次都会认真
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzY4NDgzOTgsMTcyNjY3MDc0MF19
+eyJoaXN0b3J5IjpbLTM4MTEwOTMxMSwxNzI2NjcwNzQwXX0=
 -->
