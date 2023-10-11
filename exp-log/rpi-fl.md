@@ -10,9 +10,14 @@
 实验配置
 |Harwared&Software|Information |
 |--|--|
-|Py|  |
+|2 Raspberry Pi 4B|4 cores arm A72, 8G RAM  |
+|Raspberry Pi OS  |  |
+|  |  |
+|  |  |
+|  |  |
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTQ1MTUyNDgsMTcyNjY3MDc0MF19
+eyJoaXN0b3J5IjpbOTQ1NjA5ODY0LDE3MjY2NzA3NDBdfQ==
 -->
