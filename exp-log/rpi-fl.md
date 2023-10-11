@@ -21,7 +21,7 @@
 
 ```mermaid
 graph
-A[]
+A[树莓派烧录系统]--B[]
 
 ```
 
@@ -31,5 +31,5 @@ A[]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzODI2NzczLDE3MjY2NzA3NDBdfQ==
+eyJoaXN0b3J5IjpbMTU5NDkwOTQzNywxNzI2NjcwNzQwXX0=
 -->
