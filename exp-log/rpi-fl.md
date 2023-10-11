@@ -1,13 +1,14 @@
 # 树莓派搭建联邦学习平台
 
-# record
+# Record
 2022/10/11：提出用两个树莓派去制作一个联邦学习的平台
 
-# experiments
+# Experiments
 
+## 参考实验信息
 选取[联邦学习小系统搭建和测试（PySyft + Raspberry Pi 4） ](https://zhuanlan.zhihu.com/p/181733116)作为参考的demo。
+这是2020年的一篇实验文章，很多
 
-实验配置如下：
 |Harwared&Software|Information |
 |--|--|
 |2 Raspberry Pi 4B|4 cores arm A72, 8G RAM  |
@@ -19,5 +20,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjU3ODg1MiwxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbLTUxMjEwMjMyMywxNzI2NjcwNzQwXX0=
 -->
