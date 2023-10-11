@@ -56,7 +56,7 @@ F-->G[联邦学习搭建]
 
 很好的参考文章：[树莓派安装pytorch](https://zhuanlan.zhihu.com/p/446627852)
 下载地址：[树莓派64位安装wheel文件合集](https://torch.kmtea.eu/whl/stable.html)
-torch和torchvison版本匹配
+版本查看：[torch和torchvison版本匹配](https://github.com/pytorch/vision#installation)
 
 作为我们最主要目标的pysyft的dependencies，这两个库的选择及其重要。
 要做到 **python/torch/torchvison/syft**四个库的版本相对应。
@@ -70,9 +70,14 @@ torch和torchvison版本匹配
 解决方案：
 
 	使用torch1.11.0搭配torchvision0.10.0；
-	此时两个库都能正常使用。
+	此时两个库都能正常使用，但是不知道对后续syft有没有影响。
+
+### Part3 syft
+
+这个可以说是非常折磨的一步。
+在使用指令`
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDMxNTE2NiwxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbLTQ5MjkwMDI2MSwxNzI2NjcwNzQwXX0=
 -->
