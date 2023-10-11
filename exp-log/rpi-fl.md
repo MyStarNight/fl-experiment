@@ -7,6 +7,7 @@
 
 ## 参考实验信息
 选取[联邦学习小系统搭建和测试（PySyft + Raspberry Pi 4） ](https://zhuanlan.zhihu.com/p/181733116)作为参考的demo。
+
 这是2020年的一篇实验文章，很多东西版本都非常的老旧，如下所示。
 
 |Harwared&Software|Information |
@@ -98,5 +99,5 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTk2NjAyMywxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbMTM2NjAwMDc0MywxNzI2NjcwNzQwXX0=
 -->
