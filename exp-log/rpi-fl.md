@@ -73,12 +73,16 @@ F-->G[联邦学习搭建]
 	此时两个库都能正常使用，但是不知道对后续syft有没有影响。
 
 ### Part3 syft
+清华大学镜像源：
+
+	https://pypi.tuna.tsinghua.edu.cn/simple
 
 这个可以说是非常折磨的一步。
 在使用指令`pip install syft --no-dependencies `指令的时候安装有时候可能会比较慢，可以采用国内的镜像源，这样速度就会比较快。
+同样也可以指定我们所需要的版本，采用一下指令
 
-	
+	pip3 install syft==0.2.4 --no-dependencies
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTg1MTY0MDcsMTcyNjY3MDc0MF19
+eyJoaXN0b3J5IjpbLTk5MTAzNDI3NCwxNzI2NjcwNzQwXX0=
 -->
