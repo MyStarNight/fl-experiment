@@ -5,7 +5,13 @@
 
 # experiments
 
-选取[联邦学习小系统搭建和测试（PySyft + Raspberry Pi 4） ](https://zhuanlan.zhihu.com/p/181733116)作为参考的
+选取[联邦学习小系统搭建和测试（PySyft + Raspberry Pi 4） ](https://zhuanlan.zhihu.com/p/181733116)作为参考的demo。
+
+实验配置
+|实验条件|version |
+|--|--|
+|树莓派  |  |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQxOTQyMjQ0LDE3MjY2NzA3NDBdfQ==
+eyJoaXN0b3J5IjpbMTIyMzE4MjM4OSwxNzI2NjcwNzQwXX0=
 -->
