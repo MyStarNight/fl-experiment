@@ -8,10 +8,11 @@
 选取[联邦学习小系统搭建和测试（PySyft + Raspberry Pi 4） ](https://zhuanlan.zhihu.com/p/181733116)作为参考的demo。
 
 实验配置
-|实验条件|version |
+|Harwared&Software|Information |
 |--|--|
-|树莓派  |  |
+|Py|  |
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMzE4MjM4OSwxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbLTEyOTQ1MTUyNDgsMTcyNjY3MDc0MF19
 -->
