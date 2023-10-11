@@ -39,6 +39,7 @@ F-->G[联邦学习搭建]
 使用的是树莓派的官方镜像源，会使用最新支持版本的Python。
 
 在10/10当天烧录的时候，树莓派的Python版本还是3.9。
+
 当10/11即第二天晚上烧录的时候树莓派的版本居然更新了，版本为3.11。
 
 这里面有一个很大的麻烦，后续也会提及，就是Python版本超过了树莓派上所支持的torch和torchvision的版本（最多只到了3.10）。
@@ -56,11 +57,15 @@ F-->G[联邦学习搭建]
 ### Part2 torch 和 torchvision
 
 很好的参考文章：[树莓派安装pytorch](https://zhuanlan.zhihu.com/p/446627852)
+
 下载地址：[树莓派64位安装wheel文件合集](https://torch.kmtea.eu/whl/stable.html)
+
 版本查看：[torch和torchvison版本匹配](https://github.com/pytorch/vision#installation)
 
 作为我们最主要目标的pysyft的dependencies，这两个库的选择及其重要。
+
 要做到 **python/torch/torchvison/syft**四个库的版本相对应。
+
 目标实验的所有版本都很低，所以我使用了默认的3.9。
 
 并且在实验中还遇到了一个问题：
@@ -76,6 +81,7 @@ F-->G[联邦学习搭建]
 ### Part3 syft
 
 syft： [OpenMined/PySyft: (github.com)](https://github.com/OpenMined/PySyft)
+
 Python查看dependencies的方式： [查看python第三方库的依赖](https://blog.csdn.net/qq_38316655/article/details/127943606?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169703879816800211543388%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=169703879816800211543388&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-4-127943606-null-null.142^v96^pc_search_result_base5&utm_term=%E5%A6%82%E4%BD%95%E6%9F%A5%E7%9C%8Bpython%E5%BA%93%E7%9A%84%E4%BE%9D%E8%B5%96%E5%85%B3%E7%B3%BB&spm=1018.2226.3001.4187)
 
 清华大学镜像源：
@@ -83,7 +89,9 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 	https://pypi.tuna.tsinghua.edu.cn/simple
 
 这个可以说是非常折磨的一步。
+
 在使用指令`pip install syft --no-dependencies `指令的时候安装有时候可能会比较慢，可以采用国内的镜像源，这样速度就会比较快。
+
 同样也可以指定我们所需要的版本，采用以下指令：
 
 	pip3 install syft==0.2.4 --no-dependencies
@@ -99,5 +107,5 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NjAwMDc0MywxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbLTE5Nzg0ODM5NTcsMTcyNjY3MDc0MF19
 -->
