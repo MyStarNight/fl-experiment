@@ -79,10 +79,11 @@ F-->G[联邦学习搭建]
 
 这个可以说是非常折磨的一步。
 在使用指令`pip install syft --no-dependencies `指令的时候安装有时候可能会比较慢，可以采用国内的镜像源，这样速度就会比较快。
-同样也可以指定我们所需要的版本，采用一下指令
+同样也可以指定我们所需要的版本，采用以下指令：
 
 	pip3 install syft==0.2.4 --no-dependencies
 
+安装syft的时候出现最麻烦的问题就是和当前已有的package存在矛盾。并且我在官方网站s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTAzNDI3NCwxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbLTE3NDU5NzE3MzAsMTcyNjY3MDc0MF19
 -->
