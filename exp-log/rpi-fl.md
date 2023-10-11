@@ -7,17 +7,17 @@
 
 选取[联邦学习小系统搭建和测试（PySyft + Raspberry Pi 4） ](https://zhuanlan.zhihu.com/p/181733116)作为参考的demo。
 
-实验配置
+实验配置如下：
 |Harwared&Software|Information |
 |--|--|
 |2 Raspberry Pi 4B|4 cores arm A72, 8G RAM  |
-|Raspberry Pi OS  |  |
-|  |  |
-|  |  |
-|  |  |
+|Raspberry Pi OS  | 32 bit |
+| Python | version:3.7 |
+| Pytorch | version:1.4.0 |
+| Torchvision | version:0.5.0 |
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ1NjA5ODY0LDE3MjY2NzA3NDBdfQ==
+eyJoaXN0b3J5IjpbLTUwNjU3ODg1MiwxNzI2NjcwNzQwXX0=
 -->
