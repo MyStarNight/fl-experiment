@@ -1,4 +1,6 @@
-# 树莓派搭建
+# 树莓派搭建联邦学习平台
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxMDg3MDM2XX0=
+eyJoaXN0b3J5IjpbMTkyMTIwNjk5MV19
 -->
