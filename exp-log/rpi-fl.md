@@ -63,8 +63,9 @@ F-->G[联邦学习搭建]
 
 并且在实验中还遇到了一个问题：
 
-	在官方的文档中torch1.10.0和torchvision
+	在官方的文档中torch1.11.0和torchvision0.12.0是正确匹配的；
+	但是在我搭配这两个库使用的时候，importorchvison
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1Mjg2OTYyNSwxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbMTUxOTcxMjM2MCwxNzI2NjcwNzQwXX0=
 -->
