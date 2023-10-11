@@ -75,6 +75,7 @@ F-->G[联邦学习搭建]
 ### Part3 syft
 
 syft： [OpenMined/PySyft: (github.com)](https://github.com/OpenMined/PySyft)
+Python查看dependencies的方式： 
 
 清华大学镜像源：
 
@@ -91,7 +92,11 @@ syft： [OpenMined/PySyft: (github.com)](https://github.com/OpenMined/PySyft)
 	1. 当前已有的package存在矛盾；
 	2. 官方网站上没有找到每个版本所对应需要的packages或者requirements.txt。
 
+解决方案：
+
+	在Windows上安装不同版本的pysyft，使用pipdeptree查看其所需要的dependencies。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTczOTkzNzcsMTcyNjY3MDc0MF19
+eyJoaXN0b3J5IjpbMjEzMjYzNzc5LDE3MjY2NzA3NDBdfQ==
 -->
