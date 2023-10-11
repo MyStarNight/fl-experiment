@@ -86,7 +86,12 @@ syft： [OpenMined/PySyft: (github.com)](https://github.com/OpenMined/PySyft)
 
 	pip3 install syft==0.2.4 --no-dependencies
 
-安装syft的时候出现最麻烦的问题就是和当前已有的package存在矛盾。并且我在官方网站上没有找到版本
+安装syft的时候出现最麻烦的问题就是
+
+	1. 当前已有的package存在矛盾；
+	2. 官方网站上没有找到每个版本所对应需要的packages或者requirements.txt。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3MjU0MTM1LDE3MjY2NzA3NDBdfQ==
+eyJoaXN0b3J5IjpbLTIwOTczOTkzNzcsMTcyNjY3MDc0MF19
 -->
