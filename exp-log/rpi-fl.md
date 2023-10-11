@@ -47,8 +47,11 @@ F-->G[联邦学习搭建]
 	1. 选择旧版本的树莓派镜像文件进行烧录
 	2. 在树莓派上对Python进行降级
 
-关于方案2对Python进行降级，也ch
+关于方案2对Python进行降级，也产生过问题：
+
+	1. 删除python3.9，命令行输入python时，运行的python仍然为3.9
+	2. 新安装的python3.7在jiey以后
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwODcyNjg1LDE3MjY2NzA3NDBdfQ==
+eyJoaXN0b3J5IjpbLTgzNTM0ODIwMCwxNzI2NjcwNzQwXX0=
 -->
