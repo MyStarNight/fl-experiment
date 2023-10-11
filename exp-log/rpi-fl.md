@@ -54,10 +54,11 @@ F-->G[联邦学习搭建]
 
 ### Part2 torch 和 torchvision
 
+很好的[参考文树莓派安装pytorch](https://zhuanlan.zhihu.com/p/446627852)
 作为我们最主要目标的pysyft的dependencies，这两个库的选择及其重要。
 要做到 **python/torch/torchvison/syft**四个库的版本相对应。
-目标实验的所有bnben
+目标实验的所有版本都很低，所以我使用了默认的3.9
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjExNDUzMCwxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbLTEwNjY0MDMxMywxNzI2NjcwNzQwXX0=
 -->
