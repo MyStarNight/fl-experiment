@@ -36,8 +36,13 @@ F-->G[联邦学习搭建]
 
 ###  Part1 系统选择
 使用的是树莓派的官方镜像源，会使用最新支持版本的Python。
-这里面有一个比较大的麻烦，就是在10/10当天我们烧录的时候，树莓派的Python版本还是3.9，当1
+
+在10/10当天我们烧录的时候，树莓派的Python版本还是3.9。
+当10/11即第二天烧录的时候树莓派的版本居然更新了，版本为3.11。
+
+这里面有一个很大的麻烦，后续也会提及，就是Python版本超过了
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjA2NjYwNDUsMTcyNjY3MDc0MF19
+eyJoaXN0b3J5IjpbLTEzMjA4NTY0ODAsMTcyNjY3MDc0MF19
 -->
