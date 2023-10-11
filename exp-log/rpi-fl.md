@@ -56,6 +56,7 @@ F-->G[联邦学习搭建]
 
 很好的参考文章：[树莓派安装pytorch](https://zhuanlan.zhihu.com/p/446627852)
 下载地址：[树莓派64位安装wheel文件合集](https://torch.kmtea.eu/whl/stable.html)
+torch和torchvison版本匹配
 
 作为我们最主要目标的pysyft的dependencies，这两个库的选择及其重要。
 要做到 **python/torch/torchvison/syft**四个库的版本相对应。
@@ -73,5 +74,5 @@ F-->G[联邦学习搭建]
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjI5MzM3NSwxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbLTEwNDMxNTE2NiwxNzI2NjcwNzQwXX0=
 -->
