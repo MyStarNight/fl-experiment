@@ -35,8 +35,9 @@ F-->G[联邦学习搭建]
 因为在每一个地方基本上都踩过一些坑，并且也有一些经验。就按照上述步骤一步步展开：
 
 ###  Part1 系统选择
-使用的是树莓派的官方镜像源，每次都会认真
+使用的是树莓派的官方镜像源，会使用最新支持版本的Python。
+这里面有一个比较大的麻烦，就是在10/10当天我们烧录的时候，树莓派的Python版本还是3.9，当1
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MTEwOTMxMSwxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbLTE5MjA2NjYwNDUsMTcyNjY3MDc0MF19
 -->
