@@ -1,6 +1,10 @@
 # 树莓派搭建联邦学习平台
 
-2022/10/
+# record
+2022/10/11
+
+	tic
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTI0NzE4NF19
+eyJoaXN0b3J5IjpbMTAxODI1NzUzNl19
 -->
