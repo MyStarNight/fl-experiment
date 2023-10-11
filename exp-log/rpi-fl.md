@@ -22,8 +22,9 @@
 ```mermaid
 graph
 A[树莓派烧录系统]-->B[安装pytorch和torchvision]
-B-->C[安装syft(不安装dependencies)]
-C-->
+B-->C[安装syft,不安装dependencies]
+C-->D[单独安装syft所缺少的dependencies]
+D-->F[测试环境]
 
 ```
 
@@ -33,5 +34,5 @@ C-->
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODc5OTI4NjksMTcyNjY3MDc0MF19
+eyJoaXN0b3J5IjpbLTIwMjM2NDc3ODMsMTcyNjY3MDc0MF19
 -->
