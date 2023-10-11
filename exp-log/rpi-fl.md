@@ -73,6 +73,9 @@ F-->G[联邦学习搭建]
 	此时两个库都能正常使用，但是不知道对后续syft有没有影响。
 
 ### Part3 syft
+
+syft： [OpenMined/PySyft: (github.com)](https://github.com/OpenMined/PySyft)
+
 清华大学镜像源：
 
 	https://pypi.tuna.tsinghua.edu.cn/simple
@@ -83,7 +86,7 @@ F-->G[联邦学习搭建]
 
 	pip3 install syft==0.2.4 --no-dependencies
 
-安装syft的时候出现最麻烦的问题就是和当前已有的package存在矛盾。并且我在官方网站s
+安装syft的时候出现最麻烦的问题就是和当前已有的package存在矛盾。并且我在官方网站上没有找到版本
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDU5NzE3MzAsMTcyNjY3MDc0MF19
+eyJoaXN0b3J5IjpbNzc3MjU0MTM1LDE3MjY2NzA3NDBdfQ==
 -->
