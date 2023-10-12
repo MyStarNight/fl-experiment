@@ -121,8 +121,9 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 
 ### Part1 树莓派
 
+首先，在烧录系统的时候一定要选择Python版本为3.9.2的镜像系统；最新的树莓派系统Python版本为3.11，版本过高，无法正常安装pysyft。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjE1MDg1NDIsLTE3NTM4Mjg1NjcsLT
-E5Nzg0ODM5NTcsMTcyNjY3MDc0MF19
+eyJoaXN0b3J5IjpbMjA2Nzc5MjkzLC0xNzUzODI4NTY3LC0xOT
+c4NDgzOTU3LDE3MjY2NzA3NDBdfQ==
 -->
