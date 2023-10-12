@@ -136,9 +136,11 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 
 	python -c 'import torch, syft'
 
+如果没什么问题，那树莓派这边就万事大吉了。
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwMzMzOTk5LDIwNjc3OTI5MywtMTc1Mz
-gyODU2NywtMTk3ODQ4Mzk1NywxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbLTE1NzIyMDU3MzgsMjA2Nzc5MjkzLC0xNz
+UzODI4NTY3LC0xOTc4NDgzOTU3LDE3MjY2NzA3NDBdfQ==
 -->
