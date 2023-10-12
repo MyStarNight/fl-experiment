@@ -144,6 +144,8 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 
 建立多个环境教程：[Raspberry Pi Documentation - Raspberry Pi OS](https://www.raspberrypi.com/documentation/computers/os.html#about-python-virtual-enivronments)
 
+CSDN 教程：[树莓派 python3.9降级为python3.7_python降级到3.7_](https://blog.csdn.net/ChenWenHaoHaoHao/article/details/131361776?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169712588516800226538028%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=169712588516800226538028&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-2-131361776-null-null.142^v96^pc_search_result_base5&utm_term=%E6%A0%91%E8%8E%93%E6%B4%BEwget%E4%B8%8B%E8%BD%BDpython%E8%A7%A3%E9%87%8A%E5%99%A8&spm=1018.2226.3001.4187)
+
 同样可以以不同的python版本建立环境，具体步骤如下：
 
 python下载网址：[Index of /ftp/python/](https://www.python.org/ftp/python/)
@@ -153,7 +155,15 @@ python下载网址：[Index of /ftp/python/](https://www.python.org/ftp/python/)
 	waget https://www.python.org/ftp/python/3.9.2/Python-3.9.2.tgz
 	tar zxvf Python-3.9.2.tgz
 
+然后是编译
+
+	cd Python-3.9.2
+	./configure
+	make
+	sudo make install
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk1MDA1ODQsMjA2Nzc5MjkzLC0xNzUzOD
-I4NTY3LC0xOTc4NDgzOTU3LDE3MjY2NzA3NDBdfQ==
+eyJoaXN0b3J5IjpbLTk4Njg3NzY3OCwyMDY3NzkyOTMsLTE3NT
+M4Mjg1NjcsLTE5Nzg0ODM5NTcsMTcyNjY3MDc0MF19
 -->
