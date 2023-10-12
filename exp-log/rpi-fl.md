@@ -142,7 +142,8 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 
 更新以后的树莓派可以建立多个环境了，但是还是存在一些问题。
 
+建立du
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjQ5NDY5MzksMjA2Nzc5MjkzLC0xNz
-UzODI4NTY3LC0xOTc4NDgzOTU3LDE3MjY2NzA3NDBdfQ==
+eyJoaXN0b3J5IjpbMjA4OTk1ODk5MywyMDY3NzkyOTMsLTE3NT
+M4Mjg1NjcsLTE5Nzg0ODM5NTcsMTcyNjY3MDc0MF19
 -->
