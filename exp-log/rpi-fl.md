@@ -183,10 +183,12 @@ A[安装autodp库]-->B[安装pysyft,不安装dependencies]
 B-->C[安装dependencies]
 ```
 
-第一步：安装autodp，我选用的方式是使用github中的setup文件进行安装。
+第一步：安装autodp，我选用的方式是使用github中的setup文件进行安装。选择一个文件夹，执行以下指令：
 
-	git clone 
+	git clone https://github.com/yuxiangw/autodp.git
+
+删除或者注释setup中的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTc1MzQ0MjcsMjA2Nzc5MjkzLC0xNz
-UzODI4NTY3LC0xOTc4NDgzOTU3LDE3MjY2NzA3NDBdfQ==
+eyJoaXN0b3J5IjpbNjk5NDk0NzYsMjA2Nzc5MjkzLC0xNzUzOD
+I4NTY3LC0xOTc4NDgzOTU3LDE3MjY2NzA3NDBdfQ==
 -->
