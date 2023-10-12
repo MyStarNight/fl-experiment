@@ -196,8 +196,11 @@ B-->C[安装dependencies]
 
 	pip install -e .
 
+第二步：独立安装pysyft，运行下面的指令
 
+	pip install syft
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDM3MTc1OCwyMDY3NzkyOTMsLTE3NT
-M4Mjg1NjcsLTE5Nzg0ODM5NTcsMTcyNjY3MDc0MF19
+eyJoaXN0b3J5IjpbOTQ4NjI2NjgzLDIwNjc3OTI5MywtMTc1Mz
+gyODU2NywtMTk3ODQ4Mzk1NywxNzI2NjcwNzQwXX0=
 -->
