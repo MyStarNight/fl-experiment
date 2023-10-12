@@ -142,8 +142,16 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 
 更新以后的树莓派可以建立多个环境了，但是还是存在一些问题。
 
-建立du
+建立多个环境教程：[Raspberry Pi Documentation - Raspberry Pi OS](https://www.raspberrypi.com/documentation/computers/os.html#about-python-virtual-enivronments)
+
+同样可以以不同的python版本建立环境，具体步骤如下：
+
+下载所需版本的python：
+
+	waget
+	tar -xvf Python-3.9.2.tar.gz
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4OTk1ODk5MywyMDY3NzkyOTMsLTE3NT
+eyJoaXN0b3J5IjpbMTgwNjAwMDIyNSwyMDY3NzkyOTMsLTE3NT
 M4Mjg1NjcsLTE5Nzg0ODM5NTcsMTcyNjY3MDc0MF19
 -->
