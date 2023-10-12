@@ -112,8 +112,13 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 
 ### 具体信息
 
-
+|Harwared&Software|Information |
+|--|--|
+|2 Raspberry Pi 4B|arm A72  |
+|Raspberry Pi OS  | 64 bit |
+| Python | version:3.9.2 |
+|Pysyft | version:0.2.|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyMjAzMTAwLC0xNzUzODI4NTY3LC0xOT
-c4NDgzOTU3LDE3MjY2NzA3NDBdfQ==
+eyJoaXN0b3J5IjpbLTE0OTQ5MzI3ODEsLTE3NTM4Mjg1NjcsLT
+E5Nzg0ODM5NTcsMTcyNjY3MDc0MF19
 -->
