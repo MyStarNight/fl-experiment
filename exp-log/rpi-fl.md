@@ -176,13 +176,17 @@ windows在安装pysyft的时候很容易出现错误。
 
 原因是pysyft其中一个依赖autodp存在字符上的冲突，我所采用的解决办法如下：
 
-```meimaid
+```mermaid
 graph
 
 A[安装autodp库]-->B[安装pysyft,不安装dependencies]
 B-->C[安装dependencies]
 ```
+
+第一步：安装autodp，我选用的方式是使用github中的setup文件进行安装。
+
+	git clone 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjAwNTQ1NCwyMDY3NzkyOTMsLTE3NT
-M4Mjg1NjcsLTE5Nzg0ODM5NTcsMTcyNjY3MDc0MF19
+eyJoaXN0b3J5IjpbLTEzNTc1MzQ0MjcsMjA2Nzc5MjkzLC0xNz
+UzODI4NTY3LC0xOTc4NDgzOTU3LDE3MjY2NzA3NDBdfQ==
 -->
