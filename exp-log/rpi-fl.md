@@ -162,8 +162,20 @@ python下载网址：[Index of /ftp/python/](https://www.python.org/ftp/python/)
 	make
 	sudo make install
 
+创建虚拟环境
 
+	python3.9 -m venv myenv
+
+激活虚拟环境
+
+	source myenv/bin/activate
+
+### Part2 windows
+
+windows在安装pysyft的时候很容易出现错误。
+
+原因是pysyft其中一个依赖autodpcu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4Njg3NzY3OCwyMDY3NzkyOTMsLTE3NT
-M4Mjg1NjcsLTE5Nzg0ODM5NTcsMTcyNjY3MDc0MF19
+eyJoaXN0b3J5IjpbNDIwNzI0MDk2LDIwNjc3OTI5MywtMTc1Mz
+gyODU2NywtMTk3ODQ4Mzk1NywxNzI2NjcwNzQwXX0=
 -->
