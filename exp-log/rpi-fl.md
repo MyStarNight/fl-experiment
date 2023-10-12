@@ -125,8 +125,16 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 烧录软件：balenaetcher
 
 首先，在烧录系统的时候一定要选择Python版本为3.9.2的镜像系统；最新的树莓派系统Python版本为3.11，版本过高，无法正常安装pysyft。
+
 这里有一个小细节，就是安装完成以后新建一个`.txt`文件，将其改为`ssh`文件，这样树莓派就不需要链接显示器打开`ssh`接口了。
+
+系统烧录完成以后，直接使用pip指令安装即可，默认安装0.6.0版本的pysyft。指令如下：
+
+	pip install syft -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+安装wa
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MjYzMTU4MiwyMDY3NzkyOTMsLTE3NT
-M4Mjg1NjcsLTE5Nzg0ODM5NTcsMTcyNjY3MDc0MF19
+eyJoaXN0b3J5IjpbLTE0MDk3NzAxMDQsMjA2Nzc5MjkzLC0xNz
+UzODI4NTY3LC0xOTc4NDgzOTU3LDE3MjY2NzA3NDBdfQ==
 -->
