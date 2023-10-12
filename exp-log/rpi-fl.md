@@ -132,9 +132,13 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 
 	pip install syft -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-安装wa
+安装完成以后进行测试：
+
+	python -c 'import torch, syft'
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDk3NzAxMDQsMjA2Nzc5MjkzLC0xNz
-UzODI4NTY3LC0xOTc4NDgzOTU3LDE3MjY2NzA3NDBdfQ==
+eyJoaXN0b3J5IjpbNzEwMzMzOTk5LDIwNjc3OTI5MywtMTc1Mz
+gyODU2NywtMTk3ODQ4Mzk1NywxNzI2NjcwNzQwXX0=
 -->
