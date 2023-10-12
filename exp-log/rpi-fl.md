@@ -173,6 +173,7 @@ python下载网址：[Index of /ftp/python/](https://www.python.org/ftp/python/)
 ### Part2 windows
 
 windows在安装pysyft的时候很容易出现错误。
+autodp：[yuxiangw/autodp: autodp: A flexible and easy-to-use package for differential privacy (github.com)](https://github.com/yuxiangw/autodp)
 
 原因是pysyft其中一个依赖autodp存在字符上的冲突，我所采用的解决办法如下：
 
@@ -198,9 +199,10 @@ B-->C[安装dependencies]
 
 第二步：独立安装pysyft，运行下面的指令
 
-	pip install syft
+	pip install syft==0.6.0 --no-deps -i https://pypi.tuna.tsinghua.edu.cn/simple
 	
+第三步
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ4NjI2NjgzLDIwNjc3OTI5MywtMTc1Mz
+eyJoaXN0b3J5IjpbNTE5ODE5MzQyLDIwNjc3OTI5MywtMTc1Mz
 gyODU2NywtMTk3ODQ4Mzk1NywxNzI2NjcwNzQwXX0=
 -->
