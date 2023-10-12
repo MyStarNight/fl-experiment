@@ -108,9 +108,12 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 
 ## 具体实验-环境搭建2
 
-###jur
+在本部分成功将环境搭建成功。
+
+### 具体信息
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODUwNDA4MiwtMTc1MzgyODU2NywtMT
-k3ODQ4Mzk1NywxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbODkyMjAzMTAwLC0xNzUzODI4NTY3LC0xOT
+c4NDgzOTU3LDE3MjY2NzA3NDBdfQ==
 -->
