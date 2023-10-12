@@ -138,9 +138,11 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 
 如果没什么问题，那树莓派这边就万事大吉了。
 
-### 树莓派附加问题
+### Part1.5 树莓派附加问题
+
+更新以后的树莓派可以建立多个环境了，但是还是存在一些问题。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODM2NzM5OTUsMjA2Nzc5MjkzLC0xNz
+eyJoaXN0b3J5IjpbLTEzNjQ5NDY5MzksMjA2Nzc5MjkzLC0xNz
 UzODI4NTY3LC0xOTc4NDgzOTU3LDE3MjY2NzA3NDBdfQ==
 -->
