@@ -150,10 +150,10 @@ python下载网址：[Index of /ftp/python/](https://www.python.org/ftp/python/)
 
 下载所需版本的python：
 
-	waget https://www.python.org/ftp/python/3.7.0/Python-3.7.2.tgz
-	tar zxvf Python-3.9.2.tar.gz
+	waget https://www.python.org/ftp/python/3.9.2/Python-3.9.2.tgz
+	tar zxvf Python-3.9.2.tgz
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTczODQ5OSwyMDY3NzkyOTMsLTE3NT
-M4Mjg1NjcsLTE5Nzg0ODM5NTcsMTcyNjY3MDc0MF19
+eyJoaXN0b3J5IjpbNDk1MDA1ODQsMjA2Nzc5MjkzLC0xNzUzOD
+I4NTY3LC0xOTc4NDgzOTU3LDE3MjY2NzA3NDBdfQ==
 -->
