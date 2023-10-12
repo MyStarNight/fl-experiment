@@ -187,8 +187,17 @@ B-->C[安装dependencies]
 
 	git clone https://github.com/yuxiangw/autodp.git
 
-删除或者注释setup中的
+删除或者注释setup中的语句：
+
+	with open("README.md", 'r') as f: 
+		long_description = f.read()
+
+然后在setup所在的文件夹下，运行指令安装即可：
+
+	pip install -e .
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5NDk0NzYsMjA2Nzc5MjkzLC0xNzUzOD
-I4NTY3LC0xOTc4NDgzOTU3LDE3MjY2NzA3NDBdfQ==
+eyJoaXN0b3J5IjpbLTU3MDM3MTc1OCwyMDY3NzkyOTMsLTE3NT
+M4Mjg1NjcsLTE5Nzg0ODM5NTcsMTcyNjY3MDc0MF19
 -->
