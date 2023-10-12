@@ -205,9 +205,36 @@ B-->C[安装dependencies]
 第三步：安装所需要的dependencies。
 打开pysyft==0.6.0的[github网址](https://github.com/OpenMined/PySyft/tree/0.6.0)寻找所[需要的库](https://github.com/OpenMined/PySyft/blob/0.6.0/packages/syft/setup.cfg)。
 
-如下所示：
+如下所示（已去除autodp==0.2）：
 
+	scii_magic==1.6
+    werkzeug==2.0.2
+    bcrypt==3.2.0
+    cachetools==4.2.4
+    forbiddenfruit==0.1.4
+    loguru==0.5.3
+    names==0.3.0
+    packaging==21.2
+    pandas==1.3.4
+    protobuf==3.19.1
+    pyarrow==6.0.0
+    pydantic[email]==1.8.2
+    PyJWT==2.3.0
+    PyNaCl==1.5.0
+    pymbolic==2021.1
+    sympy==1.9
+    requests==2.26.0
+    requests_toolbelt==0.9.1
+    typing_extensions==4.0.0 # backport to older python 3
+    SQLAlchemy==1.4.27
+    numpy>=1.21.5
+    importlib_metadata==4.8.2
+    torch>=1.8.1,<=1.10.0
+    gevent==21.8.0
+    tqdm==4.62.3
+
+将下文复制并制作成一个requirements.txt文件，并使用pip
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2NjcyNzI5LDIwNjc3OTI5MywtMTc1Mz
+eyJoaXN0b3J5IjpbNTUyOTg1MTA2LDIwNjc3OTI5MywtMTc1Mz
 gyODU2NywtMTk3ODQ4Mzk1NywxNzI2NjcwNzQwXX0=
 -->
