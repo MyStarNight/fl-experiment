@@ -148,10 +148,10 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 
 下载所需版本的python：
 
-	waget
-	tar -xvf Python-3.9.2.tar.gz
+	waget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tar.xz
+	tar zxvf Python-3.9.2.tar.gz
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjAwMDIyNSwyMDY3NzkyOTMsLTE3NT
-M4Mjg1NjcsLTE5Nzg0ODM5NTcsMTcyNjY3MDc0MF19
+eyJoaXN0b3J5IjpbLTE4Mzk3MTM1NjYsMjA2Nzc5MjkzLC0xNz
+UzODI4NTY3LC0xOTc4NDgzOTU3LDE3MjY2NzA3NDBdfQ==
 -->
