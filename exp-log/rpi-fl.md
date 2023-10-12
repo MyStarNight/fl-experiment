@@ -120,11 +120,12 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 |Pysyft | version:0.6.0|
 
 ### Part1 树莓派
-树莓派xito
+树莓派系统文件：[链接](https://pan.baidu.com/s/1ie7FfhOXxviWDajhsm63sg?pwd=97tp)
+烧录软件：balenaetcher
 
 首先，在烧录系统的时候一定要选择Python版本为3.9.2的镜像系统；最新的树莓派系统Python版本为3.11，版本过高，无法正常安装pysyft。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMzc5OTE4NSwyMDY3NzkyOTMsLTE3NT
-M4Mjg1NjcsLTE5Nzg0ODM5NTcsMTcyNjY3MDc0MF19
+eyJoaXN0b3J5IjpbNDM2NjIyOTE0LDIwNjc3OTI5MywtMTc1Mz
+gyODU2NywtMTk3ODQ4Mzk1NywxNzI2NjcwNzQwXX0=
 -->
