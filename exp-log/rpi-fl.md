@@ -174,8 +174,15 @@ python下载网址：[Index of /ftp/python/](https://www.python.org/ftp/python/)
 
 windows在安装pysyft的时候很容易出现错误。
 
-原因是pysyft其中一个依赖autodpcu
+原因是pysyft其中一个依赖autodp存在字符上的冲突，我所采用的解决办法如下：
+
+```meimaid
+graph
+
+A[安装au]
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwNzI0MDk2LDIwNjc3OTI5MywtMTc1Mz
-gyODU2NywtMTk3ODQ4Mzk1NywxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbLTgyOTgwNzI1NywyMDY3NzkyOTMsLTE3NT
+M4Mjg1NjcsLTE5Nzg0ODM5NTcsMTcyNjY3MDc0MF19
 -->
