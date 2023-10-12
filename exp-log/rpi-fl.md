@@ -108,7 +108,7 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 
 ## 具体实验-环境搭建2
 
-在本部分成功将环境搭建成功。
+在本部分成功将环境搭建成功，成功在两块树莓派、Windows笔记本上搭建安装pysyft。
 
 ### 具体信息
 
@@ -117,8 +117,12 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 |2 Raspberry Pi 4B|arm A72  |
 |Raspberry Pi OS  | 64 bit |
 | Python | version:3.9.2 |
-|Pysyft | version:0.2.|
+|Pysyft | version:0.6.0|
+
+### Part1 树莓派
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQ5MzI3ODEsLTE3NTM4Mjg1NjcsLT
+eyJoaXN0b3J5IjpbLTExMjE1MDg1NDIsLTE3NTM4Mjg1NjcsLT
 E5Nzg0ODM5NTcsMTcyNjY3MDc0MF19
 -->
