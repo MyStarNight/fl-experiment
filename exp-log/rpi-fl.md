@@ -179,10 +179,10 @@ windows在安装pysyft的时候很容易出现错误。
 ```meimaid
 graph
 
-A[安装au]
-
+A[安装autodp库]-->B[安装pysyft,不安装dependencies]
+B-->C[安装dependencies]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTgwNzI1NywyMDY3NzkyOTMsLTE3NT
+eyJoaXN0b3J5IjpbLTkyMjAwNTQ1NCwyMDY3NzkyOTMsLTE3NT
 M4Mjg1NjcsLTE5Nzg0ODM5NTcsMTcyNjY3MDc0MF19
 -->
