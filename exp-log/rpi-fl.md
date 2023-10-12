@@ -1,7 +1,8 @@
 # 树莓派搭建联邦学习平台
 
 # Record
-2022/10/11：提出用两个树莓派去制作一个联邦学习的平台
+2022/10/10：提出用两个树莓派去制作一个联邦学习的平台
+2022/10/12：解决环境问题
 
 # Experiments
 
@@ -107,8 +108,9 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 
 ## 具体实验-环境搭建2
 
-目前来说
+###jur
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTM4Mjg1NjcsLTE5Nzg0ODM5NTcsMT
-cyNjY3MDc0MF19
+eyJoaXN0b3J5IjpbMjEyODUwNDA4MiwtMTc1MzgyODU2NywtMT
+k3ODQ4Mzk1NywxNzI2NjcwNzQwXX0=
 -->
