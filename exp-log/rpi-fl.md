@@ -233,8 +233,16 @@ B-->C[安装dependencies]
     gevent==21.8.0
     tqdm==4.62.3
 
-将下文复制并制作成一个requirements.txt文件，并使用pip
+将下文复制并制作成一个requirements.txt文件，并使用pip安装
+
+	pip install -r requirements.txt
+
+最后再进行测试：
+
+	python -c 'import torch, syft'
+
+大功告成。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUyOTg1MTA2LDIwNjc3OTI5MywtMTc1Mz
-gyODU2NywtMTk3ODQ4Mzk1NywxNzI2NjcwNzQwXX0=
+eyJoaXN0b3J5IjpbLTIwMTI0MjA0OTAsMjA2Nzc5MjkzLC0xNz
+UzODI4NTY3LC0xOTc4NDgzOTU3LDE3MjY2NzA3NDBdfQ==
 -->
