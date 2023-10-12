@@ -105,8 +105,10 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 
 	在Windows上安装不同版本的pysyft，使用pipdeptree查看其所需要的dependencies。
 
-## 具体shiyan
+## 具体实验-环境搭建2
+
+目前来说
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTQ3MDI1OTcsLTE5Nzg0ODM5NTcsMT
+eyJoaXN0b3J5IjpbLTE3NTM4Mjg1NjcsLTE5Nzg0ODM5NTcsMT
 cyNjY3MDc0MF19
 -->
