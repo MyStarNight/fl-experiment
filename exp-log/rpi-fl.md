@@ -202,8 +202,12 @@ B-->C[安装dependencies]
 
 	pip install syft==0.6.0 --no-deps -i https://pypi.tuna.tsinghua.edu.cn/simple
 	
-第三步：安装所需要的dependencies。打开
+第三步：安装所需要的dependencies。
+打开pysyft==0.6.0的[github网址](https://github.com/OpenMined/PySyft/tree/0.6.0)寻找所[需要的库](https://github.com/OpenMined/PySyft/blob/0.6.0/packages/syft/setup.cfg)。
+
+如下所示：
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjAzNDg1MiwyMDY3NzkyOTMsLTE3NT
-M4Mjg1NjcsLTE5Nzg0ODM5NTcsMTcyNjY3MDc0MF19
+eyJoaXN0b3J5IjpbNDM2NjcyNzI5LDIwNjc3OTI5MywtMTc1Mz
+gyODU2NywtMTk3ODQ4Mzk1NywxNzI2NjcwNzQwXX0=
 -->
