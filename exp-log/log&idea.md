@@ -13,11 +13,11 @@
 
 	python run_websocket_server.py --host '192.168.3.30' --port 8777 --id alice
 	python run_websocket_server.py --host '192.168.3.30' --port 8778 --id bob
-	python run_websocket_server.py --host '192.168.3.30' --port 8779 --id testing --
+	python run_websocket_server.py --host '192.168.3.30' --port 8779 --id testing --testing
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyNDYzNTczLDEwMzk5MDA2OTUsLTEzMz
-UyNzMwNDksNzI0NzE5OTMsLTU3NjM4MjQwOCwtMTc4MTY2MDY0
-N119
+eyJoaXN0b3J5IjpbLTEyMjU4MzMzMzcsMTAzOTkwMDY5NSwtMT
+MzNTI3MzA0OSw3MjQ3MTk5MywtNTc2MzgyNDA4LC0xNzgxNjYw
+NjQ3XX0=
 -->
