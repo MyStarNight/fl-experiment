@@ -286,8 +286,14 @@ B-->C[安装dependencies]
 
 对安装的进行测试。
 
-期间遇到zstd安装在Windows上安装需要C++14.0
+期间遇到zstd安装在Windows上时出现
+
+	error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/ 
+
+解决办法：[How to solve "error: Microsoft Visual C++ 14.0 or greater is required" when installing Python packages? ](https://stackoverflow.com/questions/64261546/how-to-solve-error-microsoft-visual-c-14-0-or-greater-is-required-when-inst)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTU5ODA4MSwtMTkxODM0NjMzOCwzOD
+eyJoaXN0b3J5IjpbMTEyMzU3NDY5NSwtMTkxODM0NjMzOCwzOD
 A1MDc2ODMsLTIwMTI0MjA0OTBdfQ==
 -->
