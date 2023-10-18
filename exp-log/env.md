@@ -248,17 +248,17 @@ B-->C[安装dependencies]
 
 在Windows上环境配置成功，记录一下实验环境。
 
-首先在conda中安装torch和torchvision的wheel文件，选取的版本如下：
-
 |Harwared&Software|Information |
 |--|--|
-|2 Raspberry Pi 4B|4 cores arm A72, 8G RAM  |
-|Raspberry Pi OS  | 32 bit |
 | Python | version:3.7 |
 | Pytorch | version:1.4.0 |
 | Torchvision | version:0.5.0 |
 |Pysyft | version:0.2.4|
+
+首先在conda中安装torch和torchvision的wheel文件，使用如下指令进行安装：
+
+	pip install 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODQ1OTUyNSwzODA1MDc2ODMsLTIwMT
-I0MjA0OTBdfQ==
+eyJoaXN0b3J5IjpbLTE5MTgzNDYzMzgsMzgwNTA3NjgzLC0yMD
+EyNDIwNDkwXX0=
 -->
