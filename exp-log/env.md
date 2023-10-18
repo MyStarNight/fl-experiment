@@ -260,8 +260,15 @@ B-->C[安装dependencies]
 	pip install torch-1.4.0+cpu-cp37-cp37m-win_amd64.whl
 	pip install torchvision-0.5.0+cpu-cp37-cp37m-win_amd64.whl
 
-这样完成pyto
+这样完成torch和torchvision的安装。
+
+可以使用指令：
+
+	python -c 'import torch, torchvision'
+
+对anzhuang
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM5ODU3Nzc0LC0xOTE4MzQ2MzM4LDM4MD
-UwNzY4MywtMjAxMjQyMDQ5MF19
+eyJoaXN0b3J5IjpbMTMyMDQ3MjU4MCwtMTkxODM0NjMzOCwzOD
+A1MDc2ODMsLTIwMTI0MjA0OTBdfQ==
 -->
