@@ -278,8 +278,16 @@ B-->C[安装dependencies]
 
 再安装依赖：
 
-	
+	pip3 install lz4~=3.0.2 msgpack~=1.0.0 phe~=1.4.0 scipy~=1.4.1 syft-proto~=0.2.5.a1 tblib~=1.6.0 websocket-client~=0.57.0 websockets~=8.1.0 zstd~=1.4.4.0 Flask~=1.1.1 tornado==4.5.3 flask-socketio~=4.2.1 lz4~=3.0.2 Pillow~=6.2.2 requests~=2.22.0 numpy~=1.18.1
+
+可以使用指令：
+
+	python -c 'import torch, torchvision, syft'
+
+对安装的进行测试。
+
+期间遇到zstd安装在Windows上安装需要C++14.0
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxMjE3MDY4LC0xOTE4MzQ2MzM4LDM4MD
-UwNzY4MywtMjAxMjQyMDQ5MF19
+eyJoaXN0b3J5IjpbLTQzOTU5ODA4MSwtMTkxODM0NjMzOCwzOD
+A1MDc2ODMsLTIwMTI0MjA0OTBdfQ==
 -->
