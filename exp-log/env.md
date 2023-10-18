@@ -247,7 +247,8 @@ B-->C[安装dependencies]
 
 在Windows上环境配置成功，记录一下实验环境。
 
+首先安装pytorch和
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MjQ2MTc1NSwzODA1MDc2ODMsLTIwMT
-I0MjA0OTBdfQ==
+eyJoaXN0b3J5IjpbLTIxMDY3NTg5NDIsMzgwNTA3NjgzLC0yMD
+EyNDIwNDkwXX0=
 -->
