@@ -245,8 +245,9 @@ B-->C[安装dependencies]
 
 ## 具体实验-环境搭建2
 
-在Windows上
+在Windows上环境配置成功，记录一下实验环境。
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDAwMzQ0NSwzODA1MDc2ODMsLTIwMT
+eyJoaXN0b3J5IjpbMjE0MjQ2MTc1NSwzODA1MDc2ODMsLTIwMT
 I0MjA0OTBdfQ==
 -->
