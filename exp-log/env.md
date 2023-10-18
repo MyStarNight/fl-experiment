@@ -243,7 +243,7 @@ B-->C[安装dependencies]
 
 大功告成。
 
-## 具体实验-环境搭建2
+## 具体实验-环境搭建3
 下载链接：[torch和torchvision安装wheel文件](https://download.pytorch.org/whl/torch_stable.html)
 
 在Windows上环境配置成功，记录一下实验环境。
@@ -254,6 +254,8 @@ B-->C[安装dependencies]
 | Pytorch | version:1.4.0 |
 | Torchvision | version:0.5.0 |
 |Pysyft | version:0.2.4|
+
+### Part1 torch and torchvison
 
 首先在conda中安装torch和torchvision的wheel文件，使用如下指令进行安装：
 
@@ -266,9 +268,12 @@ B-->C[安装dependencies]
 
 	python -c 'import torch, torchvision'
 
-对anzhuang
+对安装的进行测试。
 
+###  Part2 pysyft
+
+安装不带有
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDQ3MjU4MCwtMTkxODM0NjMzOCwzOD
+eyJoaXN0b3J5IjpbLTgzNzA1NTc5MCwtMTkxODM0NjMzOCwzOD
 A1MDc2ODMsLTIwMTI0MjA0OTBdfQ==
 -->
