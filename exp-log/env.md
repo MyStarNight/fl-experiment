@@ -272,8 +272,14 @@ B-->C[安装dependencies]
 
 ###  Part2 pysyft
 
-安装不带有
+安装不带有依赖的pysyft库：
+
+	pip install syft==0.2.4 --no-dependencies 
+
+再安装依赖：
+
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzA1NTc5MCwtMTkxODM0NjMzOCwzOD
-A1MDc2ODMsLTIwMTI0MjA0OTBdfQ==
+eyJoaXN0b3J5IjpbMjcxMjE3MDY4LC0xOTE4MzQ2MzM4LDM4MD
+UwNzY4MywtMjAxMjQyMDQ5MF19
 -->
