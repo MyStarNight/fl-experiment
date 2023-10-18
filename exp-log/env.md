@@ -244,11 +244,12 @@ B-->C[安装dependencies]
 大功告成。
 
 ## 具体实验-环境搭建2
+下载链接：[torch和torchvision安装wheel文件](https://download.pytorch.org/whl/torch_stable.html)
 
 在Windows上环境配置成功，记录一下实验环境。
 
-首先安装pytorch和
+首先安装torch和torchvision，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDY3NTg5NDIsMzgwNTA3NjgzLC0yMD
+eyJoaXN0b3J5IjpbLTEwMzI2NDkxNDcsMzgwNTA3NjgzLC0yMD
 EyNDIwNDkwXX0=
 -->
