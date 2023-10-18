@@ -242,6 +242,8 @@ B-->C[安装dependencies]
 	python -c 'import torch, syft'
 
 大功告成。
+
+## 具体实验-环境搭建2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTI0MjA0OTBdfQ==
+eyJoaXN0b3J5IjpbLTk5MTkxNzUxNiwtMjAxMjQyMDQ5MF19
 -->
