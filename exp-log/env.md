@@ -245,7 +245,8 @@ B-->C[安装dependencies]
 
 ## 具体实验-环境搭建2
 
-在Windows上实现
+在Windows上
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgwNTA3NjgzLC0yMDEyNDIwNDkwXX0=
+eyJoaXN0b3J5IjpbMTUyMDAwMzQ0NSwzODA1MDc2ODMsLTIwMT
+I0MjA0OTBdfQ==
 -->
