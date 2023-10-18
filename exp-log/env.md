@@ -257,8 +257,11 @@ B-->C[安装dependencies]
 
 首先在conda中安装torch和torchvision的wheel文件，使用如下指令进行安装：
 
-	pip install 
+	pip install torch-1.4.0+cpu-cp37-cp37m-win_amd64.whl
+	pip install torchvision-0.5.0+cpu-cp37-cp37m-win_amd64.whl
+
+这样完成pyto
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTgzNDYzMzgsMzgwNTA3NjgzLC0yMD
-EyNDIwNDkwXX0=
+eyJoaXN0b3J5IjpbNzM5ODU3Nzc0LC0xOTE4MzQ2MzM4LDM4MD
+UwNzY4MywtMjAxMjQyMDQ5MF19
 -->
