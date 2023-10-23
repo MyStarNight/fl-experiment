@@ -374,10 +374,24 @@ B-->C[安装dependencies]
 
 	pip install msgpack -i https://pypi.tuna.tsinghua.edu.cn/simple
 
+之后会出现报错
 
+	ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+	syft 0.2.4 requires flask-socketio~=4.2.1, which is not installed.
+	syft 0.2.4 requires lz4~=3.0.2, which is not installed.
+	syft 0.2.4 requires phe~=1.4.0, which is not installed.
+	syft 0.2.4 requires numpy~=1.18.1, but you have numpy 1.20.3 which is incompatible.
+	syft 0.2.4 requires Pillow~=6.2.2, but you have pillow 9.5.0 which is incompatible.
+	syft 0.2.4 requires scipy~=1.4.1, but you have scipy 1.5.4 which is incompatible.
+
+那么就安装没有安装的：
+
+	pip install lz4~=3.0.2 phe~=1.4.0 -i https://pypi.tuna.tsinghua.edu.cn/simple 
+
+最终仍然会出现错误，但是
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkxODE5NzEsLTE1MTE0MDQ4MDgsLTExNz
-M0MjYyMDAsMTU5ODY1MzExMywtODc4NTcxNjE0LDQ3NzcyNjA1
-MSwtMTkxODM0NjMzOCwzODA1MDc2ODMsLTIwMTI0MjA0OTBdfQ
-==
+eyJoaXN0b3J5IjpbMTY5OTA1NzE5NSwtMTUxMTQwNDgwOCwtMT
+E3MzQyNjIwMCwxNTk4NjUzMTEzLC04Nzg1NzE2MTQsNDc3NzI2
+MDUxLC0xOTE4MzQ2MzM4LDM4MDUwNzY4MywtMjAxMjQyMDQ5MF
+19
 -->
