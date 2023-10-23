@@ -107,7 +107,7 @@ Python查看dependencies的方式： [查看python第三方库的依赖](https:/
 
 	在Windows上安装不同版本的pysyft，使用pipdeptree查看其所需要的dependencies。
 
-## 具体实验-环境搭建2
+## 具体实验-环境搭建2-syft 0.6.0
 
 在本部分成功将环境搭建成功，成功在两块树莓派、Windows笔记本上搭建安装pysyft。
 
@@ -244,7 +244,7 @@ B-->C[安装dependencies]
 
 大功告成。
 
-## 具体实验-环境搭建3
+## 具体实验-环境搭建3-syft 0.2.4
 下载链接：[torch和torchvision安装wheel文件](https://download.pytorch.org/whl/torch_stable.html)
 
 在Windows上环境配置成功，记录一下实验环境。
@@ -393,8 +393,8 @@ B-->C[安装dependencies]
 	import syft
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzYzNDE1LC0xNTExNDA0ODA4LC0xMT
-czNDI2MjAwLDE1OTg2NTMxMTMsLTg3ODU3MTYxNCw0Nzc3MjYw
-NTEsLTE5MTgzNDYzMzgsMzgwNTA3NjgzLC0yMDEyNDIwNDkwXX
-0=
+eyJoaXN0b3J5IjpbMzk5NTY3NjEzLC04MDc2MzQxNSwtMTUxMT
+QwNDgwOCwtMTE3MzQyNjIwMCwxNTk4NjUzMTEzLC04Nzg1NzE2
+MTQsNDc3NzI2MDUxLC0xOTE4MzQ2MzM4LDM4MDUwNzY4MywtMj
+AxMjQyMDQ5MF19
 -->
