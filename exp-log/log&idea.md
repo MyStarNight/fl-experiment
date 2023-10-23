@@ -26,8 +26,12 @@ Windows打开指定文件夹
 Raspi打开指定文件夹
 
 	cd /home/pi/work/fl-pj/Pysyft-0.2.4/examples/tutorials/advanced/websockets-example-MNIST-parallel
+
+### Raspi运行指令
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk2OTc4NjY5LC0xMjI1ODMzMzM3LDEwMz
-k5MDA2OTUsLTEzMzUyNzMwNDksNzI0NzE5OTMsLTU3NjM4MjQw
-OCwtMTc4MTY2MDY0N119
+eyJoaXN0b3J5IjpbMTE0NzIxNjAxNCwtMTIyNTgzMzMzNywxMD
+M5OTAwNjk1LC0xMzM1MjczMDQ5LDcyNDcxOTkzLC01NzYzODI0
+MDgsLTE3ODE2NjA2NDddfQ==
 -->
