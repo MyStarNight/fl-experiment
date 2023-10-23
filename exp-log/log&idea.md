@@ -19,11 +19,15 @@
 
 在本次的测试中，成功调通了Windows和三个Raspi的联邦学习训练方式。
 
-Windows打开制定文件夹
+Windows打开指定文件夹
 
 	cd E:\2023mem\Python-PJ\pysyft\Pysyft-0.2.4\examples\tutorials\advanced\websockets-example-MNIST-parallel
+
+Raspi打开指定文件夹
+
+	cd /home/pi/work/fl-pj/Pysyft-0.2.4/examples/tutorials/advanced/websockets-example-MNIST-parallel
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NTE3MzQ4OCwtMTIyNTgzMzMzNywxMD
-M5OTAwNjk1LC0xMzM1MjczMDQ5LDcyNDcxOTkzLC01NzYzODI0
-MDgsLTE3ODE2NjA2NDddfQ==
+eyJoaXN0b3J5IjpbMzk2OTc4NjY5LC0xMjI1ODMzMzM3LDEwMz
+k5MDA2OTUsLTEzMzUyNzMwNDksNzI0NzE5OTMsLTU3NjM4MjQw
+OCwtMTc4MTY2MDY0N119
 -->
