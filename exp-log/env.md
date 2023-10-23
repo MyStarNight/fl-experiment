@@ -346,9 +346,9 @@ B-->C[安装dependencies]
 
 解下来就是安装pysyft，首先是独立安装不安装依赖：
 
-	
+	pip install pysyft==0.2.4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MDU2MTE4LC0xMTczNDI2MjAwLDE1OT
-g2NTMxMTMsLTg3ODU3MTYxNCw0Nzc3MjYwNTEsLTE5MTgzNDYz
-MzgsMzgwNTA3NjgzLC0yMDEyNDIwNDkwXX0=
+eyJoaXN0b3J5IjpbLTIxMDI5ODA4MDUsLTExNzM0MjYyMDAsMT
+U5ODY1MzExMywtODc4NTcxNjE0LDQ3NzcyNjA1MSwtMTkxODM0
+NjMzOCwzODA1MDc2ODMsLTIwMTI0MjA0OTBdfQ==
 -->
