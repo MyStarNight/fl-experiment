@@ -293,10 +293,10 @@ B-->C[安装dependencies]
 解决办法：[How to solve "error: Microsoft Visual C++ 14.0 or greater is required" when installing Python packages? ](https://stackoverflow.com/questions/64261546/how-to-solve-error-microsoft-visual-c-14-0-or-greater-is-required-when-inst)
 
 ### Part3 树莓派配置环境
-
+树莓派安装
 
 首先，由于面对不同的树莓派上，可能有不同的python版本，因此我给出的解决办法是使用conda；选择python版本为3.7的conda。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3OTQyMDIsLTE5MTgzNDYzMzgsMzgwNT
-A3NjgzLC0yMDEyNDIwNDkwXX0=
+eyJoaXN0b3J5IjpbLTE3NDY4NDY2NCwtMTkxODM0NjMzOCwzOD
+A1MDc2ODMsLTIwMTI0MjA0OTBdfQ==
 -->
