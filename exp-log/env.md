@@ -297,8 +297,11 @@ B-->C[安装dependencies]
 
 首先，由于面对不同的树莓派上，可能有不同的python版本，因此我给出的解决办法是使用conda；选择python版本为3.7的conda。
 
-获取树莓派的sh
+获取树莓派的sh文件的指令
+
+	wget https://repo.anaconda.com/miniconda/Miniconda3-py37_4.9.2-Linux-aarch64.sh
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzY4ODUzNTYsLTE5MTgzNDYzMzgsMz
-gwNTA3NjgzLC0yMDEyNDIwNDkwXX0=
+eyJoaXN0b3J5IjpbNDc3NzI2MDUxLC0xOTE4MzQ2MzM4LDM4MD
+UwNzY4MywtMjAxMjQyMDQ5MF19
 -->
