@@ -43,11 +43,14 @@ node3: 192.168.3.38
 
 ### windows运行
 
-	python run_websocket_server.py --host '192.168.3.30' --port 8780 --id charlie
+	python run_websocket_server.py --host '192.168.3.30' --port 8780 --testing
 
+### Jupyter Notebook
+
+修改其中代码
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDIxMTM0MiwxMTQ3MjE2MDE0LC0xMj
+eyJoaXN0b3J5IjpbLTQ2NTMwNTU2OCwxMTQ3MjE2MDE0LC0xMj
 I1ODMzMzM3LDEwMzk5MDA2OTUsLTEzMzUyNzMwNDksNzI0NzE5
 OTMsLTU3NjM4MjQwOCwtMTc4MTY2MDY0N119
 -->
