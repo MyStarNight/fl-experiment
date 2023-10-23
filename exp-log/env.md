@@ -294,8 +294,9 @@ B-->C[安装dependencies]
 
 ### Part3 树莓派配置环境
 
-首先，由于面对不同的树莓派上，可能有不同的python版本，因此我给出的解决办法是使用conda；选择conda的py
+
+首先，由于面对不同的树莓派上，可能有不同的python版本，因此我给出的解决办法是使用conda；选择python版本为3.7的conda。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDAzNjU4NywtMTkxODM0NjMzOCwzOD
-A1MDc2ODMsLTIwMTI0MjA0OTBdfQ==
+eyJoaXN0b3J5IjpbNDA3OTQyMDIsLTE5MTgzNDYzMzgsMzgwNT
+A3NjgzLC0yMDEyNDIwNDkwXX0=
 -->
