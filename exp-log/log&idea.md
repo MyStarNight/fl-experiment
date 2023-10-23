@@ -69,16 +69,17 @@ node3: 192.168.3.38
 ### 实验示意图
 
 ```mermaid
-graph BT
+graph 
 B[node1:raspi 4B] -- training --> E((weight)) --> A[Laptop]
 C[node2:raspi 4B] -- training--> F((weight))  --> A
 D[node3:raspi 400] -- training--> G((weight))  --> A
 A-->H((model))
+H--testing-->I(accuracy)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDM1NDA2OCwtMjc2NzEwNjk4LDE0Nj
-M2NjM2OTMsMTQ2MjAyOTQzOCwxMjEyMDE4NDI0LDE5Mzk1MzI4
-MTAsMTE0NzIxNjAxNCwtMTIyNTgzMzMzNywxMDM5OTAwNjk1LC
-0xMzM1MjczMDQ5LDcyNDcxOTkzLC01NzYzODI0MDgsLTE3ODE2
-NjA2NDddfQ==
+eyJoaXN0b3J5IjpbLTEzMTk4NDQ3ODUsLTI3NjcxMDY5OCwxND
+YzNjYzNjkzLDE0NjIwMjk0MzgsMTIxMjAxODQyNCwxOTM5NTMy
+ODEwLDExNDcyMTYwMTQsLTEyMjU4MzMzMzcsMTAzOTkwMDY5NS
+wtMTMzNTI3MzA0OSw3MjQ3MTk5MywtNTc2MzgyNDA4LC0xNzgx
+NjYwNjQ3XX0=
 -->
