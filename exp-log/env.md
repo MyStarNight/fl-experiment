@@ -285,7 +285,7 @@ B-->C[安装dependencies]
 
 安装不带有依赖的pysyft库：
 
-	pip install syft==0.2.4 --no-dependencies 
+	pip install syft==0.2.4 --no-dependencies -i https://pypi.tuna.tsinghua.edu.cn/simple 
 
 再安装依赖：
 
@@ -346,9 +346,9 @@ B-->C[安装dependencies]
 
 解下来就是安装pysyft，首先是独立安装不安装依赖：
 
-	pip install pysyft==0.2.4
+	pip install pysyft==0.2.4  --no-dependencies  -i https://pypi.tuna.tsinghua.edu.cn/simple 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDI5ODA4MDUsLTExNzM0MjYyMDAsMT
-U5ODY1MzExMywtODc4NTcxNjE0LDQ3NzcyNjA1MSwtMTkxODM0
-NjMzOCwzODA1MDc2ODMsLTIwMTI0MjA0OTBdfQ==
+eyJoaXN0b3J5IjpbLTc0MjgxOTA2OCwtMTE3MzQyNjIwMCwxNT
+k4NjUzMTEzLC04Nzg1NzE2MTQsNDc3NzI2MDUxLC0xOTE4MzQ2
+MzM4LDM4MDUwNzY4MywtMjAxMjQyMDQ5MF19
 -->
