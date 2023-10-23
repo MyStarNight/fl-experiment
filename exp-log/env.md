@@ -294,7 +294,7 @@ B-->C[安装dependencies]
 
 ### Part3 树莓派配置环境
 树莓派安装conda教程：[树莓派上如何安装anaconda/miniconda环境配置](https://blog.csdn.net/weixin_39589455/article/details/128620393?spm=1001.2014.3001.5506)
-树莓派pytorch安装地址：
+树莓派pytorch安装地址：[树莓派64位安装wheel文件合集](https://torch.kmtea.eu/whl/stable.html)
 
 首先，由于面对不同的树莓派上，可能有不同的python版本，因此我给出的解决办法是使用conda；选择python版本为3.7的conda。
 
@@ -314,7 +314,7 @@ B-->C[安装dependencies]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQyOTAxMTk2LDE1OTg2NTMxMTMsLTg3OD
-U3MTYxNCw0Nzc3MjYwNTEsLTE5MTgzNDYzMzgsMzgwNTA3Njgz
-LC0yMDEyNDIwNDkwXX0=
+eyJoaXN0b3J5IjpbLTExNzM0MjYyMDAsMTU5ODY1MzExMywtOD
+c4NTcxNjE0LDQ3NzcyNjA1MSwtMTkxODM0NjMzOCwzODA1MDc2
+ODMsLTIwMTI0MjA0OTBdfQ==
 -->
