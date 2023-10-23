@@ -305,8 +305,15 @@ B-->C[安装dependencies]
 
 	bash Miniconda3-py37_4.9.2-Linux-aarch64.sh
 
+添加.bashrc配置
+
+	vim  ~/.bashrc
+	export PATH="/home/pi/miniconda3/bin:$PATH"
+	source ~/.bashrc
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3ODU3MTYxNCw0Nzc3MjYwNTEsLTE5MT
-gzNDYzMzgsMzgwNTA3NjgzLC0yMDEyNDIwNDkwXX0=
+eyJoaXN0b3J5IjpbMTU5ODY1MzExMywtODc4NTcxNjE0LDQ3Nz
+cyNjA1MSwtMTkxODM0NjMzOCwzODA1MDc2ODMsLTIwMTI0MjA0
+OTBdfQ==
 -->
