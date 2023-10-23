@@ -65,9 +65,17 @@ node3: 192.168.3.38
 	testing = WebsocketClientWorker(id="testing", port=8780, **kwargs_websocket)
 
 	worker_instances = [alice, bob, charlie ]
+
+### 实验示意图
+
+```mermaid
+graph
+A[]
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjAxODQyNCwxOTM5NTMyODEwLDExND
-cyMTYwMTQsLTEyMjU4MzMzMzcsMTAzOTkwMDY5NSwtMTMzNTI3
-MzA0OSw3MjQ3MTk5MywtNTc2MzgyNDA4LC0xNzgxNjYwNjQ3XX
-0=
+eyJoaXN0b3J5IjpbLTY5MjM3NTA0OCwxMjEyMDE4NDI0LDE5Mz
+k1MzI4MTAsMTE0NzIxNjAxNCwtMTIyNTgzMzMzNywxMDM5OTAw
+Njk1LC0xMzM1MjczMDQ5LDcyNDcxOTkzLC01NzYzODI0MDgsLT
+E3ODE2NjA2NDddfQ==
 -->
