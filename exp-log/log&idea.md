@@ -70,14 +70,14 @@ node3: 192.168.3.38
 
 ```mermaid
 graph BT
-B[node1:raspi 4B] -- training --> E[weight] --> A[Laptop]
-C[node2:raspi 4B] -- training--> F[weight] --> A
-D[node3:raspi 400] -- training--> F[weight] --> --> A
+B[node1:raspi 4B] -- training --> E((weight)) --> A[Laptop]
+C[node2:raspi 4B] -- training--> F((weight))  --> A
+D[node3:raspi 400] -- training--> G((weight))  --> A
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzY2MzY5MywxNDYyMDI5NDM4LDEyMT
-IwMTg0MjQsMTkzOTUzMjgxMCwxMTQ3MjE2MDE0LC0xMjI1ODMz
-MzM3LDEwMzk5MDA2OTUsLTEzMzUyNzMwNDksNzI0NzE5OTMsLT
-U3NjM4MjQwOCwtMTc4MTY2MDY0N119
+eyJoaXN0b3J5IjpbLTI3NjcxMDY5OCwxNDYzNjYzNjkzLDE0Nj
+IwMjk0MzgsMTIxMjAxODQyNCwxOTM5NTMyODEwLDExNDcyMTYw
+MTQsLTEyMjU4MzMzMzcsMTAzOTkwMDY5NSwtMTMzNTI3MzA0OS
+w3MjQ3MTk5MywtNTc2MzgyNDA4LC0xNzgxNjYwNjQ3XX0=
 -->
