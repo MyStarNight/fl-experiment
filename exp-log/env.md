@@ -388,10 +388,13 @@ B-->C[安装dependencies]
 
 	pip install lz4~=3.0.2 phe~=1.4.0 -i https://pypi.tuna.tsinghua.edu.cn/simple 
 
-最终仍然会出现错误，但是
+最终仍然会出现错误，但是不影响我们代码的运行，使用一下代码进行测试
+
+	import syft
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTA1NzE5NSwtMTUxMTQwNDgwOCwtMT
-E3MzQyNjIwMCwxNTk4NjUzMTEzLC04Nzg1NzE2MTQsNDc3NzI2
-MDUxLC0xOTE4MzQ2MzM4LDM4MDUwNzY4MywtMjAxMjQyMDQ5MF
-19
+eyJoaXN0b3J5IjpbLTgwNzYzNDE1LC0xNTExNDA0ODA4LC0xMT
+czNDI2MjAwLDE1OTg2NTMxMTMsLTg3ODU3MTYxNCw0Nzc3MjYw
+NTEsLTE5MTgzNDYzMzgsMzgwNTA3NjgzLC0yMDEyNDIwNDkwXX
+0=
 -->
