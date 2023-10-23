@@ -15,9 +15,15 @@
 	python run_websocket_server.py --host '192.168.3.30' --port 8778 --id bob
 	python run_websocket_server.py --host '192.168.3.30' --port 8779 --id testing --testing
 
+## 2023-10-23 test
 
+在本次的测试中，成功调通了Windows和三个Raspi的联邦学习训练方式。
+
+Windows打开制定文件夹
+
+	cd E:\2023mem\Python-PJ\pysyft\Pysyft-0.2.4\examples\tutorials\advanced\websockets-example-MNIST-parallel
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjU4MzMzMzcsMTAzOTkwMDY5NSwtMT
-MzNTI3MzA0OSw3MjQ3MTk5MywtNTc2MzgyNDA4LC0xNzgxNjYw
-NjQ3XX0=
+eyJoaXN0b3J5IjpbMTE2NTE3MzQ4OCwtMTIyNTgzMzMzNywxMD
+M5OTAwNjk1LC0xMzM1MjczMDQ5LDcyNDcxOTkzLC01NzYzODI0
+MDgsLTE3ODE2NjA2NDddfQ==
 -->
