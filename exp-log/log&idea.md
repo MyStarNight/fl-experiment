@@ -73,11 +73,12 @@ graph BT
 B[node1:raspi 4B] -- training --> E((weight)) --> A[Laptop]
 C[node2:raspi 4B] -- training--> F((weight))  --> A
 D[node3:raspi 400] -- training--> G((weight))  --> A
-
+A-->H((model))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NjcxMDY5OCwxNDYzNjYzNjkzLDE0Nj
-IwMjk0MzgsMTIxMjAxODQyNCwxOTM5NTMyODEwLDExNDcyMTYw
-MTQsLTEyMjU4MzMzMzcsMTAzOTkwMDY5NSwtMTMzNTI3MzA0OS
-w3MjQ3MTk5MywtNTc2MzgyNDA4LC0xNzgxNjYwNjQ3XX0=
+eyJoaXN0b3J5IjpbMTQ2MDM1NDA2OCwtMjc2NzEwNjk4LDE0Nj
+M2NjM2OTMsMTQ2MjAyOTQzOCwxMjEyMDE4NDI0LDE5Mzk1MzI4
+MTAsMTE0NzIxNjAxNCwtMTIyNTgzMzMzNywxMDM5OTAwNjk1LC
+0xMzM1MjczMDQ5LDcyNDcxOTkzLC01NzYzODI0MDgsLTE3ODE2
+NjA2NDddfQ==
 -->
