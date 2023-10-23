@@ -352,10 +352,18 @@ B-->C[安装dependencies]
 
 	pip3 install lz4~=3.0.2 msgpack~=1.0.0 phe~=1.4.0 scipy~=1.5.1 syft-proto~=0.2.5.a1 tblib~=1.6.0 websocket-client~=0.57.0 websockets~=8.1.0 zstd~=1.4.4.0 Flask~=1.1.1 tornado==4.5.3 flask-socketio~=4.2.1 lz4~=3.0.2 Pillow~=6.2.2 requests~=2.22.0 numpy~=1.20.1  -i https://pypi.tuna.tsinghua.edu.cn/simple 
 
-suoy
+所有安装包安装完成以后会出现一个问题，就是`protobuf`这个库的版本不适配
+
+
+
+那么就通过命令改装一下版本：
+
+	pip install protobuf==3.20.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxODY5NzMzNiwtMTUxMTQwNDgwOCwtMT
-E3MzQyNjIwMCwxNTk4NjUzMTEzLC04Nzg1NzE2MTQsNDc3NzI2
-MDUxLC0xOTE4MzQ2MzM4LDM4MDUwNzY4MywtMjAxMjQyMDQ5MF
-19
+eyJoaXN0b3J5IjpbMzEwMTc3OTM3LC0xNTExNDA0ODA4LC0xMT
+czNDI2MjAwLDE1OTg2NTMxMTMsLTg3ODU3MTYxNCw0Nzc3MjYw
+NTEsLTE5MTgzNDYzMzgsMzgwNTA3NjgzLC0yMDEyNDIwNDkwXX
+0=
 -->
