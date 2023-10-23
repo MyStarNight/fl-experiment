@@ -347,8 +347,12 @@ B-->C[安装dependencies]
 解下来就是安装pysyft，首先是独立安装不安装依赖：
 
 	pip install syft==0.2.4  --no-dependencies  -i https://pypi.tuna.tsinghua.edu.cn/simple 
+
+然后安装依赖（由于在树莓派上安装scipy1.4.1和numpy）：
+
+	pip3 install lz4~=3.0.2 msgpack~=1.0.0 phe~=1.4.0 scipy~=1.5.1 syft-proto~=0.2.5.a1 tblib~=1.6.0 websocket-client~=0.57.0 websockets~=8.1.0 zstd~=1.4.4.0 Flask~=1.1.1 tornado==4.5.3 flask-socketio~=4.2.1 lz4~=3.0.2 Pillow~=6.2.2 requests~=2.22.0 numpy~=1.20.1  -i https://pypi.tuna.tsinghua.edu.cn/simple 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMDM1ODg2NSwtMTE3MzQyNjIwMCwxNT
-k4NjUzMTEzLC04Nzg1NzE2MTQsNDc3NzI2MDUxLC0xOTE4MzQ2
-MzM4LDM4MDUwNzY4MywtMjAxMjQyMDQ5MF19
+eyJoaXN0b3J5IjpbLTkwMTUxNjQwLC0xMTczNDI2MjAwLDE1OT
+g2NTMxMTMsLTg3ODU3MTYxNCw0Nzc3MjYwNTEsLTE5MTgzNDYz
+MzgsMzgwNTA3NjgzLC0yMDEyNDIwNDkwXX0=
 -->
