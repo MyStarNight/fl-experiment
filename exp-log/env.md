@@ -312,9 +312,13 @@ B-->C[安装dependencies]
 	export PATH="/home/pi/miniconda3/bin:$PATH"
 	source ~/.bashrc
 
+安装完成以后使用指令，查看python版本
 
+	python
+
+若直接运行
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzM0MjYyMDAsMTU5ODY1MzExMywtOD
-c4NTcxNjE0LDQ3NzcyNjA1MSwtMTkxODM0NjMzOCwzODA1MDc2
-ODMsLTIwMTI0MjA0OTBdfQ==
+eyJoaXN0b3J5IjpbLTEyMDMyMzExNDcsLTExNzM0MjYyMDAsMT
+U5ODY1MzExMywtODc4NTcxNjE0LDQ3NzcyNjA1MSwtMTkxODM0
+NjMzOCwzODA1MDc2ODMsLTIwMTI0MjA0OTBdfQ==
 -->
