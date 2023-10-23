@@ -2,7 +2,9 @@
 
 # Record
 2022/10/10：提出用两个树莓派去制作一个联邦学习的平台
+
 2022/10/12：解决环境问题
+
 2023/10/20：解决环境问题，请查看搭建3
 
 # Experiments
@@ -393,8 +395,8 @@ B-->C[安装dependencies]
 	import syft
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5NTY3NjEzLC04MDc2MzQxNSwtMTUxMT
-QwNDgwOCwtMTE3MzQyNjIwMCwxNTk4NjUzMTEzLC04Nzg1NzE2
-MTQsNDc3NzI2MDUxLC0xOTE4MzQ2MzM4LDM4MDUwNzY4MywtMj
-AxMjQyMDQ5MF19
+eyJoaXN0b3J5IjpbLTcwOTU4NDk2MywtODA3NjM0MTUsLTE1MT
+E0MDQ4MDgsLTExNzM0MjYyMDAsMTU5ODY1MzExMywtODc4NTcx
+NjE0LDQ3NzcyNjA1MSwtMTkxODM0NjMzOCwzODA1MDc2ODMsLT
+IwMTI0MjA0OTBdfQ==
 -->
