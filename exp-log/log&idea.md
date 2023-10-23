@@ -31,17 +31,19 @@ Raspi打开指定文件夹
 
 node1: 192.168.3.33
 	
-	python run_websocket_server.py --host '192.168.3.30' --port 8777 --id alice
-	python run_websocket_server.py --host '192.168.3.30' --port 8778 --id bob
-	python run_websocket_server.py --host '192.168.3.30' --port 8779 --id testing --testing
+	python run_websocket_server.py --host '192.168.3.33' --port 8777 --id alice
 	
 node2: 192.168.3.34
-node3: 192.168.3.38
 
+	python run_websocket_server.py --host '192.168.3.34' --port 8778 --id bob
+
+node3: 192.168.3.38
+	
+	python run_websocket_server.py --host '192.168.3.38' --port 8778 --id 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTc1ODA3MywxMTQ3MjE2MDE0LC0xMj
+eyJoaXN0b3J5IjpbMTY0MzcwODI3NywxMTQ3MjE2MDE0LC0xMj
 I1ODMzMzM3LDEwMzk5MDA2OTUsLTEzMzUyNzMwNDksNzI0NzE5
 OTMsLTU3NjM4MjQwOCwtMTc4MTY2MDY0N119
 -->
