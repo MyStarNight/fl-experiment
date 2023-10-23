@@ -301,8 +301,12 @@ B-->C[安装dependencies]
 
 	wget https://repo.anaconda.com/miniconda/Miniconda3-py37_4.9.2-Linux-aarch64.sh
 
-然后dui
+然后对miniconda进行安装
+
+	bash Miniconda3-py37_4.9.2-Linux-aarch64.sh
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzEzNTI4OTMsNDc3NzI2MDUxLC0xOT
-E4MzQ2MzM4LDM4MDUwNzY4MywtMjAxMjQyMDQ5MF19
+eyJoaXN0b3J5IjpbLTg3ODU3MTYxNCw0Nzc3MjYwNTEsLTE5MT
+gzNDYzMzgsMzgwNTA3NjgzLC0yMDEyNDIwNDkwXX0=
 -->
