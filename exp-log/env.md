@@ -255,6 +255,16 @@ B-->C[安装dependencies]
 | Torchvision | version:0.5.0 |
 |Pysyft | version:0.2.4|
 
+在树莓派上的环境配置，实验环境如下
+
+|Harwared&Software|Information |
+|--|--|
+| Python | version:3.7 |
+| Pytorch | version:1.4.0 |
+| Torchvision | version:0.5.0 |
+|Pysyft | version:0.2.4|
+
+
 ### Part1 torch and torchvison
 
 首先在conda中安装torch和torchvision的wheel文件，使用如下指令进行安装：
@@ -331,9 +341,11 @@ B-->C[安装dependencies]
 	export LD_LIBRARY_PATH="/home/pi/miniconda3/lib" # 在vim中添加
 	source ~/.bashrc
 
-然后运行测试指ling
+然后运行测试指令，没有问题的话torch和torchvision就安装完成。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MTAzMjY2OCwtMTE3MzQyNjIwMCwxNT
-k4NjUzMTEzLC04Nzg1NzE2MTQsNDc3NzI2MDUxLC0xOTE4MzQ2
-MzM4LDM4MDUwNzY4MywtMjAxMjQyMDQ5MF19
+eyJoaXN0b3J5IjpbMTg0MjgxMDc1LC0xMTczNDI2MjAwLDE1OT
+g2NTMxMTMsLTg3ODU3MTYxNCw0Nzc3MjYwNTEsLTE5MTgzNDYz
+MzgsMzgwNTA3NjgzLC0yMDEyNDIwNDkwXX0=
 -->
