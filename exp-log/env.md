@@ -316,9 +316,18 @@ B-->C[安装dependencies]
 
 	python
 
-若直接运行
+若直接运行`import torch`会报错
+
+	>>> import torch
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	  File "/home/pi/miniconda3/lib/python3.7/site-packages/torch/__init__.py", line 81, in <module>
+	    from torch._C import *
+	ImportError: libpython3.7m.so.1.0: cannot open shared object file: No such file or directory
+
+解决办法是也是添加.bash
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDMyMzExNDcsLTExNzM0MjYyMDAsMT
-U5ODY1MzExMywtODc4NTcxNjE0LDQ3NzcyNjA1MSwtMTkxODM0
-NjMzOCwzODA1MDc2ODMsLTIwMTI0MjA0OTBdfQ==
+eyJoaXN0b3J5IjpbNzYwODExODMsLTExNzM0MjYyMDAsMTU5OD
+Y1MzExMywtODc4NTcxNjE0LDQ3NzcyNjA1MSwtMTkxODM0NjMz
+OCwzODA1MDc2ODMsLTIwMTI0MjA0OTBdfQ==
 -->
