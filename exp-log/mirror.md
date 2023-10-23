@@ -20,9 +20,9 @@
 
 	-i http://pypi.douban.com/simple 
 
-阿里 \
+阿里 
 
 	-i https://mirrors.aliyun.com/pypi/simple 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2ODU5ODcwOCwtMTEzNzcyOTg5Nl19
+eyJoaXN0b3J5IjpbNjcwMzc2MjAsLTExMzc3Mjk4OTZdfQ==
 -->
