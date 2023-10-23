@@ -70,10 +70,13 @@ node3: 192.168.3.38
 
 ```mermaid
 graph
-A[Laptop]————>B
+A[Laptop]-->B[node1:raspi 4B]
+A<-->C[node2:raspi 4B]
+
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMTY3NTIxNiwxNDYyMDI5NDM4LDEyMT
+eyJoaXN0b3J5IjpbMTEzMzE3Mzc3OSwxNDYyMDI5NDM4LDEyMT
 IwMTg0MjQsMTkzOTUzMjgxMCwxMTQ3MjE2MDE0LC0xMjI1ODMz
 MzM3LDEwMzk5MDA2OTUsLTEzMzUyNzMwNDksNzI0NzE5OTMsLT
 U3NjM4MjQwOCwtMTc4MTY2MDY0N119
