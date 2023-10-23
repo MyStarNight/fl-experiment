@@ -49,8 +49,17 @@ node3: 192.168.3.38
 
 修改其中代码
 
+	  
+	kwargs_websocket = {"host": "192.168.3.33", "hook": hook, "verbose": args.verbose}  
+	alice = WebsocketClientWorker(id="alice", port=8777, **kwargs_websocket) 
+	kwargs_websocket = {"host": "192.168.3.34", "hook": hook, "verbose": args.verbose}  
+	testing = WebsocketClientWorker(id="testing", port=888, **kwargs_websocket)
+	kwargs_websocket = {"host": "192.168.3.33", "hook": hook, "verbose": args.verbose} 
+	kwargs_websocket = {"host": "192.168.3.33", "hook": hook, "verbose": args.verbose} 
+
+	worker_instances = [alice ]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NTMwNTU2OCwxMTQ3MjE2MDE0LC0xMj
-I1ODMzMzM3LDEwMzk5MDA2OTUsLTEzMzUyNzMwNDksNzI0NzE5
-OTMsLTU3NjM4MjQwOCwtMTc4MTY2MDY0N119
+eyJoaXN0b3J5IjpbMzIyMTcxODQyLDExNDcyMTYwMTQsLTEyMj
+U4MzMzMzcsMTAzOTkwMDY5NSwtMTMzNTI3MzA0OSw3MjQ3MTk5
+MywtNTc2MzgyNDA4LC0xNzgxNjYwNjQ3XX0=
 -->
