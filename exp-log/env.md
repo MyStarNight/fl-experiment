@@ -296,7 +296,9 @@ B-->C[安装dependencies]
 树莓派安装conda教程：[树莓派上如何安装anaconda/miniconda环境配置](https://blog.csdn.net/weixin_39589455/article/details/128620393?spm=1001.2014.3001.5506)
 
 首先，由于面对不同的树莓派上，可能有不同的python版本，因此我给出的解决办法是使用conda；选择python版本为3.7的conda。
+
+获取树莓派的sh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjM0OTA0NCwtMTkxODM0NjMzOCwzOD
-A1MDc2ODMsLTIwMTI0MjA0OTBdfQ==
+eyJoaXN0b3J5IjpbLTE5MzY4ODUzNTYsLTE5MTgzNDYzMzgsMz
+gwNTA3NjgzLC0yMDEyNDIwNDkwXX0=
 -->
