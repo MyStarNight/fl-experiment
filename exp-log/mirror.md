@@ -6,19 +6,23 @@
 
 中国科技大学 
 
-	https://pypi.mirrors.ustc.edu.cn/simple 
+	-i https://pypi.mirrors.ustc.edu.cn/simple 
 
 华中理工大学 
 
-	http://pypi.hustunique.com 
+	-i http://pypi.hustunique.com 
 
 山东理工大学 
 
-	http://pypi.sdutlinux.org 
+	-i http://pypi.sdutlinux.org 
 
-豆瓣 http://pypi.douban.com/simple 
+豆瓣 
 
-阿里 https://mirrors.aliyun.com/pypi/simple 
+	-i http://pypi.douban.com/simple 
+
+阿里 \
+
+	-i https://mirrors.aliyun.com/pypi/simple 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MjgwOTY1MiwtMTEzNzcyOTg5Nl19
+eyJoaXN0b3J5IjpbMTA2ODU5ODcwOCwtMTEzNzcyOTg5Nl19
 -->
