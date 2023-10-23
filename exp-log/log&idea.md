@@ -69,15 +69,15 @@ node3: 192.168.3.38
 ### 实验示意图
 
 ```mermaid
-graph
-A[Laptop]-->B[node1:raspi 4B]
-A<-->C[node2:raspi 4B]
+graph 
+B[node1:raspi 4B]-->A[Laptop]
+C[node2:raspi 4B]-->A
 
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzE3Mzc3OSwxNDYyMDI5NDM4LDEyMT
-IwMTg0MjQsMTkzOTUzMjgxMCwxMTQ3MjE2MDE0LC0xMjI1ODMz
-MzM3LDEwMzk5MDA2OTUsLTEzMzUyNzMwNDksNzI0NzE5OTMsLT
-U3NjM4MjQwOCwtMTc4MTY2MDY0N119
+eyJoaXN0b3J5IjpbLTExOTcyMjMzNDEsMTQ2MjAyOTQzOCwxMj
+EyMDE4NDI0LDE5Mzk1MzI4MTAsMTE0NzIxNjAxNCwtMTIyNTgz
+MzMzNywxMDM5OTAwNjk1LC0xMzM1MjczMDQ5LDcyNDcxOTkzLC
+01NzYzODI0MDgsLTE3ODE2NjA2NDddfQ==
 -->
