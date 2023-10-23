@@ -372,10 +372,12 @@ B-->C[安装dependencies]
 
 解决办法是：
 
-	
+	pip install msgpack -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODI2OTM2NDksLTE1MTE0MDQ4MDgsLT
-ExNzM0MjYyMDAsMTU5ODY1MzExMywtODc4NTcxNjE0LDQ3Nzcy
-NjA1MSwtMTkxODM0NjMzOCwzODA1MDc2ODMsLTIwMTI0MjA0OT
-BdfQ==
+eyJoaXN0b3J5IjpbNjkxODE5NzEsLTE1MTE0MDQ4MDgsLTExNz
+M0MjYyMDAsMTU5ODY1MzExMywtODc4NTcxNjE0LDQ3NzcyNjA1
+MSwtMTkxODM0NjMzOCwzODA1MDc2ODMsLTIwMTI0MjA0OTBdfQ
+==
 -->
