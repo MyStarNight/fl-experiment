@@ -354,16 +354,28 @@ B-->C[安装dependencies]
 
 所有安装包安装完成以后会出现一个问题，就是`protobuf`这个库的版本不适配
 
+	TypeError: Descriptors cannot not be created directly.
+	If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+	If you cannot immediately regenerate your protos, some other possible workarounds are:
+	 1. Downgrade the protobuf package to 3.20.x or lower.
+	 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
 
 
-那么就通过命令改装一下版本：
+那么就通过命令改装一下版本，问题就可以解决：
 
 	pip install protobuf==3.20.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
+之后还会出现一个新的问题，就是
+
+	import msgpack as msgpack_lib
+	ModuleNotFoundError: No module named 'msgpack'
+
+解决办法是：
+
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEwMTc3OTM3LC0xNTExNDA0ODA4LC0xMT
-czNDI2MjAwLDE1OTg2NTMxMTMsLTg3ODU3MTYxNCw0Nzc3MjYw
-NTEsLTE5MTgzNDYzMzgsMzgwNTA3NjgzLC0yMDEyNDIwNDkwXX
-0=
+eyJoaXN0b3J5IjpbLTExODI2OTM2NDksLTE1MTE0MDQ4MDgsLT
+ExNzM0MjYyMDAsMTU5ODY1MzExMywtODc4NTcxNjE0LDQ3Nzcy
+NjA1MSwtMTkxODM0NjMzOCwzODA1MDc2ODMsLTIwMTI0MjA0OT
+BdfQ==
 -->
