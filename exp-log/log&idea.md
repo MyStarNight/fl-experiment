@@ -27,11 +27,21 @@ Raspi打开指定文件夹
 
 	cd /home/pi/work/fl-pj/Pysyft-0.2.4/examples/tutorials/advanced/websockets-example-MNIST-parallel
 
-### Raspi运行指令
+### Raspi运行
+
+node1: 192.168.3.33
+	
+	python run_websocket_server.py --host '192.168.3.30' --port 8777 --id alice
+	python run_websocket_server.py --host '192.168.3.30' --port 8778 --id bob
+	python run_websocket_server.py --host '192.168.3.30' --port 8779 --id testing --testing
+	
+node2: 192.168.3.34
+node3: 192.168.3.38
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NzIxNjAxNCwtMTIyNTgzMzMzNywxMD
-M5OTAwNjk1LC0xMzM1MjczMDQ5LDcyNDcxOTkzLC01NzYzODI0
-MDgsLTE3ODE2NjA2NDddfQ==
+eyJoaXN0b3J5IjpbLTgzOTc1ODA3MywxMTQ3MjE2MDE0LC0xMj
+I1ODMzMzM3LDEwMzk5MDA2OTUsLTEzMzUyNzMwNDksNzI0NzE5
+OTMsLTU3NjM4MjQwOCwtMTc4MTY2MDY0N119
 -->
