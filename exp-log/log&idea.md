@@ -43,7 +43,7 @@ node3: 192.168.3.38
 
 ### windows运行
 
-	python run_websocket_server.py --host '192.168.3.30' --port 8780 --testing
+	python run_websocket_server.py --host '192.168.3.30' --port 8780 --id testing --testing
 
 ### Jupyter Notebook
 
@@ -57,14 +57,14 @@ node3: 192.168.3.38
 	bob = WebsocketClientWorker(id="bob", port=8778, **kwargs_websocket)
 	
 	kwargs_websocket = {"host": "192.168.3.38", "hook": hook, "verbose": args.verbose} 
-	charlie = WebsocketClientWorker(id="bob", port=8778, **kwargs_websocket)
+	charlie = WebsocketClientWorker(id="charlie", port=8779, **kwargs_websocket)
 
 	kwargs_websocket = {"host": "192.168.3.30", "hook": hook, "verbose": args.verbose} 
-	test
+	testing = WebsocketClientWorker(id="testing", port=8780, **kwargs_websocket)
 
-	worker_instances = [alice ]
+	worker_instances = [alice, bob, charlie ]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0MTk5MDIyLDExNDcyMTYwMTQsLTEyMj
-U4MzMzMzcsMTAzOTkwMDY5NSwtMTMzNTI3MzA0OSw3MjQ3MTk5
-MywtNTc2MzgyNDA4LC0xNzgxNjYwNjQ3XX0=
+eyJoaXN0b3J5IjpbLTE0Nzk3NjU2MzIsMTE0NzIxNjAxNCwtMT
+IyNTgzMzMzNywxMDM5OTAwNjk1LC0xMzM1MjczMDQ5LDcyNDcx
+OTkzLC01NzYzODI0MDgsLTE3ODE2NjA2NDddfQ==
 -->
