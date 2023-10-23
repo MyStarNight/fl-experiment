@@ -39,11 +39,15 @@ node2: 192.168.3.34
 
 node3: 192.168.3.38
 	
-	python run_websocket_server.py --host '192.168.3.38' --port 8778 --id 
+	python run_websocket_server.py --host '192.168.3.38' --port 8779 --id charlie
+
+### windows运行
+
+	python run_websocket_server.py --host '192.168.3.30' --port 8780 --id charlie
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzcwODI3NywxMTQ3MjE2MDE0LC0xMj
+eyJoaXN0b3J5IjpbMTQ3NDIxMTM0MiwxMTQ3MjE2MDE0LC0xMj
 I1ODMzMzM3LDEwMzk5MDA2OTUsLTEzMzUyNzMwNDksNzI0NzE5
 OTMsLTU3NjM4MjQwOCwtMTc4MTY2MDY0N119
 -->
