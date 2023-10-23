@@ -50,7 +50,7 @@ node3: 192.168.3.38
 
 	jupyter notebook
 
-修改in[7]中代码
+修改`in[7]`中代码
 	  
 	kwargs_websocket = {"host": "192.168.3.33", "hook": hook, "verbose": args.verbose}  
 	alice = WebsocketClientWorker(id="alice", port=8777, **kwargs_websocket) 
@@ -66,7 +66,7 @@ node3: 192.168.3.38
 
 	worker_instances = [alice, bob, charlie ]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTk5NDg2NCwxOTM5NTMyODEwLDExND
+eyJoaXN0b3J5IjpbMTIxMjAxODQyNCwxOTM5NTMyODEwLDExND
 cyMTYwMTQsLTEyMjU4MzMzMzcsMTAzOTkwMDY5NSwtMTMzNTI3
 MzA0OSw3MjQ3MTk5MywtNTc2MzgyNDA4LC0xNzgxNjYwNjQ3XX
 0=
