@@ -309,7 +309,7 @@ B-->C[安装dependencies]
 添加.bashrc配置
 
 	vim  ~/.bashrc
-	export PATH="/home/pi/miniconda3/bin:$PATH"
+	export PATH="/home/pi/miniconda3/bin:$PATH" # 在vim中添加
 	source ~/.bashrc
 
 安装完成以后使用指令，查看python版本
@@ -325,9 +325,15 @@ B-->C[安装dependencies]
 	    from torch._C import *
 	ImportError: libpython3.7m.so.1.0: cannot open shared object file: No such file or directory
 
-解决办法是也是添加.bash
+解决办法是也是添加.bashrc配置
+
+	vim  ~/.bashrc
+	export LD_LIBRARY_PATH="/home/pi/miniconda3/lib" # 在vim中添加
+	source ~/.bashrc
+
+然后运行测试指ling
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwODExODMsLTExNzM0MjYyMDAsMTU5OD
-Y1MzExMywtODc4NTcxNjE0LDQ3NzcyNjA1MSwtMTkxODM0NjMz
-OCwzODA1MDc2ODMsLTIwMTI0MjA0OTBdfQ==
+eyJoaXN0b3J5IjpbLTQ2MTAzMjY2OCwtMTE3MzQyNjIwMCwxNT
+k4NjUzMTEzLC04Nzg1NzE2MTQsNDc3NzI2MDUxLC0xOTE4MzQ2
+MzM4LDM4MDUwNzY4MywtMjAxMjQyMDQ5MF19
 -->
