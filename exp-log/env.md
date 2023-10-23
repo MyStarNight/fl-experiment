@@ -3,6 +3,7 @@
 # Record
 2022/10/10：提出用两个树莓派去制作一个联邦学习的平台
 2022/10/12：解决环境问题
+2023/10/20：解决环境问题，请查看搭建3
 
 # Experiments
 
@@ -343,9 +344,11 @@ B-->C[安装dependencies]
 
 然后运行测试指令，没有问题的话torch和torchvision就安装完成。
 
+解下来就是安装pysyft，首先是独立安装不安装依赖：
 
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjgxMDc1LC0xMTczNDI2MjAwLDE1OT
+eyJoaXN0b3J5IjpbLTY3MDU2MTE4LC0xMTczNDI2MjAwLDE1OT
 g2NTMxMTMsLTg3ODU3MTYxNCw0Nzc3MjYwNTEsLTE5MTgzNDYz
 MzgsMzgwNTA3NjgzLC0yMDEyNDIwNDkwXX0=
 -->
