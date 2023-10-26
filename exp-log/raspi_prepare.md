@@ -5,6 +5,10 @@
 在Ubuntu系统下，对base的系统进行拷贝；选择Ubuntu的原因是因为可以不关注tf卡的大小。
 
 使用`df -h`指令查看是否已经挂载，以及sd卡所在的位置。
+
+接下来就是使用指令备份：
+
+	sudo dd if=/dev/sdb | gzip>/home/ngii/work/raspi_base/raspi_base.gz
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjIyNjAwMV19
+eyJoaXN0b3J5IjpbMTA3MTgzMzE2Nl19
 -->
