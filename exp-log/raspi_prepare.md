@@ -14,7 +14,7 @@
 
 # Part2： 写入sd卡
 
-打开windows使用
+打开windows使用烧录软件进行烧录即可。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MzU1MzIzOV19
+eyJoaXN0b3J5IjpbMTA2ODA0MzU3NywtODkzNTUzMjM5XX0=
 -->
