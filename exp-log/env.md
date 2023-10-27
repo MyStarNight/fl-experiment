@@ -335,7 +335,7 @@ B-->C[安装dependencies]
 
 安装torchvision：
 	
-	
+	pip install torchvision-0.5.0-cp37-cp37m-linux_aarch64.whl -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 若直接运行`import torch`会报错
 
@@ -403,8 +403,8 @@ B-->C[安装dependencies]
 	import syft
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDIxMDE1ODcsLTcwOTU4NDk2MywtOD
-A3NjM0MTUsLTE1MTE0MDQ4MDgsLTExNzM0MjYyMDAsMTU5ODY1
-MzExMywtODc4NTcxNjE0LDQ3NzcyNjA1MSwtMTkxODM0NjMzOC
-wzODA1MDc2ODMsLTIwMTI0MjA0OTBdfQ==
+eyJoaXN0b3J5IjpbLTIwNDY1MzgyMCwtNzA5NTg0OTYzLC04MD
+c2MzQxNSwtMTUxMTQwNDgwOCwtMTE3MzQyNjIwMCwxNTk4NjUz
+MTEzLC04Nzg1NzE2MTQsNDc3NzI2MDUxLC0xOTE4MzQ2MzM4LD
+M4MDUwNzY4MywtMjAxMjQyMDQ5MF19
 -->
