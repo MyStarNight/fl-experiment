@@ -76,10 +76,18 @@ D[node3:raspi 400] -- training--> G((weight))  --> A
 A-->H((model))
 H--testing-->I(accuracy)
 ```
+
+## 2023-10-30 test
+
+在目前的华为路由器上一共连接了10台树莓派；
+
+ip地址如下
+	
+	192.168.3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTk4NDQ3ODUsLTI3NjcxMDY5OCwxND
-YzNjYzNjkzLDE0NjIwMjk0MzgsMTIxMjAxODQyNCwxOTM5NTMy
-ODEwLDExNDcyMTYwMTQsLTEyMjU4MzMzMzcsMTAzOTkwMDY5NS
-wtMTMzNTI3MzA0OSw3MjQ3MTk5MywtNTc2MzgyNDA4LC0xNzgx
-NjYwNjQ3XX0=
+eyJoaXN0b3J5IjpbLTEzMDMwNTI2ODcsLTEzMTk4NDQ3ODUsLT
+I3NjcxMDY5OCwxNDYzNjYzNjkzLDE0NjIwMjk0MzgsMTIxMjAx
+ODQyNCwxOTM5NTMyODEwLDExNDcyMTYwMTQsLTEyMjU4MzMzMz
+csMTAzOTkwMDY5NSwtMTMzNTI3MzA0OSw3MjQ3MTk5MywtNTc2
+MzgyNDA4LC0xNzgxNjYwNjQ3XX0=
 -->
