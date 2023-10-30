@@ -94,11 +94,23 @@ ip地址如下
 	9	192.168.3.47
 	10	192.168.3.48
 
+运行指令如下：
 
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.33' --id A
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.38' --id B
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.40' --id C
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.41' --id D
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.42' --id E
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.43' --id F
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.44' --id G
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.45' --id H
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.46' --id I
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.47' --id J
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk0NTg3Mzg3LC0yMTYzOTU4NzMsLTEzMT
-k4NDQ3ODUsLTI3NjcxMDY5OCwxNDYzNjYzNjkzLDE0NjIwMjk0
-MzgsMTIxMjAxODQyNCwxOTM5NTMyODEwLDExNDcyMTYwMTQsLT
-EyMjU4MzMzMzcsMTAzOTkwMDY5NSwtMTMzNTI3MzA0OSw3MjQ3
-MTk5MywtNTc2MzgyNDA4LC0xNzgxNjYwNjQ3XX0=
+eyJoaXN0b3J5IjpbMTEzMTA0NTE1Myw3OTQ1ODczODcsLTIxNj
+M5NTg3MywtMTMxOTg0NDc4NSwtMjc2NzEwNjk4LDE0NjM2NjM2
+OTMsMTQ2MjAyOTQzOCwxMjEyMDE4NDI0LDE5Mzk1MzI4MTAsMT
+E0NzIxNjAxNCwtMTIyNTgzMzMzNywxMDM5OTAwNjk1LC0xMzM1
+MjczMDQ5LDcyNDcxOTkzLC01NzYzODI0MDgsLTE3ODE2NjA2ND
+ddfQ==
 -->
