@@ -96,21 +96,22 @@ ip地址如下
 
 运行指令如下：
 
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.33' --port 929 --id A
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.38' --port 929 --id B
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.40' --port 929 --id C
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.41' --port 929 --id D
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.42' --port 929 --id E
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.43' --port 929 --id F
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.44' --port 929 --id G
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.45' --port 929 --id H
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.46' --port 929 --id I
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.47' --port 929 --id J
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.33' --port 9292 --id A
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.38' --port 9292 --id B
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.40' --port 9292 --id C
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.41' --port 9292 --id D
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.42' --port 9292 --id E
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.43' --port 9292 --id F
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.44' --port 9292 --id G
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.45' --port 9292 --id H
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.46' --port 9292 --id I
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.47' --port 9292 --id J
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDU0MDkyNSwxMTMxMDQ1MTUzLDc5ND
-U4NzM4NywtMjE2Mzk1ODczLC0xMzE5ODQ0Nzg1LC0yNzY3MTA2
-OTgsMTQ2MzY2MzY5MywxNDYyMDI5NDM4LDEyMTIwMTg0MjQsMT
-kzOTUzMjgxMCwxMTQ3MjE2MDE0LC0xMjI1ODMzMzM3LDEwMzk5
-MDA2OTUsLTEzMzUyNzMwNDksNzI0NzE5OTMsLTU3NjM4MjQwOC
-wtMTc4MTY2MDY0N119
+eyJoaXN0b3J5IjpbLTE1MjI5MTU4NTcsLTI1NDU0MDkyNSwxMT
+MxMDQ1MTUzLDc5NDU4NzM4NywtMjE2Mzk1ODczLC0xMzE5ODQ0
+Nzg1LC0yNzY3MTA2OTgsMTQ2MzY2MzY5MywxNDYyMDI5NDM4LD
+EyMTIwMTg0MjQsMTkzOTUzMjgxMCwxMTQ3MjE2MDE0LC0xMjI1
+ODMzMzM3LDEwMzk5MDA2OTUsLTEzMzUyNzMwNDksNzI0NzE5OT
+MsLTU3NjM4MjQwOCwtMTc4MTY2MDY0N119
 -->
