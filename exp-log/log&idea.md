@@ -96,21 +96,21 @@ ip地址如下
 
 运行指令如下：
 
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.33' --id A
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.38' --id B
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.40' --id C
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.41' --id D
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.42' --id E
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.43' --id F
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.44' --id G
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.45' --id H
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.46' --id I
-	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.47' --id J
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.33' --port 929 --id A
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.38' --port 929 --id B
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.40' --port 929 --id C
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.41' --port 929 --id D
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.42' --port 929 --id E
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.43' --port 929 --id F
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.44' --port 929 --id G
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.45' --port 929 --id H
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.46' --port 929 --id I
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.47' --port 929 --id J
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTA0NTE1Myw3OTQ1ODczODcsLTIxNj
-M5NTg3MywtMTMxOTg0NDc4NSwtMjc2NzEwNjk4LDE0NjM2NjM2
-OTMsMTQ2MjAyOTQzOCwxMjEyMDE4NDI0LDE5Mzk1MzI4MTAsMT
-E0NzIxNjAxNCwtMTIyNTgzMzMzNywxMDM5OTAwNjk1LC0xMzM1
-MjczMDQ5LDcyNDcxOTkzLC01NzYzODI0MDgsLTE3ODE2NjA2ND
-ddfQ==
+eyJoaXN0b3J5IjpbLTI1NDU0MDkyNSwxMTMxMDQ1MTUzLDc5ND
+U4NzM4NywtMjE2Mzk1ODczLC0xMzE5ODQ0Nzg1LC0yNzY3MTA2
+OTgsMTQ2MzY2MzY5MywxNDYyMDI5NDM4LDEyMTIwMTg0MjQsMT
+kzOTUzMjgxMCwxMTQ3MjE2MDE0LC0xMjI1ODMzMzM3LDEwMzk5
+MDA2OTUsLTEzMzUyNzMwNDksNzI0NzE5OTMsLTU3NjM4MjQwOC
+wtMTc4MTY2MDY0N119
 -->
