@@ -81,19 +81,6 @@ H--testing-->I(accuracy)
 
 在目前的华为路由器上一共连接了10台树莓派；
 
-ip地址如下
-	
-	1	192.168.3.33
-	2	192.168.3.40
-	3	192.168.3.41
-	4	192.168.3.42
-	5	192.168.3.43
-	6	192.168.3.44
-	7	192.168.3.45
-	8	192.168.3.46
-	9	192.168.3.47
-	10	192.168.3.48
-
 运行指令如下：
 
 	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.33' --port 9292 --id A
@@ -108,10 +95,11 @@ ip地址如下
 	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.47' --port 9292 --id J
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjI5MTU4NTcsLTI1NDU0MDkyNSwxMT
-MxMDQ1MTUzLDc5NDU4NzM4NywtMjE2Mzk1ODczLC0xMzE5ODQ0
-Nzg1LC0yNzY3MTA2OTgsMTQ2MzY2MzY5MywxNDYyMDI5NDM4LD
-EyMTIwMTg0MjQsMTkzOTUzMjgxMCwxMTQ3MjE2MDE0LC0xMjI1
-ODMzMzM3LDEwMzk5MDA2OTUsLTEzMzUyNzMwNDksNzI0NzE5OT
-MsLTU3NjM4MjQwOCwtMTc4MTY2MDY0N119
+eyJoaXN0b3J5IjpbMTY4NDk5MjAxMSwtMTUyMjkxNTg1NywtMj
+U0NTQwOTI1LDExMzEwNDUxNTMsNzk0NTg3Mzg3LC0yMTYzOTU4
+NzMsLTEzMTk4NDQ3ODUsLTI3NjcxMDY5OCwxNDYzNjYzNjkzLD
+E0NjIwMjk0MzgsMTIxMjAxODQyNCwxOTM5NTMyODEwLDExNDcy
+MTYwMTQsLTEyMjU4MzMzMzcsMTAzOTkwMDY5NSwtMTMzNTI3Mz
+A0OSw3MjQ3MTk5MywtNTc2MzgyNDA4LC0xNzgxNjYwNjQ3XX0=
+
 -->
