@@ -1,0 +1,252 @@
+E:\Miniconda\envs\fl3\python.exe "E:/Pycharm/PyCharm 2023.1.3/plugins/python/helpers/pydev/pydevconsole.py" --mode=client --host=127.0.0.1 --port=60508 
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['E:\\2023mem\\Python-PJ\\fl-experiment\\code2'])
+Python 3.7.16 (default, Jan 17 2023, 16:06:28) [MSC v.1916 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.31.1 -- An enhanced Interactive Python. Type '?' for help.
+PyDev console: using IPython 7.31.1
+Python 3.7.16 (default, Jan 17 2023, 16:06:28) [MSC v.1916 64 bit (AMD64)] on win32
+runfile('E:\\2023mem\\Python-PJ\\fl-experiment\\code2\\run_websocket_client.py', wdir='E:\\2023mem\\Python-PJ\\fl-experiment\\code2')
+2023-11-01 11:13:19,813 | Training round 1/100
+2023-11-01 11:13:39,027 | Evaluating models
+2023-11-01 11:13:41,107 | Model update A: Average loss: 0.0612, Accuracy: 980/10000 (9.80%)
+2023-11-01 11:13:43,233 | Model update B: Average loss: 0.1023, Accuracy: 1135/10000 (11.35%)
+2023-11-01 11:13:45,372 | Model update C: Average loss: 0.1125, Accuracy: 1032/10000 (10.32%)
+2023-11-01 11:13:47,530 | Model update D: Average loss: 0.0689, Accuracy: 1010/10000 (10.10%)
+2023-11-01 11:13:49,622 | Model update E: Average loss: 0.0746, Accuracy: 982/10000 (9.82%)
+2023-11-01 11:13:51,773 | Model update F: Average loss: 0.1307, Accuracy: 892/10000 (8.92%)
+2023-11-01 11:13:53,859 | Model update G: Average loss: 0.0716, Accuracy: 958/10000 (9.58%)
+2023-11-01 11:13:55,979 | Model update H: Average loss: 0.0959, Accuracy: 1028/10000 (10.28%)
+2023-11-01 11:13:58,017 | Model update I: Average loss: 0.0802, Accuracy: 974/10000 (9.74%)
+2023-11-01 11:14:00,125 | Model update J: Average loss: 0.0715, Accuracy: 1009/10000 (10.09%)
+2023-11-01 11:14:02,192 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-01 11:14:02,192 | Federated model: Average loss: 0.0177, Accuracy: 1504/10000 (15.04%)
+2023-11-01 11:14:02,192 | Training round 2/100
+2023-11-01 11:14:20,974 | Training round 3/100
+2023-11-01 11:14:39,667 | Training round 4/100
+2023-11-01 11:14:58,336 | Training round 5/100
+2023-11-01 11:15:16,995 | Training round 6/100
+2023-11-01 11:15:35,794 | Training round 7/100
+2023-11-01 11:15:54,534 | Training round 8/100
+2023-11-01 11:16:13,290 | Training round 9/100
+2023-11-01 11:16:31,897 | Training round 10/100
+2023-11-01 11:16:50,570 | Training round 11/100
+2023-11-01 11:17:09,240 | Evaluating models
+2023-11-01 11:17:11,386 | Model update A: Average loss: 0.1560, Accuracy: 980/10000 (9.80%)
+2023-11-01 11:17:13,624 | Model update B: Average loss: 0.1602, Accuracy: 1135/10000 (11.35%)
+2023-11-01 11:17:15,817 | Model update C: Average loss: 0.1770, Accuracy: 1032/10000 (10.32%)
+2023-11-01 11:17:17,866 | Model update D: Average loss: 0.1538, Accuracy: 1010/10000 (10.10%)
+2023-11-01 11:17:20,091 | Model update E: Average loss: 0.1966, Accuracy: 982/10000 (9.82%)
+2023-11-01 11:17:22,124 | Model update F: Average loss: 0.2396, Accuracy: 892/10000 (8.92%)
+2023-11-01 11:17:24,281 | Model update G: Average loss: 0.1927, Accuracy: 958/10000 (9.58%)
+2023-11-01 11:17:26,455 | Model update H: Average loss: 0.1710, Accuracy: 1028/10000 (10.28%)
+2023-11-01 11:17:28,584 | Model update I: Average loss: 0.2235, Accuracy: 974/10000 (9.74%)
+2023-11-01 11:17:30,695 | Model update J: Average loss: 0.2041, Accuracy: 1009/10000 (10.09%)
+2023-11-01 11:17:32,904 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-01 11:17:32,904 | Federated model: Average loss: 0.0149, Accuracy: 4629/10000 (46.29%)
+2023-11-01 11:17:32,904 | Training round 12/100
+2023-11-01 11:17:51,821 | Training round 13/100
+2023-11-01 11:18:10,769 | Training round 14/100
+2023-11-01 11:18:29,311 | Training round 15/100
+2023-11-01 11:18:48,058 | Training round 16/100
+2023-11-01 11:19:06,730 | Training round 17/100
+2023-11-01 11:19:25,340 | Training round 18/100
+2023-11-01 11:19:43,972 | Training round 19/100
+2023-11-01 11:20:02,595 | Training round 20/100
+2023-11-01 11:20:21,410 | Training round 21/100
+2023-11-01 11:20:40,002 | Evaluating models
+2023-11-01 11:20:42,150 | Model update A: Average loss: 0.0479, Accuracy: 1914/10000 (19.14%)
+2023-11-01 11:20:44,352 | Model update B: Average loss: 0.0453, Accuracy: 2090/10000 (20.90%)
+2023-11-01 11:20:46,557 | Model update C: Average loss: 0.0943, Accuracy: 1032/10000 (10.32%)
+2023-11-01 11:20:48,679 | Model update D: Average loss: 0.1270, Accuracy: 1010/10000 (10.10%)
+2023-11-01 11:20:50,779 | Model update E: Average loss: 0.1002, Accuracy: 982/10000 (9.82%)
+2023-11-01 11:20:52,918 | Model update F: Average loss: 0.1182, Accuracy: 892/10000 (8.92%)
+2023-11-01 11:20:55,068 | Model update G: Average loss: 0.0837, Accuracy: 958/10000 (9.58%)
+2023-11-01 11:20:57,150 | Model update H: Average loss: 0.0817, Accuracy: 1028/10000 (10.28%)
+2023-11-01 11:20:59,376 | Model update I: Average loss: 0.1762, Accuracy: 974/10000 (9.74%)
+2023-11-01 11:21:01,462 | Model update J: Average loss: 0.1172, Accuracy: 1009/10000 (10.09%)
+2023-11-01 11:21:03,621 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-01 11:21:03,621 | Federated model: Average loss: 0.0057, Accuracy: 7974/10000 (79.74%)
+2023-11-01 11:21:03,621 | Training round 22/100
+2023-11-01 11:21:22,395 | Training round 23/100
+2023-11-01 11:21:41,193 | Training round 24/100
+2023-11-01 11:22:00,026 | Training round 25/100
+2023-11-01 11:22:18,727 | Training round 26/100
+2023-11-01 11:22:37,537 | Training round 27/100
+2023-11-01 11:22:56,426 | Training round 28/100
+2023-11-01 11:23:15,273 | Training round 29/100
+2023-11-01 11:23:34,272 | Training round 30/100
+2023-11-01 11:23:53,246 | Training round 31/100
+2023-11-01 11:24:12,016 | Evaluating models
+2023-11-01 11:24:14,184 | Model update A: Average loss: 0.0164, Accuracy: 4265/10000 (42.65%)
+2023-11-01 11:24:16,359 | Model update B: Average loss: 0.0199, Accuracy: 4202/10000 (42.02%)
+2023-11-01 11:24:18,664 | Model update C: Average loss: 0.0859, Accuracy: 1032/10000 (10.32%)
+2023-11-01 11:24:21,002 | Model update D: Average loss: 0.0440, Accuracy: 1059/10000 (10.59%)
+2023-11-01 11:24:23,222 | Model update E: Average loss: 0.1016, Accuracy: 982/10000 (9.82%)
+2023-11-01 11:24:25,538 | Model update F: Average loss: 0.1196, Accuracy: 892/10000 (8.92%)
+2023-11-01 11:24:27,799 | Model update G: Average loss: 0.1028, Accuracy: 958/10000 (9.58%)
+2023-11-01 11:24:29,975 | Model update H: Average loss: 0.0444, Accuracy: 1247/10000 (12.47%)
+2023-11-01 11:24:32,288 | Model update I: Average loss: 0.2013, Accuracy: 974/10000 (9.74%)
+2023-11-01 11:24:34,491 | Model update J: Average loss: 0.0629, Accuracy: 1097/10000 (10.97%)
+2023-11-01 11:24:36,684 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-01 11:24:36,684 | Federated model: Average loss: 0.0057, Accuracy: 7862/10000 (78.62%)
+2023-11-01 11:24:36,684 | Training round 32/100
+2023-11-01 11:24:55,413 | Training round 33/100
+2023-11-01 11:25:14,210 | Training round 34/100
+2023-11-01 11:25:33,088 | Training round 35/100
+2023-11-01 11:25:51,913 | Training round 36/100
+2023-11-01 11:26:10,776 | Training round 37/100
+2023-11-01 11:26:29,503 | Training round 38/100
+2023-11-01 11:26:48,165 | Training round 39/100
+2023-11-01 11:27:06,814 | Training round 40/100
+2023-11-01 11:27:25,386 | Training round 41/100
+2023-11-01 11:27:44,136 | Evaluating models
+2023-11-01 11:27:46,211 | Model update A: Average loss: 0.0198, Accuracy: 4180/10000 (41.80%)
+2023-11-01 11:27:48,397 | Model update B: Average loss: 0.0094, Accuracy: 6632/10000 (66.32%)
+2023-11-01 11:27:50,470 | Model update C: Average loss: 0.0308, Accuracy: 1952/10000 (19.52%)
+2023-11-01 11:27:52,597 | Model update D: Average loss: 0.0450, Accuracy: 1203/10000 (12.03%)
+2023-11-01 11:27:54,725 | Model update E: Average loss: 0.0786, Accuracy: 1053/10000 (10.53%)
+2023-11-01 11:27:56,846 | Model update F: Average loss: 0.0391, Accuracy: 1933/10000 (19.33%)
+2023-11-01 11:27:58,979 | Model update G: Average loss: 0.0373, Accuracy: 2631/10000 (26.31%)
+2023-11-01 11:28:01,137 | Model update H: Average loss: 0.0714, Accuracy: 1040/10000 (10.40%)
+2023-11-01 11:28:03,229 | Model update I: Average loss: 0.1947, Accuracy: 974/10000 (9.74%)
+2023-11-01 11:28:05,357 | Model update J: Average loss: 0.0431, Accuracy: 1818/10000 (18.18%)
+2023-11-01 11:28:07,541 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-01 11:28:07,541 | Federated model: Average loss: 0.0034, Accuracy: 8599/10000 (85.99%)
+2023-11-01 11:28:07,541 | Training round 42/100
+2023-11-01 11:28:26,189 | Training round 43/100
+2023-11-01 11:28:44,850 | Training round 44/100
+2023-11-01 11:29:03,559 | Training round 45/100
+2023-11-01 11:29:22,334 | Training round 46/100
+2023-11-01 11:29:41,123 | Training round 47/100
+2023-11-01 11:29:59,948 | Training round 48/100
+2023-11-01 11:30:18,758 | Training round 49/100
+2023-11-01 11:30:37,487 | Training round 50/100
+2023-11-01 11:30:56,319 | Training round 51/100
+2023-11-01 11:31:15,196 | Evaluating models
+2023-11-01 11:31:17,729 | Model update A: Average loss: 0.0081, Accuracy: 6808/10000 (68.08%)
+2023-11-01 11:31:20,180 | Model update B: Average loss: 0.0121, Accuracy: 5865/10000 (58.65%)
+2023-11-01 11:31:22,501 | Model update C: Average loss: 0.0171, Accuracy: 4004/10000 (40.04%)
+2023-11-01 11:31:24,779 | Model update D: Average loss: 0.0309, Accuracy: 2186/10000 (21.86%)
+2023-11-01 11:31:27,261 | Model update E: Average loss: 0.0536, Accuracy: 1982/10000 (19.82%)
+2023-11-01 11:31:29,865 | Model update F: Average loss: 0.0582, Accuracy: 1159/10000 (11.59%)
+2023-11-01 11:31:32,408 | Model update G: Average loss: 0.0124, Accuracy: 5612/10000 (56.12%)
+2023-11-01 11:31:34,980 | Model update H: Average loss: 0.0430, Accuracy: 1939/10000 (19.39%)
+2023-11-01 11:31:37,535 | Model update I: Average loss: 0.1254, Accuracy: 974/10000 (9.74%)
+2023-11-01 11:31:40,087 | Model update J: Average loss: 0.0233, Accuracy: 3943/10000 (39.43%)
+2023-11-01 11:31:42,606 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-01 11:31:42,606 | Federated model: Average loss: 0.0029, Accuracy: 8835/10000 (88.35%)
+2023-11-01 11:31:42,607 | Training round 52/100
+2023-11-01 11:32:01,319 | Training round 53/100
+2023-11-01 11:32:19,993 | Training round 54/100
+2023-11-01 11:32:38,608 | Training round 55/100
+2023-11-01 11:32:57,436 | Training round 56/100
+2023-11-01 11:33:16,063 | Training round 57/100
+2023-11-01 11:33:34,742 | Training round 58/100
+2023-11-01 11:33:53,624 | Training round 59/100
+2023-11-01 11:34:12,509 | Training round 60/100
+2023-11-01 11:34:31,207 | Training round 61/100
+2023-11-01 11:34:49,831 | Evaluating models
+2023-11-01 11:34:51,977 | Model update A: Average loss: 0.0108, Accuracy: 6120/10000 (61.20%)
+2023-11-01 11:34:54,113 | Model update B: Average loss: 0.0112, Accuracy: 6177/10000 (61.77%)
+2023-11-01 11:34:56,338 | Model update C: Average loss: 0.0417, Accuracy: 1573/10000 (15.73%)
+2023-11-01 11:34:58,418 | Model update D: Average loss: 0.0193, Accuracy: 3803/10000 (38.03%)
+2023-11-01 11:35:00,600 | Model update E: Average loss: 0.0158, Accuracy: 6031/10000 (60.31%)
+2023-11-01 11:35:02,743 | Model update F: Average loss: 0.0915, Accuracy: 892/10000 (8.92%)
+2023-11-01 11:35:04,933 | Model update G: Average loss: 0.0091, Accuracy: 6559/10000 (65.59%)
+2023-11-01 11:35:07,052 | Model update H: Average loss: 0.0412, Accuracy: 1864/10000 (18.64%)
+2023-11-01 11:35:09,184 | Model update I: Average loss: 0.1145, Accuracy: 974/10000 (9.74%)
+2023-11-01 11:35:11,377 | Model update J: Average loss: 0.0407, Accuracy: 1830/10000 (18.30%)
+2023-11-01 11:35:13,538 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-01 11:35:13,538 | Federated model: Average loss: 0.0026, Accuracy: 9022/10000 (90.22%)
+2023-11-01 11:35:13,538 | Training round 62/100
+2023-11-01 11:35:32,191 | Training round 63/100
+2023-11-01 11:35:50,890 | Training round 64/100
+2023-11-01 11:36:09,830 | Training round 65/100
+2023-11-01 11:36:28,518 | Training round 66/100
+2023-11-01 11:36:47,320 | Training round 67/100
+2023-11-01 11:37:05,998 | Training round 68/100
+2023-11-01 11:37:24,882 | Training round 69/100
+2023-11-01 11:37:43,673 | Training round 70/100
+2023-11-01 11:38:02,591 | Training round 71/100
+2023-11-01 11:38:21,388 | Evaluating models
+2023-11-01 11:38:23,641 | Model update A: Average loss: 0.0060, Accuracy: 7637/10000 (76.37%)
+2023-11-01 11:38:25,768 | Model update B: Average loss: 0.0072, Accuracy: 7132/10000 (71.32%)
+2023-11-01 11:38:27,896 | Model update C: Average loss: 0.0356, Accuracy: 1849/10000 (18.49%)
+2023-11-01 11:38:30,026 | Model update D: Average loss: 0.0317, Accuracy: 2012/10000 (20.12%)
+2023-11-01 11:38:32,182 | Model update E: Average loss: 0.0170, Accuracy: 5464/10000 (54.64%)
+2023-11-01 11:38:34,353 | Model update F: Average loss: 0.0638, Accuracy: 972/10000 (9.72%)
+2023-11-01 11:38:36,528 | Model update G: Average loss: 0.0072, Accuracy: 7170/10000 (71.70%)
+2023-11-01 11:38:38,645 | Model update H: Average loss: 0.0139, Accuracy: 5563/10000 (55.63%)
+2023-11-01 11:38:40,800 | Model update I: Average loss: 0.0424, Accuracy: 1352/10000 (13.52%)
+2023-11-01 11:38:43,046 | Model update J: Average loss: 0.0451, Accuracy: 1690/10000 (16.90%)
+2023-11-01 11:38:45,249 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-01 11:38:45,249 | Federated model: Average loss: 0.0023, Accuracy: 9113/10000 (91.13%)
+2023-11-01 11:38:45,249 | Training round 72/100
+2023-11-01 11:39:04,039 | Training round 73/100
+2023-11-01 11:39:22,678 | Training round 74/100
+2023-11-01 11:39:41,487 | Training round 75/100
+2023-11-01 11:40:00,050 | Training round 76/100
+2023-11-01 11:40:18,771 | Training round 77/100
+2023-11-01 11:40:37,313 | Training round 78/100
+2023-11-01 11:40:55,982 | Training round 79/100
+2023-11-01 11:41:14,497 | Training round 80/100
+2023-11-01 11:41:33,138 | Training round 81/100
+2023-11-01 11:41:51,987 | Evaluating models
+2023-11-01 11:41:54,103 | Model update A: Average loss: 0.0063, Accuracy: 7551/10000 (75.51%)
+2023-11-01 11:41:56,294 | Model update B: Average loss: 0.0085, Accuracy: 6900/10000 (69.00%)
+2023-11-01 11:41:58,602 | Model update C: Average loss: 0.0190, Accuracy: 3982/10000 (39.82%)
+2023-11-01 11:42:00,733 | Model update D: Average loss: 0.0359, Accuracy: 1823/10000 (18.23%)
+2023-11-01 11:42:02,851 | Model update E: Average loss: 0.0121, Accuracy: 6461/10000 (64.61%)
+2023-11-01 11:42:05,092 | Model update F: Average loss: 0.0188, Accuracy: 4326/10000 (43.26%)
+2023-11-01 11:42:07,405 | Model update G: Average loss: 0.0091, Accuracy: 6645/10000 (66.45%)
+2023-11-01 11:42:09,496 | Model update H: Average loss: 0.0164, Accuracy: 4841/10000 (48.41%)
+2023-11-01 11:42:11,497 | Model update I: Average loss: 0.0491, Accuracy: 1147/10000 (11.47%)
+2023-11-01 11:42:13,708 | Model update J: Average loss: 0.0311, Accuracy: 2421/10000 (24.21%)
+2023-11-01 11:42:15,887 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-01 11:42:15,887 | Federated model: Average loss: 0.0022, Accuracy: 9168/10000 (91.68%)
+2023-11-01 11:42:15,887 | Training round 82/100
+2023-11-01 11:42:34,529 | Training round 83/100
+2023-11-01 11:42:53,100 | Training round 84/100
+2023-11-01 11:43:12,042 | Training round 85/100
+2023-11-01 11:43:30,792 | Training round 86/100
+2023-11-01 11:43:49,455 | Training round 87/100
+2023-11-01 11:44:08,258 | Training round 88/100
+2023-11-01 11:44:26,804 | Training round 89/100
+2023-11-01 11:44:45,354 | Training round 90/100
+2023-11-01 11:45:04,193 | Training round 91/100
+2023-11-01 11:45:23,093 | Evaluating models
+2023-11-01 11:45:25,386 | Model update A: Average loss: 0.0038, Accuracy: 8520/10000 (85.20%)
+2023-11-01 11:45:27,517 | Model update B: Average loss: 0.0056, Accuracy: 7762/10000 (77.62%)
+2023-11-01 11:45:29,656 | Model update C: Average loss: 0.0251, Accuracy: 3303/10000 (33.03%)
+2023-11-01 11:45:31,757 | Model update D: Average loss: 0.0258, Accuracy: 2926/10000 (29.26%)
+2023-11-01 11:45:33,932 | Model update E: Average loss: 0.0142, Accuracy: 6169/10000 (61.69%)
+2023-11-01 11:45:36,073 | Model update F: Average loss: 0.0195, Accuracy: 4128/10000 (41.28%)
+2023-11-01 11:45:38,160 | Model update G: Average loss: 0.0084, Accuracy: 6845/10000 (68.45%)
+2023-11-01 11:45:40,327 | Model update H: Average loss: 0.0205, Accuracy: 3798/10000 (37.98%)
+2023-11-01 11:45:42,514 | Model update I: Average loss: 0.0268, Accuracy: 2555/10000 (25.55%)
+2023-11-01 11:45:44,623 | Model update J: Average loss: 0.0244, Accuracy: 4053/10000 (40.53%)
+2023-11-01 11:45:46,808 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-01 11:45:46,808 | Federated model: Average loss: 0.0021, Accuracy: 9216/10000 (92.16%)
+2023-11-01 11:45:46,808 | Training round 92/100
+2023-11-01 11:46:05,524 | Training round 93/100
+2023-11-01 11:46:24,169 | Training round 94/100
+2023-11-01 11:46:42,853 | Training round 95/100
+2023-11-01 11:47:01,765 | Training round 96/100
+2023-11-01 11:47:20,457 | Training round 97/100
+2023-11-01 11:47:39,285 | Training round 98/100
+2023-11-01 11:47:58,071 | Training round 99/100
+2023-11-01 11:48:16,820 | Training round 100/100
+2023-11-01 11:48:35,380 | Evaluating models
+2023-11-01 11:48:37,469 | Model update A: Average loss: 0.0047, Accuracy: 8179/10000 (81.79%)
+2023-11-01 11:48:39,617 | Model update B: Average loss: 0.0048, Accuracy: 7959/10000 (79.59%)
+2023-11-01 11:48:41,769 | Model update C: Average loss: 0.0191, Accuracy: 3951/10000 (39.51%)
+2023-11-01 11:48:43,897 | Model update D: Average loss: 0.0143, Accuracy: 4967/10000 (49.67%)
+2023-11-01 11:48:46,183 | Model update E: Average loss: 0.0076, Accuracy: 7354/10000 (73.54%)
+2023-11-01 11:48:48,412 | Model update F: Average loss: 0.0296, Accuracy: 3025/10000 (30.25%)
+2023-11-01 11:48:50,763 | Model update G: Average loss: 0.0050, Accuracy: 8046/10000 (80.46%)
+2023-11-01 11:48:52,842 | Model update H: Average loss: 0.0126, Accuracy: 5951/10000 (59.51%)
+2023-11-01 11:48:55,094 | Model update I: Average loss: 0.0185, Accuracy: 3714/10000 (37.14%)
+2023-11-01 11:48:57,519 | Model update J: Average loss: 0.0217, Accuracy: 4289/10000 (42.89%)
+2023-11-01 11:48:59,781 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-01 11:48:59,781 | Federated model: Average loss: 0.0020, Accuracy: 9229/10000 (92.29%)

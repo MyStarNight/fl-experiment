@@ -193,7 +193,6 @@ async def main():
     kwargs_websocket = {"host": "192.168.3.30", "hook": hook, "verbose": args.verbose}
     testing = WebsocketClientWorker(id="testing", port=8780, **kwargs_websocket)
 
-    worker_instances = [alice, bob, charlie]
 
     for wcw in [alice, bob, charlie, testing]:
         wcw.clear_objects_remote()
