@@ -109,9 +109,26 @@ Windows运行指令如下：
 
 	vim server.sh
 
-然后输入树莓派自己的
+然后输入树莓派自己的挂起指令
+
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.33' --port 9292 --id A
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.38' --port 9292 --id B
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.40' --port 9292 --id C
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.41' --port 9292 --id D
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.42' --port 9292 --id E
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.43' --port 9292 --id F
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.44' --port 9292 --id G
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.45' --port 9292 --id H
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.46' --port 9292 --id I
+	cd /home/pi/work/fl-pj/fl-demo; python run_websocket_server.py --host '192.168.3.47' --port 9292 --id J
+
+最后一步
+
+	chmod +x server.py
+
+创建成功。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2MjkxNjE5LDE2ODQ5OTIwMTEsLTE1Mj
+eyJoaXN0b3J5IjpbMjk2OTkxNjkwLDE2ODQ5OTIwMTEsLTE1Mj
 I5MTU4NTcsLTI1NDU0MDkyNSwxMTMxMDQ1MTUzLDc5NDU4NzM4
 NywtMjE2Mzk1ODczLC0xMzE5ODQ0Nzg1LC0yNzY3MTA2OTgsMT
 Q2MzY2MzY5MywxNDYyMDI5NDM4LDEyMTIwMTg0MjQsMTkzOTUz
