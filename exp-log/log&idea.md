@@ -101,15 +101,21 @@ Windows运行指令如下：
 ## 2023-11-03 test
 树莓派命令简化
 
-创建了start.vbs脚本批量打开命令行。
+创建了`start.vbs`脚本批量打开命令行。
 
-在树莓派上建立脚本文件，自动运行guaqi
+在树莓派上建立脚本文件`server.sh`，自动运行挂起服务，步骤如下：
+
+首先创建文件
+
+	vim server.sh
+
+然后输入树莓派自己的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDk0MTg4MzQsMTY4NDk5MjAxMSwtMT
-UyMjkxNTg1NywtMjU0NTQwOTI1LDExMzEwNDUxNTMsNzk0NTg3
-Mzg3LC0yMTYzOTU4NzMsLTEzMTk4NDQ3ODUsLTI3NjcxMDY5OC
-wxNDYzNjYzNjkzLDE0NjIwMjk0MzgsMTIxMjAxODQyNCwxOTM5
-NTMyODEwLDExNDcyMTYwMTQsLTEyMjU4MzMzMzcsMTAzOTkwMD
-Y5NSwtMTMzNTI3MzA0OSw3MjQ3MTk5MywtNTc2MzgyNDA4LC0x
-NzgxNjYwNjQ3XX0=
+eyJoaXN0b3J5IjpbNTg2MjkxNjE5LDE2ODQ5OTIwMTEsLTE1Mj
+I5MTU4NTcsLTI1NDU0MDkyNSwxMTMxMDQ1MTUzLDc5NDU4NzM4
+NywtMjE2Mzk1ODczLC0xMzE5ODQ0Nzg1LC0yNzY3MTA2OTgsMT
+Q2MzY2MzY5MywxNDYyMDI5NDM4LDEyMTIwMTg0MjQsMTkzOTUz
+MjgxMCwxMTQ3MjE2MDE0LC0xMjI1ODMzMzM3LDEwMzk5MDA2OT
+UsLTEzMzUyNzMwNDksNzI0NzE5OTMsLTU3NjM4MjQwOCwtMTc4
+MTY2MDY0N119
 -->
