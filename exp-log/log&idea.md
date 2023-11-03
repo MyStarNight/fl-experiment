@@ -97,12 +97,19 @@ H--testing-->I(accuracy)
 Windows运行指令如下：
 
 	python .\run_websocket_server.py --host '192.168.3.39' --port 9292 --id testing --testing
+
+## 2023-11-03 test
+树莓派命令简化
+
+创建了start.vbs脚本批量打开命令行。
+
+在树莓派上建立脚本文件，自动运行guaqi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzc3MDQzOCwxNjg0OTkyMDExLC0xNT
-IyOTE1ODU3LC0yNTQ1NDA5MjUsMTEzMTA0NTE1Myw3OTQ1ODcz
-ODcsLTIxNjM5NTg3MywtMTMxOTg0NDc4NSwtMjc2NzEwNjk4LD
-E0NjM2NjM2OTMsMTQ2MjAyOTQzOCwxMjEyMDE4NDI0LDE5Mzk1
-MzI4MTAsMTE0NzIxNjAxNCwtMTIyNTgzMzMzNywxMDM5OTAwNj
-k1LC0xMzM1MjczMDQ5LDcyNDcxOTkzLC01NzYzODI0MDgsLTE3
-ODE2NjA2NDddfQ==
+eyJoaXN0b3J5IjpbLTIxMDk0MTg4MzQsMTY4NDk5MjAxMSwtMT
+UyMjkxNTg1NywtMjU0NTQwOTI1LDExMzEwNDUxNTMsNzk0NTg3
+Mzg3LC0yMTYzOTU4NzMsLTEzMTk4NDQ3ODUsLTI3NjcxMDY5OC
+wxNDYzNjYzNjkzLDE0NjIwMjk0MzgsMTIxMjAxODQyNCwxOTM5
+NTMyODEwLDExNDcyMTYwMTQsLTEyMjU4MzMzMzcsMTAzOTkwMD
+Y5NSwtMTMzNTI3MzA0OSw3MjQ3MTk5MywtNTc2MzgyNDA4LC0x
+NzgxNjYwNjQ3XX0=
 -->
