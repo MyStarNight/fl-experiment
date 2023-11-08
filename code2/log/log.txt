@@ -1,0 +1,2382 @@
+E:\Miniconda\envs\fl3\python.exe "E:/Pycharm/PyCharm 2023.1.3/plugins/python/helpers/pydev/pydevconsole.py" --mode=client --host=127.0.0.1 --port=60978 
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['E:\\2023mem\\Python-PJ\\fl-experiment\\code2'])
+Python 3.7.16 (default, Jan 17 2023, 16:06:28) [MSC v.1916 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.31.1 -- An enhanced Interactive Python. Type '?' for help.
+PyDev console: using IPython 7.31.1
+Python 3.7.16 (default, Jan 17 2023, 16:06:28) [MSC v.1916 64 bit (AMD64)] on win32
+runfile('E:\\2023mem\\Python-PJ\\fl-experiment\\code2\\run_websocket_client.py', wdir='E:\\2023mem\\Python-PJ\\fl-experiment\\code2')
+2023-11-08 18:20:57,894 | Training round 1/100
+User-A Training start time: 2023-11-08 18:20:57.894841
+User-B Training start time: 2023-11-08 18:20:58.316053
+User-C Training start time: 2023-11-08 18:20:58.753230
+User-D Training start time: 2023-11-08 18:20:59.191820
+User-E Training start time: 2023-11-08 18:20:59.618294
+User-F Training start time: 2023-11-08 18:21:00.058410
+User-G Training start time: 2023-11-08 18:21:00.530169
+User-H Training start time: 2023-11-08 18:21:00.964029
+User-I Training start time: 2023-11-08 18:21:01.392620
+User-J Training start time: 2023-11-08 18:21:01.826392
+User-A Training end time: 2023-11-08 18:21:07.276807
+User-D Training end time: 2023-11-08 18:21:08.428851
+User-I Training end time: 2023-11-08 18:21:09.568216
+User-J Training end time: 2023-11-08 18:21:10.723926
+User-F Training end time: 2023-11-08 18:21:11.949536
+User-C Training end time: 2023-11-08 18:21:13.142580
+User-B Training end time: 2023-11-08 18:21:14.286925
+User-E Training end time: 2023-11-08 18:21:15.455274
+User-H Training end time: 2023-11-08 18:21:16.634270
+User-G Training end time: 2023-11-08 18:21:17.837045
+2023-11-08 18:21:17,837 | Evaluating models
+2023-11-08 18:21:19,989 | Model update A: Average loss: 0.0628, Accuracy: 980/10000 (9.80%)
+2023-11-08 18:21:22,096 | Model update B: Average loss: 0.1004, Accuracy: 1135/10000 (11.35%)
+2023-11-08 18:21:24,254 | Model update C: Average loss: 0.1137, Accuracy: 1032/10000 (10.32%)
+2023-11-08 18:21:26,461 | Model update D: Average loss: 0.0751, Accuracy: 1010/10000 (10.10%)
+2023-11-08 18:21:28,552 | Model update E: Average loss: 0.0736, Accuracy: 982/10000 (9.82%)
+2023-11-08 18:21:30,699 | Model update F: Average loss: 0.1275, Accuracy: 892/10000 (8.92%)
+2023-11-08 18:21:32,845 | Model update G: Average loss: 0.0722, Accuracy: 958/10000 (9.58%)
+2023-11-08 18:21:34,932 | Model update H: Average loss: 0.0945, Accuracy: 1028/10000 (10.28%)
+2023-11-08 18:21:37,090 | Model update I: Average loss: 0.0795, Accuracy: 974/10000 (9.74%)
+2023-11-08 18:21:39,173 | Model update J: Average loss: 0.0780, Accuracy: 1009/10000 (10.09%)
+2023-11-08 18:21:41,441 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:21:41,441 | Federated model: Average loss: 0.0177, Accuracy: 1617/10000 (16.17%)
+2023-11-08 18:21:41,441 | Training round 2/100
+User-A Training start time: 2023-11-08 18:21:41.441280
+User-B Training start time: 2023-11-08 18:21:41.874461
+User-C Training start time: 2023-11-08 18:21:42.344615
+User-D Training start time: 2023-11-08 18:21:42.831324
+User-E Training start time: 2023-11-08 18:21:43.276955
+User-F Training start time: 2023-11-08 18:21:43.724703
+User-G Training start time: 2023-11-08 18:21:44.222505
+User-H Training start time: 2023-11-08 18:21:44.674424
+User-I Training start time: 2023-11-08 18:21:45.144375
+User-J Training start time: 2023-11-08 18:21:45.630683
+User-A Training end time: 2023-11-08 18:21:51.146185
+User-I Training end time: 2023-11-08 18:21:52.281667
+User-H Training end time: 2023-11-08 18:21:53.416644
+User-J Training end time: 2023-11-08 18:21:54.545137
+User-C Training end time: 2023-11-08 18:21:55.724881
+User-F Training end time: 2023-11-08 18:21:56.922567
+User-E Training end time: 2023-11-08 18:21:58.061788
+User-B Training end time: 2023-11-08 18:21:59.251534
+User-D Training end time: 2023-11-08 18:22:00.441151
+User-G Training end time: 2023-11-08 18:22:01.631984
+User-A Training start time: 2023-11-08 18:22:01.640896
+2023-11-08 18:22:01,639 | Training round 3/100
+User-B Training start time: 2023-11-08 18:22:02.110722
+User-C Training start time: 2023-11-08 18:22:02.571855
+User-D Training start time: 2023-11-08 18:22:03.034704
+User-E Training start time: 2023-11-08 18:22:03.503389
+User-F Training start time: 2023-11-08 18:22:03.991358
+User-G Training start time: 2023-11-08 18:22:04.484729
+User-H Training start time: 2023-11-08 18:22:04.956792
+User-I Training start time: 2023-11-08 18:22:05.446477
+User-J Training start time: 2023-11-08 18:22:05.935312
+User-A Training end time: 2023-11-08 18:22:11.462821
+User-D Training end time: 2023-11-08 18:22:12.587397
+User-F Training end time: 2023-11-08 18:22:13.719640
+User-J Training end time: 2023-11-08 18:22:14.848253
+User-B Training end time: 2023-11-08 18:22:16.002328
+User-I Training end time: 2023-11-08 18:22:17.178586
+User-H Training end time: 2023-11-08 18:22:18.363652
+User-C Training end time: 2023-11-08 18:22:19.548183
+User-E Training end time: 2023-11-08 18:22:20.693908
+User-G Training end time: 2023-11-08 18:22:21.841561
+User-A Training start time: 2023-11-08 18:22:21.850562
+2023-11-08 18:22:21,850 | Training round 4/100
+User-B Training start time: 2023-11-08 18:22:22.325429
+User-C Training start time: 2023-11-08 18:22:22.792037
+User-D Training start time: 2023-11-08 18:22:23.245851
+User-E Training start time: 2023-11-08 18:22:23.750066
+User-F Training start time: 2023-11-08 18:22:24.212122
+User-G Training start time: 2023-11-08 18:22:24.667155
+User-H Training start time: 2023-11-08 18:22:25.141936
+User-I Training start time: 2023-11-08 18:22:25.626122
+User-J Training start time: 2023-11-08 18:22:26.077919
+User-A Training end time: 2023-11-08 18:22:31.560122
+User-F Training end time: 2023-11-08 18:22:32.710563
+User-C Training end time: 2023-11-08 18:22:33.881664
+User-B Training end time: 2023-11-08 18:22:35.039946
+User-D Training end time: 2023-11-08 18:22:36.231810
+User-J Training end time: 2023-11-08 18:22:37.390485
+User-H Training end time: 2023-11-08 18:22:38.568350
+User-E Training end time: 2023-11-08 18:22:39.773958
+User-I Training end time: 2023-11-08 18:22:40.952795
+User-G Training end time: 2023-11-08 18:22:42.132023
+User-A Training start time: 2023-11-08 18:22:42.139149
+2023-11-08 18:22:42,139 | Training round 5/100
+User-B Training start time: 2023-11-08 18:22:42.602993
+User-C Training start time: 2023-11-08 18:22:43.097138
+User-D Training start time: 2023-11-08 18:22:43.575676
+User-E Training start time: 2023-11-08 18:22:44.058531
+User-F Training start time: 2023-11-08 18:22:44.538748
+User-G Training start time: 2023-11-08 18:22:45.014307
+User-H Training start time: 2023-11-08 18:22:45.468685
+User-I Training start time: 2023-11-08 18:22:45.905240
+User-J Training start time: 2023-11-08 18:22:46.343216
+User-A Training end time: 2023-11-08 18:22:51.889506
+User-B Training end time: 2023-11-08 18:22:53.019331
+User-C Training end time: 2023-11-08 18:22:54.172397
+User-D Training end time: 2023-11-08 18:22:55.337983
+User-I Training end time: 2023-11-08 18:22:56.484669
+User-H Training end time: 2023-11-08 18:22:57.654596
+User-F Training end time: 2023-11-08 18:22:58.844535
+User-J Training end time: 2023-11-08 18:23:00.032105
+User-E Training end time: 2023-11-08 18:23:01.205874
+User-G Training end time: 2023-11-08 18:23:02.343677
+2023-11-08 18:23:02,345 | Evaluating models
+2023-11-08 18:23:04,483 | Model update A: Average loss: 0.2705, Accuracy: 980/10000 (9.80%)
+2023-11-08 18:23:06,713 | Model update B: Average loss: 0.1723, Accuracy: 1135/10000 (11.35%)
+2023-11-08 18:23:08,834 | Model update C: Average loss: 0.1834, Accuracy: 1032/10000 (10.32%)
+2023-11-08 18:23:10,892 | Model update D: Average loss: 0.1972, Accuracy: 1010/10000 (10.10%)
+2023-11-08 18:23:12,961 | Model update E: Average loss: 0.1302, Accuracy: 982/10000 (9.82%)
+2023-11-08 18:23:15,112 | Model update F: Average loss: 0.1887, Accuracy: 892/10000 (8.92%)
+2023-11-08 18:23:17,359 | Model update G: Average loss: 0.2655, Accuracy: 958/10000 (9.58%)
+2023-11-08 18:23:19,633 | Model update H: Average loss: 0.1535, Accuracy: 1028/10000 (10.28%)
+2023-11-08 18:23:21,781 | Model update I: Average loss: 0.3060, Accuracy: 974/10000 (9.74%)
+2023-11-08 18:23:24,032 | Model update J: Average loss: 0.1373, Accuracy: 1009/10000 (10.09%)
+2023-11-08 18:23:26,243 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:23:26,243 | Federated model: Average loss: 0.0168, Accuracy: 5364/10000 (53.64%)
+2023-11-08 18:23:26,244 | Training round 6/100
+User-A Training start time: 2023-11-08 18:23:26.244567
+User-B Training start time: 2023-11-08 18:23:26.707449
+User-C Training start time: 2023-11-08 18:23:27.169277
+User-D Training start time: 2023-11-08 18:23:27.607209
+User-E Training start time: 2023-11-08 18:23:28.080948
+User-F Training start time: 2023-11-08 18:23:28.565082
+User-G Training start time: 2023-11-08 18:23:29.046751
+User-H Training start time: 2023-11-08 18:23:29.509549
+User-I Training start time: 2023-11-08 18:23:29.975380
+User-J Training start time: 2023-11-08 18:23:30.438845
+User-A Training end time: 2023-11-08 18:23:35.960495
+User-F Training end time: 2023-11-08 18:23:37.088738
+User-I Training end time: 2023-11-08 18:23:38.218671
+User-C Training end time: 2023-11-08 18:23:39.370123
+User-E Training end time: 2023-11-08 18:23:40.556833
+User-B Training end time: 2023-11-08 18:23:41.695605
+User-J Training end time: 2023-11-08 18:23:42.907921
+User-H Training end time: 2023-11-08 18:23:44.109479
+User-D Training end time: 2023-11-08 18:23:45.288776
+User-G Training end time: 2023-11-08 18:23:46.439066
+User-A Training start time: 2023-11-08 18:23:46.446989
+2023-11-08 18:23:46,446 | Training round 7/100
+User-B Training start time: 2023-11-08 18:23:46.930020
+User-C Training start time: 2023-11-08 18:23:47.410653
+User-D Training start time: 2023-11-08 18:23:47.887727
+User-E Training start time: 2023-11-08 18:23:48.369798
+User-F Training start time: 2023-11-08 18:23:48.853146
+User-G Training start time: 2023-11-08 18:23:49.335209
+User-H Training start time: 2023-11-08 18:23:49.791120
+User-I Training start time: 2023-11-08 18:23:50.233145
+User-J Training start time: 2023-11-08 18:23:50.720175
+User-A Training end time: 2023-11-08 18:23:56.188429
+User-I Training end time: 2023-11-08 18:23:57.327817
+User-D Training end time: 2023-11-08 18:23:58.476126
+User-E Training end time: 2023-11-08 18:23:59.612970
+User-F Training end time: 2023-11-08 18:24:00.793784
+User-J Training end time: 2023-11-08 18:24:01.948029
+User-C Training end time: 2023-11-08 18:24:03.088911
+User-H Training end time: 2023-11-08 18:24:04.288699
+User-B Training end time: 2023-11-08 18:24:05.484135
+User-G Training end time: 2023-11-08 18:24:06.621296
+User-A Training start time: 2023-11-08 18:24:06.628219
+2023-11-08 18:24:06,628 | Training round 8/100
+User-B Training start time: 2023-11-08 18:24:07.045673
+User-C Training start time: 2023-11-08 18:24:07.504999
+User-D Training start time: 2023-11-08 18:24:07.988778
+User-E Training start time: 2023-11-08 18:24:08.454509
+User-F Training start time: 2023-11-08 18:24:08.919415
+User-G Training start time: 2023-11-08 18:24:09.355134
+User-H Training start time: 2023-11-08 18:24:09.823556
+User-I Training start time: 2023-11-08 18:24:10.277184
+User-J Training start time: 2023-11-08 18:24:10.715988
+User-A Training end time: 2023-11-08 18:24:16.238255
+User-C Training end time: 2023-11-08 18:24:17.374503
+User-J Training end time: 2023-11-08 18:24:18.502862
+User-I Training end time: 2023-11-08 18:24:19.639990
+User-E Training end time: 2023-11-08 18:24:20.796676
+User-F Training end time: 2023-11-08 18:24:21.972892
+User-D Training end time: 2023-11-08 18:24:23.157946
+User-B Training end time: 2023-11-08 18:24:24.351452
+User-H Training end time: 2023-11-08 18:24:25.540912
+User-G Training end time: 2023-11-08 18:24:26.731154
+User-A Training start time: 2023-11-08 18:24:26.738075
+2023-11-08 18:24:26,738 | Training round 9/100
+User-B Training start time: 2023-11-08 18:24:27.172891
+User-C Training start time: 2023-11-08 18:24:27.641507
+User-D Training start time: 2023-11-08 18:24:28.084094
+User-E Training start time: 2023-11-08 18:24:28.572962
+User-F Training start time: 2023-11-08 18:24:29.053213
+User-G Training start time: 2023-11-08 18:24:29.494023
+User-H Training start time: 2023-11-08 18:24:29.946580
+User-I Training start time: 2023-11-08 18:24:30.420179
+User-J Training start time: 2023-11-08 18:24:30.869045
+User-A Training end time: 2023-11-08 18:24:36.369485
+User-H Training end time: 2023-11-08 18:24:37.513838
+User-D Training end time: 2023-11-08 18:24:38.652506
+User-B Training end time: 2023-11-08 18:24:39.795339
+User-E Training end time: 2023-11-08 18:24:40.987337
+User-C Training end time: 2023-11-08 18:24:42.175645
+User-I Training end time: 2023-11-08 18:24:43.371090
+User-F Training end time: 2023-11-08 18:24:44.571229
+User-J Training end time: 2023-11-08 18:24:45.773562
+User-G Training end time: 2023-11-08 18:24:46.938540
+User-A Training start time: 2023-11-08 18:24:46.947983
+2023-11-08 18:24:46,947 | Training round 10/100
+User-B Training start time: 2023-11-08 18:24:47.392372
+User-C Training start time: 2023-11-08 18:24:47.817222
+User-D Training start time: 2023-11-08 18:24:48.283538
+User-E Training start time: 2023-11-08 18:24:48.753087
+User-F Training start time: 2023-11-08 18:24:49.201311
+User-G Training start time: 2023-11-08 18:24:49.655139
+User-H Training start time: 2023-11-08 18:24:50.139301
+User-I Training start time: 2023-11-08 18:24:50.632180
+User-J Training start time: 2023-11-08 18:24:51.100670
+User-A Training end time: 2023-11-08 18:24:56.574867
+User-E Training end time: 2023-11-08 18:24:57.701443
+User-H Training end time: 2023-11-08 18:24:58.838340
+User-J Training end time: 2023-11-08 18:24:59.977714
+User-D Training end time: 2023-11-08 18:25:01.181073
+User-F Training end time: 2023-11-08 18:25:02.380739
+User-I Training end time: 2023-11-08 18:25:03.589492
+User-B Training end time: 2023-11-08 18:25:04.783163
+User-C Training end time: 2023-11-08 18:25:06.015192
+User-G Training end time: 2023-11-08 18:25:07.201470
+2023-11-08 18:25:07,202 | Evaluating models
+2023-11-08 18:25:09,308 | Model update A: Average loss: 0.1747, Accuracy: 980/10000 (9.80%)
+2023-11-08 18:25:11,494 | Model update B: Average loss: 0.1421, Accuracy: 1135/10000 (11.35%)
+2023-11-08 18:25:13,806 | Model update C: Average loss: 0.1948, Accuracy: 1032/10000 (10.32%)
+2023-11-08 18:25:15,939 | Model update D: Average loss: 0.2229, Accuracy: 1010/10000 (10.10%)
+2023-11-08 18:25:18,234 | Model update E: Average loss: 0.1834, Accuracy: 982/10000 (9.82%)
+2023-11-08 18:25:20,462 | Model update F: Average loss: 0.1502, Accuracy: 892/10000 (8.92%)
+2023-11-08 18:25:22,819 | Model update G: Average loss: 0.1936, Accuracy: 958/10000 (9.58%)
+2023-11-08 18:25:24,998 | Model update H: Average loss: 0.1709, Accuracy: 1028/10000 (10.28%)
+2023-11-08 18:25:27,256 | Model update I: Average loss: 0.2380, Accuracy: 974/10000 (9.74%)
+2023-11-08 18:25:29,648 | Model update J: Average loss: 0.2050, Accuracy: 1009/10000 (10.09%)
+2023-11-08 18:25:31,858 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:25:31,858 | Federated model: Average loss: 0.0114, Accuracy: 5776/10000 (57.76%)
+2023-11-08 18:25:31,858 | Training round 11/100
+User-A Training start time: 2023-11-08 18:25:31.858577
+User-B Training start time: 2023-11-08 18:25:32.307589
+User-C Training start time: 2023-11-08 18:25:32.773937
+User-D Training start time: 2023-11-08 18:25:33.208309
+User-E Training start time: 2023-11-08 18:25:33.683503
+User-F Training start time: 2023-11-08 18:25:34.177624
+User-G Training start time: 2023-11-08 18:25:34.655167
+User-H Training start time: 2023-11-08 18:25:35.103079
+User-I Training start time: 2023-11-08 18:25:35.557141
+User-J Training start time: 2023-11-08 18:25:36.028218
+User-A Training end time: 2023-11-08 18:25:41.570261
+User-J Training end time: 2023-11-08 18:25:42.675711
+User-F Training end time: 2023-11-08 18:25:43.793038
+User-B Training end time: 2023-11-08 18:25:44.904328
+User-H Training end time: 2023-11-08 18:25:46.011781
+User-I Training end time: 2023-11-08 18:25:47.177827
+User-C Training end time: 2023-11-08 18:25:48.298899
+User-D Training end time: 2023-11-08 18:25:49.448113
+User-E Training end time: 2023-11-08 18:25:50.558321
+User-G Training end time: 2023-11-08 18:25:51.727457
+User-A Training start time: 2023-11-08 18:25:51.735381
+2023-11-08 18:25:51,735 | Training round 12/100
+User-B Training start time: 2023-11-08 18:25:52.184906
+User-C Training start time: 2023-11-08 18:25:52.658311
+User-D Training start time: 2023-11-08 18:25:53.141072
+User-E Training start time: 2023-11-08 18:25:53.625189
+User-F Training start time: 2023-11-08 18:25:54.058931
+User-G Training start time: 2023-11-08 18:25:54.502335
+User-H Training start time: 2023-11-08 18:25:54.984388
+User-I Training start time: 2023-11-08 18:25:55.466478
+User-J Training start time: 2023-11-08 18:25:55.938068
+User-A Training end time: 2023-11-08 18:26:01.454107
+User-B Training end time: 2023-11-08 18:26:02.588155
+User-F Training end time: 2023-11-08 18:26:03.734175
+User-I Training end time: 2023-11-08 18:26:04.878457
+User-E Training end time: 2023-11-08 18:26:06.029399
+User-D Training end time: 2023-11-08 18:26:07.221005
+User-C Training end time: 2023-11-08 18:26:08.396843
+User-H Training end time: 2023-11-08 18:26:09.615943
+User-J Training end time: 2023-11-08 18:26:10.809969
+User-G Training end time: 2023-11-08 18:26:11.951058
+User-A Training start time: 2023-11-08 18:26:11.960982
+2023-11-08 18:26:11,960 | Training round 13/100
+User-B Training start time: 2023-11-08 18:26:12.381414
+User-C Training start time: 2023-11-08 18:26:12.842207
+User-D Training start time: 2023-11-08 18:26:13.302624
+User-E Training start time: 2023-11-08 18:26:13.783727
+User-F Training start time: 2023-11-08 18:26:14.232495
+User-G Training start time: 2023-11-08 18:26:14.719544
+User-H Training start time: 2023-11-08 18:26:15.183202
+User-I Training start time: 2023-11-08 18:26:15.616329
+User-J Training start time: 2023-11-08 18:26:16.105830
+User-A Training end time: 2023-11-08 18:26:21.666014
+User-I Training end time: 2023-11-08 18:26:22.807677
+User-C Training end time: 2023-11-08 18:26:23.959274
+User-H Training end time: 2023-11-08 18:26:25.098016
+User-D Training end time: 2023-11-08 18:26:26.280565
+User-B Training end time: 2023-11-08 18:26:27.414934
+User-F Training end time: 2023-11-08 18:26:28.593427
+User-E Training end time: 2023-11-08 18:26:29.739381
+User-J Training end time: 2023-11-08 18:26:30.931273
+User-G Training end time: 2023-11-08 18:26:32.129901
+User-A Training start time: 2023-11-08 18:26:32.137896
+2023-11-08 18:26:32,136 | Training round 14/100
+User-B Training start time: 2023-11-08 18:26:32.569208
+User-C Training start time: 2023-11-08 18:26:33.029373
+User-D Training start time: 2023-11-08 18:26:33.502889
+User-E Training start time: 2023-11-08 18:26:33.953458
+User-F Training start time: 2023-11-08 18:26:34.416398
+User-G Training start time: 2023-11-08 18:26:34.883304
+User-H Training start time: 2023-11-08 18:26:35.355145
+User-I Training start time: 2023-11-08 18:26:35.822958
+User-J Training start time: 2023-11-08 18:26:36.272332
+User-A Training end time: 2023-11-08 18:26:41.805394
+User-J Training end time: 2023-11-08 18:26:42.951834
+User-I Training end time: 2023-11-08 18:26:44.102852
+User-H Training end time: 2023-11-08 18:26:45.239528
+User-F Training end time: 2023-11-08 18:26:46.423814
+User-C Training end time: 2023-11-08 18:26:47.583906
+User-D Training end time: 2023-11-08 18:26:48.766694
+User-B Training end time: 2023-11-08 18:26:49.964748
+User-E Training end time: 2023-11-08 18:26:51.136762
+User-G Training end time: 2023-11-08 18:26:52.311284
+2023-11-08 18:26:52,322 | Training round 15/100
+User-A Training start time: 2023-11-08 18:26:52.322285
+User-B Training start time: 2023-11-08 18:26:52.787541
+User-C Training start time: 2023-11-08 18:26:53.265333
+User-D Training start time: 2023-11-08 18:26:53.734248
+User-E Training start time: 2023-11-08 18:26:54.234558
+User-F Training start time: 2023-11-08 18:26:54.747837
+User-G Training start time: 2023-11-08 18:26:55.204472
+User-H Training start time: 2023-11-08 18:26:55.687119
+User-I Training start time: 2023-11-08 18:26:56.146282
+User-J Training start time: 2023-11-08 18:26:56.589290
+User-A Training end time: 2023-11-08 18:27:02.060809
+User-F Training end time: 2023-11-08 18:27:03.184802
+User-E Training end time: 2023-11-08 18:27:04.324996
+User-B Training end time: 2023-11-08 18:27:05.459449
+User-C Training end time: 2023-11-08 18:27:06.587511
+User-D Training end time: 2023-11-08 18:27:07.801760
+User-H Training end time: 2023-11-08 18:27:09.002803
+User-I Training end time: 2023-11-08 18:27:10.217425
+User-G Training end time: 2023-11-08 18:27:11.356343
+User-J Training end time: 2023-11-08 18:27:12.570187
+2023-11-08 18:27:12,571 | Evaluating models
+2023-11-08 18:27:14,667 | Model update A: Average loss: 0.1069, Accuracy: 980/10000 (9.80%)
+2023-11-08 18:27:16,960 | Model update B: Average loss: 0.1030, Accuracy: 1160/10000 (11.60%)
+2023-11-08 18:27:19,129 | Model update C: Average loss: 0.1385, Accuracy: 1032/10000 (10.32%)
+2023-11-08 18:27:21,276 | Model update D: Average loss: 0.1706, Accuracy: 1010/10000 (10.10%)
+2023-11-08 18:27:23,562 | Model update E: Average loss: 0.1295, Accuracy: 982/10000 (9.82%)
+2023-11-08 18:27:25,668 | Model update F: Average loss: 0.1479, Accuracy: 892/10000 (8.92%)
+2023-11-08 18:27:28,007 | Model update G: Average loss: 0.1434, Accuracy: 958/10000 (9.58%)
+2023-11-08 18:27:30,290 | Model update H: Average loss: 0.1352, Accuracy: 1028/10000 (10.28%)
+2023-11-08 18:27:32,557 | Model update I: Average loss: 0.2023, Accuracy: 974/10000 (9.74%)
+2023-11-08 18:27:34,839 | Model update J: Average loss: 0.1374, Accuracy: 1009/10000 (10.09%)
+2023-11-08 18:27:37,275 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:27:37,275 | Federated model: Average loss: 0.0079, Accuracy: 6980/10000 (69.80%)
+2023-11-08 18:27:37,276 | Training round 16/100
+User-A Training start time: 2023-11-08 18:27:37.276047
+User-B Training start time: 2023-11-08 18:27:37.724164
+User-C Training start time: 2023-11-08 18:27:38.199842
+User-D Training start time: 2023-11-08 18:27:38.667170
+User-E Training start time: 2023-11-08 18:27:39.120887
+User-F Training start time: 2023-11-08 18:27:39.593872
+User-G Training start time: 2023-11-08 18:27:40.070869
+User-H Training start time: 2023-11-08 18:27:40.514171
+User-I Training start time: 2023-11-08 18:27:40.971007
+User-J Training start time: 2023-11-08 18:27:41.419245
+User-A Training end time: 2023-11-08 18:27:46.913870
+User-I Training end time: 2023-11-08 18:27:48.048598
+User-B Training end time: 2023-11-08 18:27:49.159543
+User-H Training end time: 2023-11-08 18:27:50.275840
+User-D Training end time: 2023-11-08 18:27:51.441002
+User-E Training end time: 2023-11-08 18:27:52.565088
+User-F Training end time: 2023-11-08 18:27:53.761354
+User-J Training end time: 2023-11-08 18:27:54.938800
+User-C Training end time: 2023-11-08 18:27:56.136840
+User-G Training end time: 2023-11-08 18:27:57.290410
+User-A Training start time: 2023-11-08 18:27:57.299411
+2023-11-08 18:27:57,299 | Training round 17/100
+User-B Training start time: 2023-11-08 18:27:57.750113
+User-C Training start time: 2023-11-08 18:27:58.227913
+User-D Training start time: 2023-11-08 18:27:58.711968
+User-E Training start time: 2023-11-08 18:27:59.179215
+User-F Training start time: 2023-11-08 18:27:59.648241
+User-G Training start time: 2023-11-08 18:28:00.101235
+User-H Training start time: 2023-11-08 18:28:00.571546
+User-I Training start time: 2023-11-08 18:28:01.013735
+User-J Training start time: 2023-11-08 18:28:01.484772
+User-A Training end time: 2023-11-08 18:28:06.919110
+User-B Training end time: 2023-11-08 18:28:08.054936
+User-D Training end time: 2023-11-08 18:28:09.200172
+User-J Training end time: 2023-11-08 18:28:10.320017
+User-F Training end time: 2023-11-08 18:28:11.520230
+User-I Training end time: 2023-11-08 18:28:12.729959
+User-C Training end time: 2023-11-08 18:28:13.921041
+User-H Training end time: 2023-11-08 18:28:15.129804
+User-E Training end time: 2023-11-08 18:28:16.304965
+User-G Training end time: 2023-11-08 18:28:17.439267
+User-A Training start time: 2023-11-08 18:28:17.448186
+2023-11-08 18:28:17,448 | Training round 18/100
+User-B Training start time: 2023-11-08 18:28:17.911747
+User-C Training start time: 2023-11-08 18:28:18.369813
+User-D Training start time: 2023-11-08 18:28:18.838998
+User-E Training start time: 2023-11-08 18:28:19.309109
+User-F Training start time: 2023-11-08 18:28:19.805411
+User-G Training start time: 2023-11-08 18:28:20.251608
+User-H Training start time: 2023-11-08 18:28:20.727555
+User-I Training start time: 2023-11-08 18:28:21.168700
+User-J Training start time: 2023-11-08 18:28:21.659936
+User-A Training end time: 2023-11-08 18:28:27.165641
+User-F Training end time: 2023-11-08 18:28:28.296091
+User-H Training end time: 2023-11-08 18:28:29.425219
+User-I Training end time: 2023-11-08 18:28:30.572994
+User-E Training end time: 2023-11-08 18:28:31.719461
+User-B Training end time: 2023-11-08 18:28:32.859396
+User-C Training end time: 2023-11-08 18:28:34.006987
+User-D Training end time: 2023-11-08 18:28:35.195002
+User-J Training end time: 2023-11-08 18:28:36.389938
+User-G Training end time: 2023-11-08 18:28:37.564540
+User-A Training start time: 2023-11-08 18:28:37.572540
+2023-11-08 18:28:37,572 | Training round 19/100
+User-B Training start time: 2023-11-08 18:28:37.998228
+User-C Training start time: 2023-11-08 18:28:38.440697
+User-D Training start time: 2023-11-08 18:28:38.923896
+User-E Training start time: 2023-11-08 18:28:39.357343
+User-F Training start time: 2023-11-08 18:28:39.840609
+User-G Training start time: 2023-11-08 18:28:40.277249
+User-H Training start time: 2023-11-08 18:28:40.741168
+User-I Training start time: 2023-11-08 18:28:41.211745
+User-J Training start time: 2023-11-08 18:28:41.693918
+User-A Training end time: 2023-11-08 18:28:47.264124
+User-H Training end time: 2023-11-08 18:28:48.407327
+User-B Training end time: 2023-11-08 18:28:49.543599
+User-D Training end time: 2023-11-08 18:28:50.724448
+User-E Training end time: 2023-11-08 18:28:51.932112
+User-C Training end time: 2023-11-08 18:28:53.121034
+User-I Training end time: 2023-11-08 18:28:54.317420
+User-J Training end time: 2023-11-08 18:28:55.516411
+User-F Training end time: 2023-11-08 18:28:56.692181
+User-G Training end time: 2023-11-08 18:28:57.833952
+User-A Training start time: 2023-11-08 18:28:57.841873
+2023-11-08 18:28:57,841 | Training round 20/100
+User-B Training start time: 2023-11-08 18:28:58.268798
+User-C Training start time: 2023-11-08 18:28:58.752266
+User-D Training start time: 2023-11-08 18:28:59.206680
+User-E Training start time: 2023-11-08 18:28:59.697932
+User-F Training start time: 2023-11-08 18:29:00.160479
+User-G Training start time: 2023-11-08 18:29:00.646598
+User-H Training start time: 2023-11-08 18:29:01.123581
+User-I Training start time: 2023-11-08 18:29:01.593161
+User-J Training start time: 2023-11-08 18:29:02.045818
+User-A Training end time: 2023-11-08 18:29:07.577934
+User-B Training end time: 2023-11-08 18:29:08.709426
+User-D Training end time: 2023-11-08 18:29:09.854350
+User-C Training end time: 2023-11-08 18:29:11.002622
+User-E Training end time: 2023-11-08 18:29:12.182934
+User-F Training end time: 2023-11-08 18:29:13.324427
+User-H Training end time: 2023-11-08 18:29:14.524774
+User-I Training end time: 2023-11-08 18:29:15.728722
+User-J Training end time: 2023-11-08 18:29:16.924255
+User-G Training end time: 2023-11-08 18:29:18.089626
+2023-11-08 18:29:18,091 | Evaluating models
+2023-11-08 18:29:20,379 | Model update A: Average loss: 0.0487, Accuracy: 1770/10000 (17.70%)
+2023-11-08 18:29:22,677 | Model update B: Average loss: 0.0422, Accuracy: 1972/10000 (19.72%)
+2023-11-08 18:29:24,837 | Model update C: Average loss: 0.0488, Accuracy: 1032/10000 (10.32%)
+2023-11-08 18:29:27,124 | Model update D: Average loss: 0.0589, Accuracy: 1010/10000 (10.10%)
+2023-11-08 18:29:29,482 | Model update E: Average loss: 0.0647, Accuracy: 983/10000 (9.83%)
+2023-11-08 18:29:31,824 | Model update F: Average loss: 0.0821, Accuracy: 892/10000 (8.92%)
+2023-11-08 18:29:34,185 | Model update G: Average loss: 0.0687, Accuracy: 958/10000 (9.58%)
+2023-11-08 18:29:36,465 | Model update H: Average loss: 0.0546, Accuracy: 1028/10000 (10.28%)
+2023-11-08 18:29:38,665 | Model update I: Average loss: 0.0929, Accuracy: 974/10000 (9.74%)
+2023-11-08 18:29:41,040 | Model update J: Average loss: 0.0617, Accuracy: 1009/10000 (10.09%)
+2023-11-08 18:29:43,383 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:29:43,383 | Federated model: Average loss: 0.0065, Accuracy: 7864/10000 (78.64%)
+2023-11-08 18:29:43,383 | Training round 21/100
+User-A Training start time: 2023-11-08 18:29:43.383109
+User-B Training start time: 2023-11-08 18:29:43.814729
+User-C Training start time: 2023-11-08 18:29:44.267171
+User-D Training start time: 2023-11-08 18:29:44.750683
+User-E Training start time: 2023-11-08 18:29:45.228330
+User-F Training start time: 2023-11-08 18:29:45.701182
+User-G Training start time: 2023-11-08 18:29:46.183571
+User-H Training start time: 2023-11-08 18:29:46.648727
+User-I Training start time: 2023-11-08 18:29:47.145803
+User-J Training start time: 2023-11-08 18:29:47.620230
+User-A Training end time: 2023-11-08 18:29:53.137864
+User-E Training end time: 2023-11-08 18:29:54.279388
+User-D Training end time: 2023-11-08 18:29:55.423431
+User-B Training end time: 2023-11-08 18:29:56.572126
+User-J Training end time: 2023-11-08 18:29:57.727516
+User-C Training end time: 2023-11-08 18:29:58.870347
+User-F Training end time: 2023-11-08 18:30:00.069708
+User-I Training end time: 2023-11-08 18:30:01.255067
+User-H Training end time: 2023-11-08 18:30:02.449081
+User-G Training end time: 2023-11-08 18:30:03.628899
+User-A Training start time: 2023-11-08 18:30:03.636899
+2023-11-08 18:30:03,636 | Training round 22/100
+User-B Training start time: 2023-11-08 18:30:04.097037
+User-C Training start time: 2023-11-08 18:30:04.588852
+User-D Training start time: 2023-11-08 18:30:05.069362
+User-E Training start time: 2023-11-08 18:30:05.529327
+User-F Training start time: 2023-11-08 18:30:06.009781
+User-G Training start time: 2023-11-08 18:30:06.475151
+User-H Training start time: 2023-11-08 18:30:06.919450
+User-I Training start time: 2023-11-08 18:30:07.399579
+User-J Training start time: 2023-11-08 18:30:07.888296
+User-A Training end time: 2023-11-08 18:30:13.392612
+User-J Training end time: 2023-11-08 18:30:14.557760
+User-H Training end time: 2023-11-08 18:30:15.702065
+User-E Training end time: 2023-11-08 18:30:16.835918
+User-B Training end time: 2023-11-08 18:30:17.977604
+User-D Training end time: 2023-11-08 18:30:19.158467
+User-C Training end time: 2023-11-08 18:30:20.305489
+User-F Training end time: 2023-11-08 18:30:21.497393
+User-I Training end time: 2023-11-08 18:30:22.681098
+User-G Training end time: 2023-11-08 18:30:23.819784
+User-A Training start time: 2023-11-08 18:30:23.830290
+2023-11-08 18:30:23,830 | Training round 23/100
+User-B Training start time: 2023-11-08 18:30:24.293482
+User-C Training start time: 2023-11-08 18:30:24.753037
+User-D Training start time: 2023-11-08 18:30:25.233526
+User-E Training start time: 2023-11-08 18:30:25.707596
+User-F Training start time: 2023-11-08 18:30:26.175054
+User-G Training start time: 2023-11-08 18:30:26.653070
+User-H Training start time: 2023-11-08 18:30:27.115650
+User-I Training start time: 2023-11-08 18:30:27.599036
+User-J Training start time: 2023-11-08 18:30:28.051215
+User-A Training end time: 2023-11-08 18:30:33.568647
+User-B Training end time: 2023-11-08 18:30:34.714214
+User-I Training end time: 2023-11-08 18:30:35.855422
+User-E Training end time: 2023-11-08 18:30:37.042908
+User-H Training end time: 2023-11-08 18:30:38.174962
+User-J Training end time: 2023-11-08 18:30:39.311109
+User-D Training end time: 2023-11-08 18:30:40.467601
+User-C Training end time: 2023-11-08 18:30:41.653430
+User-F Training end time: 2023-11-08 18:30:42.845264
+User-G Training end time: 2023-11-08 18:30:44.025920
+User-A Training start time: 2023-11-08 18:30:44.034921
+2023-11-08 18:30:44,033 | Training round 24/100
+User-B Training start time: 2023-11-08 18:30:44.503187
+User-C Training start time: 2023-11-08 18:30:44.974794
+User-D Training start time: 2023-11-08 18:30:45.474765
+User-E Training start time: 2023-11-08 18:30:45.969289
+User-F Training start time: 2023-11-08 18:30:46.446324
+User-G Training start time: 2023-11-08 18:30:46.946411
+User-H Training start time: 2023-11-08 18:30:47.399661
+User-I Training start time: 2023-11-08 18:30:47.880418
+User-J Training start time: 2023-11-08 18:30:48.366279
+User-A Training end time: 2023-11-08 18:30:53.869699
+User-I Training end time: 2023-11-08 18:30:55.022996
+User-C Training end time: 2023-11-08 18:30:56.162743
+User-F Training end time: 2023-11-08 18:30:57.312313
+User-B Training end time: 2023-11-08 18:30:58.460446
+User-J Training end time: 2023-11-08 18:30:59.625236
+User-E Training end time: 2023-11-08 18:31:00.757430
+User-D Training end time: 2023-11-08 18:31:01.967900
+User-H Training end time: 2023-11-08 18:31:03.163303
+User-G Training end time: 2023-11-08 18:31:04.320753
+2023-11-08 18:31:04,331 | Training round 25/100
+User-A Training start time: 2023-11-08 18:31:04.332050
+User-B Training start time: 2023-11-08 18:31:04.760975
+User-C Training start time: 2023-11-08 18:31:05.252149
+User-D Training start time: 2023-11-08 18:31:05.728323
+User-E Training start time: 2023-11-08 18:31:06.223594
+User-F Training start time: 2023-11-08 18:31:06.682538
+User-G Training start time: 2023-11-08 18:31:07.129045
+User-H Training start time: 2023-11-08 18:31:07.591688
+User-I Training start time: 2023-11-08 18:31:08.058656
+User-J Training start time: 2023-11-08 18:31:08.549608
+User-A Training end time: 2023-11-08 18:31:14.051537
+User-B Training end time: 2023-11-08 18:31:15.185775
+User-D Training end time: 2023-11-08 18:31:16.334055
+User-H Training end time: 2023-11-08 18:31:17.489235
+User-E Training end time: 2023-11-08 18:31:18.667569
+User-J Training end time: 2023-11-08 18:31:19.817280
+User-I Training end time: 2023-11-08 18:31:21.022454
+User-F Training end time: 2023-11-08 18:31:22.222394
+User-C Training end time: 2023-11-08 18:31:23.406511
+User-G Training end time: 2023-11-08 18:31:24.583432
+2023-11-08 18:31:24,584 | Evaluating models
+2023-11-08 18:31:26,883 | Model update A: Average loss: 0.0212, Accuracy: 3979/10000 (39.79%)
+2023-11-08 18:31:29,176 | Model update B: Average loss: 0.0254, Accuracy: 3751/10000 (37.51%)
+2023-11-08 18:31:31,449 | Model update C: Average loss: 0.0960, Accuracy: 1032/10000 (10.32%)
+2023-11-08 18:31:33,749 | Model update D: Average loss: 0.1082, Accuracy: 1010/10000 (10.10%)
+2023-11-08 18:31:36,066 | Model update E: Average loss: 0.0586, Accuracy: 1283/10000 (12.83%)
+2023-11-08 18:31:38,560 | Model update F: Average loss: 0.1167, Accuracy: 892/10000 (8.92%)
+2023-11-08 18:31:40,897 | Model update G: Average loss: 0.1154, Accuracy: 958/10000 (9.58%)
+2023-11-08 18:31:43,197 | Model update H: Average loss: 0.0551, Accuracy: 1104/10000 (11.04%)
+2023-11-08 18:31:45,625 | Model update I: Average loss: 0.1549, Accuracy: 974/10000 (9.74%)
+2023-11-08 18:31:47,855 | Model update J: Average loss: 0.2064, Accuracy: 1009/10000 (10.09%)
+2023-11-08 18:31:50,211 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:31:50,211 | Federated model: Average loss: 0.0065, Accuracy: 7813/10000 (78.13%)
+2023-11-08 18:31:50,211 | Training round 26/100
+User-A Training start time: 2023-11-08 18:31:50.211984
+User-B Training start time: 2023-11-08 18:31:50.662371
+User-C Training start time: 2023-11-08 18:31:51.108875
+User-D Training start time: 2023-11-08 18:31:51.586393
+User-E Training start time: 2023-11-08 18:31:52.075436
+User-F Training start time: 2023-11-08 18:31:52.547330
+User-G Training start time: 2023-11-08 18:31:53.039416
+User-H Training start time: 2023-11-08 18:31:53.504082
+User-I Training start time: 2023-11-08 18:31:53.983711
+User-J Training start time: 2023-11-08 18:31:54.446780
+User-A Training end time: 2023-11-08 18:31:59.955949
+User-I Training end time: 2023-11-08 18:32:01.102523
+User-C Training end time: 2023-11-08 18:32:02.251037
+User-J Training end time: 2023-11-08 18:32:03.414758
+User-E Training end time: 2023-11-08 18:32:04.540521
+User-B Training end time: 2023-11-08 18:32:05.688986
+User-H Training end time: 2023-11-08 18:32:06.892697
+User-D Training end time: 2023-11-08 18:32:08.103608
+User-F Training end time: 2023-11-08 18:32:09.289757
+User-G Training end time: 2023-11-08 18:32:10.474174
+User-A Training start time: 2023-11-08 18:32:10.481101
+2023-11-08 18:32:10,481 | Training round 27/100
+User-B Training start time: 2023-11-08 18:32:10.929139
+User-C Training start time: 2023-11-08 18:32:11.410774
+User-D Training start time: 2023-11-08 18:32:11.850305
+User-E Training start time: 2023-11-08 18:32:12.315193
+User-F Training start time: 2023-11-08 18:32:12.807049
+User-G Training start time: 2023-11-08 18:32:13.340333
+User-H Training start time: 2023-11-08 18:32:13.814287
+User-I Training start time: 2023-11-08 18:32:14.282180
+User-J Training start time: 2023-11-08 18:32:14.733097
+User-A Training end time: 2023-11-08 18:32:20.175914
+User-C Training end time: 2023-11-08 18:32:21.296962
+User-J Training end time: 2023-11-08 18:32:22.420381
+User-F Training end time: 2023-11-08 18:32:23.562432
+User-B Training end time: 2023-11-08 18:32:24.711724
+User-H Training end time: 2023-11-08 18:32:25.905870
+User-E Training end time: 2023-11-08 18:32:27.087659
+User-D Training end time: 2023-11-08 18:32:28.287172
+User-I Training end time: 2023-11-08 18:32:29.471161
+User-G Training end time: 2023-11-08 18:32:30.596291
+User-A Training start time: 2023-11-08 18:32:30.606211
+2023-11-08 18:32:30,605 | Training round 28/100
+User-B Training start time: 2023-11-08 18:32:31.028453
+User-C Training start time: 2023-11-08 18:32:31.482567
+User-D Training start time: 2023-11-08 18:32:31.915588
+User-E Training start time: 2023-11-08 18:32:32.375315
+User-F Training start time: 2023-11-08 18:32:32.850267
+User-G Training start time: 2023-11-08 18:32:33.337625
+User-H Training start time: 2023-11-08 18:32:33.796402
+User-I Training start time: 2023-11-08 18:32:34.243683
+User-J Training start time: 2023-11-08 18:32:34.725815
+User-A Training end time: 2023-11-08 18:32:40.263826
+User-B Training end time: 2023-11-08 18:32:41.411082
+User-C Training end time: 2023-11-08 18:32:42.538953
+User-H Training end time: 2023-11-08 18:32:43.669032
+User-D Training end time: 2023-11-08 18:32:44.860545
+User-I Training end time: 2023-11-08 18:32:46.054192
+User-J Training end time: 2023-11-08 18:32:47.243614
+User-E Training end time: 2023-11-08 18:32:48.406555
+User-F Training end time: 2023-11-08 18:32:49.590886
+User-G Training end time: 2023-11-08 18:32:50.784691
+User-A Training start time: 2023-11-08 18:32:50.793692
+2023-11-08 18:32:50,793 | Training round 29/100
+User-B Training start time: 2023-11-08 18:32:51.246566
+User-C Training start time: 2023-11-08 18:32:51.734504
+User-D Training start time: 2023-11-08 18:32:52.212396
+User-E Training start time: 2023-11-08 18:32:52.686995
+User-F Training start time: 2023-11-08 18:32:53.173161
+User-G Training start time: 2023-11-08 18:32:53.688798
+User-H Training start time: 2023-11-08 18:32:54.160500
+User-I Training start time: 2023-11-08 18:32:54.641653
+User-J Training start time: 2023-11-08 18:32:55.122796
+User-A Training end time: 2023-11-08 18:33:00.647919
+User-J Training end time: 2023-11-08 18:33:01.806214
+User-H Training end time: 2023-11-08 18:33:02.960575
+User-B Training end time: 2023-11-08 18:33:04.126916
+User-I Training end time: 2023-11-08 18:33:05.270428
+User-E Training end time: 2023-11-08 18:33:06.443480
+User-F Training end time: 2023-11-08 18:33:07.633699
+User-C Training end time: 2023-11-08 18:33:08.810904
+User-D Training end time: 2023-11-08 18:33:09.988988
+User-G Training end time: 2023-11-08 18:33:11.132810
+User-A Training start time: 2023-11-08 18:33:11.139725
+2023-11-08 18:33:11,139 | Training round 30/100
+User-B Training start time: 2023-11-08 18:33:11.611574
+User-C Training start time: 2023-11-08 18:33:12.080700
+User-D Training start time: 2023-11-08 18:33:12.571842
+User-E Training start time: 2023-11-08 18:33:13.038654
+User-F Training start time: 2023-11-08 18:33:13.469571
+User-G Training start time: 2023-11-08 18:33:13.934963
+User-H Training start time: 2023-11-08 18:33:14.421669
+User-I Training start time: 2023-11-08 18:33:14.902015
+User-J Training start time: 2023-11-08 18:33:15.387709
+User-A Training end time: 2023-11-08 18:33:20.866774
+User-I Training end time: 2023-11-08 18:33:22.002147
+User-D Training end time: 2023-11-08 18:33:23.117722
+User-B Training end time: 2023-11-08 18:33:24.236723
+User-J Training end time: 2023-11-08 18:33:25.357427
+User-C Training end time: 2023-11-08 18:33:26.510771
+User-H Training end time: 2023-11-08 18:33:27.666192
+User-F Training end time: 2023-11-08 18:33:28.827919
+User-E Training end time: 2023-11-08 18:33:29.981238
+User-G Training end time: 2023-11-08 18:33:31.135807
+2023-11-08 18:33:31,136 | Evaluating models
+2023-11-08 18:33:33,460 | Model update A: Average loss: 0.0385, Accuracy: 2114/10000 (21.14%)
+2023-11-08 18:33:35,936 | Model update B: Average loss: 0.0392, Accuracy: 2530/10000 (25.30%)
+2023-11-08 18:33:38,284 | Model update C: Average loss: 0.1027, Accuracy: 1032/10000 (10.32%)
+2023-11-08 18:33:40,599 | Model update D: Average loss: 0.0762, Accuracy: 1010/10000 (10.10%)
+2023-11-08 18:33:42,995 | Model update E: Average loss: 0.1426, Accuracy: 982/10000 (9.82%)
+2023-11-08 18:33:45,352 | Model update F: Average loss: 0.1113, Accuracy: 892/10000 (8.92%)
+2023-11-08 18:33:47,558 | Model update G: Average loss: 0.0475, Accuracy: 1652/10000 (16.52%)
+2023-11-08 18:33:49,802 | Model update H: Average loss: 0.1394, Accuracy: 1028/10000 (10.28%)
+2023-11-08 18:33:52,027 | Model update I: Average loss: 0.1509, Accuracy: 974/10000 (9.74%)
+2023-11-08 18:33:54,279 | Model update J: Average loss: 0.0840, Accuracy: 1010/10000 (10.10%)
+2023-11-08 18:33:56,483 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:33:56,483 | Federated model: Average loss: 0.0054, Accuracy: 7775/10000 (77.75%)
+2023-11-08 18:33:56,483 | Training round 31/100
+User-A Training start time: 2023-11-08 18:33:56.483523
+User-B Training start time: 2023-11-08 18:33:56.949988
+User-C Training start time: 2023-11-08 18:33:57.391278
+User-D Training start time: 2023-11-08 18:33:57.827794
+User-E Training start time: 2023-11-08 18:33:58.326221
+User-F Training start time: 2023-11-08 18:33:58.804799
+User-G Training start time: 2023-11-08 18:33:59.278040
+User-H Training start time: 2023-11-08 18:33:59.749348
+User-I Training start time: 2023-11-08 18:34:00.222206
+User-J Training start time: 2023-11-08 18:34:00.720911
+User-A Training end time: 2023-11-08 18:34:06.220623
+User-C Training end time: 2023-11-08 18:34:07.350442
+User-F Training end time: 2023-11-08 18:34:08.487700
+User-I Training end time: 2023-11-08 18:34:09.638543
+User-H Training end time: 2023-11-08 18:34:10.762098
+User-J Training end time: 2023-11-08 18:34:11.920083
+User-D Training end time: 2023-11-08 18:34:13.105766
+User-B Training end time: 2023-11-08 18:34:14.291211
+User-E Training end time: 2023-11-08 18:34:15.440895
+User-G Training end time: 2023-11-08 18:34:16.584442
+User-A Training start time: 2023-11-08 18:34:16.592445
+2023-11-08 18:34:16,592 | Training round 32/100
+User-B Training start time: 2023-11-08 18:34:17.010574
+User-C Training start time: 2023-11-08 18:34:17.470538
+User-D Training start time: 2023-11-08 18:34:17.942642
+User-E Training start time: 2023-11-08 18:34:18.412839
+User-F Training start time: 2023-11-08 18:34:18.853594
+User-G Training start time: 2023-11-08 18:34:19.320653
+User-H Training start time: 2023-11-08 18:34:19.801121
+User-I Training start time: 2023-11-08 18:34:20.277317
+User-J Training start time: 2023-11-08 18:34:20.763797
+User-A Training end time: 2023-11-08 18:34:26.243509
+User-H Training end time: 2023-11-08 18:34:27.383379
+User-B Training end time: 2023-11-08 18:34:28.523912
+User-I Training end time: 2023-11-08 18:34:29.667558
+User-E Training end time: 2023-11-08 18:34:30.843163
+User-D Training end time: 2023-11-08 18:34:32.031232
+User-F Training end time: 2023-11-08 18:34:33.248044
+User-J Training end time: 2023-11-08 18:34:34.434109
+User-C Training end time: 2023-11-08 18:34:35.622693
+User-G Training end time: 2023-11-08 18:34:36.810964
+User-A Training start time: 2023-11-08 18:34:36.821036
+2023-11-08 18:34:36,821 | Training round 33/100
+User-B Training start time: 2023-11-08 18:34:37.279011
+User-C Training start time: 2023-11-08 18:34:37.711379
+User-D Training start time: 2023-11-08 18:34:38.190748
+User-E Training start time: 2023-11-08 18:34:38.641617
+User-F Training start time: 2023-11-08 18:34:39.124620
+User-G Training start time: 2023-11-08 18:34:39.615821
+User-H Training start time: 2023-11-08 18:34:40.076545
+User-I Training start time: 2023-11-08 18:34:40.535259
+User-J Training start time: 2023-11-08 18:34:41.033244
+User-A Training end time: 2023-11-08 18:34:46.554243
+User-B Training end time: 2023-11-08 18:34:47.705686
+User-C Training end time: 2023-11-08 18:34:48.851004
+User-F Training end time: 2023-11-08 18:34:49.994793
+User-D Training end time: 2023-11-08 18:34:51.167562
+User-E Training end time: 2023-11-08 18:34:52.351683
+User-H Training end time: 2023-11-08 18:34:53.560872
+User-J Training end time: 2023-11-08 18:34:54.750652
+User-I Training end time: 2023-11-08 18:34:55.962874
+User-G Training end time: 2023-11-08 18:34:57.085631
+2023-11-08 18:34:57,096 | Training round 34/100
+User-A Training start time: 2023-11-08 18:34:57.096745
+User-B Training start time: 2023-11-08 18:34:57.534497
+User-C Training start time: 2023-11-08 18:34:58.019862
+User-D Training start time: 2023-11-08 18:34:58.488696
+User-E Training start time: 2023-11-08 18:34:58.956651
+User-F Training start time: 2023-11-08 18:34:59.390737
+User-G Training start time: 2023-11-08 18:34:59.884241
+User-H Training start time: 2023-11-08 18:35:00.364660
+User-I Training start time: 2023-11-08 18:35:00.846229
+User-J Training start time: 2023-11-08 18:35:01.318857
+User-A Training end time: 2023-11-08 18:35:06.889113
+User-H Training end time: 2023-11-08 18:35:08.032924
+User-C Training end time: 2023-11-08 18:35:09.148647
+User-J Training end time: 2023-11-08 18:35:10.281623
+User-I Training end time: 2023-11-08 18:35:11.417198
+User-F Training end time: 2023-11-08 18:35:12.612089
+User-E Training end time: 2023-11-08 18:35:13.745793
+User-D Training end time: 2023-11-08 18:35:14.940108
+User-B Training end time: 2023-11-08 18:35:16.136643
+User-G Training end time: 2023-11-08 18:35:17.320376
+User-A Training start time: 2023-11-08 18:35:17.328298
+2023-11-08 18:35:17,328 | Training round 35/100
+User-B Training start time: 2023-11-08 18:35:17.804010
+User-C Training start time: 2023-11-08 18:35:18.262222
+User-D Training start time: 2023-11-08 18:35:18.734497
+User-E Training start time: 2023-11-08 18:35:19.182681
+User-F Training start time: 2023-11-08 18:35:19.643810
+User-G Training start time: 2023-11-08 18:35:20.094101
+User-H Training start time: 2023-11-08 18:35:20.554067
+User-I Training start time: 2023-11-08 18:35:20.995723
+User-J Training start time: 2023-11-08 18:35:21.474259
+User-A Training end time: 2023-11-08 18:35:26.992264
+User-C Training end time: 2023-11-08 18:35:28.106918
+User-E Training end time: 2023-11-08 18:35:29.249079
+User-B Training end time: 2023-11-08 18:35:30.383063
+User-F Training end time: 2023-11-08 18:35:31.567209
+User-D Training end time: 2023-11-08 18:35:32.723588
+User-J Training end time: 2023-11-08 18:35:33.900678
+User-I Training end time: 2023-11-08 18:35:35.063961
+User-H Training end time: 2023-11-08 18:35:36.248524
+User-G Training end time: 2023-11-08 18:35:37.391986
+2023-11-08 18:35:37,392 | Evaluating models
+2023-11-08 18:35:39,610 | Model update A: Average loss: 0.0194, Accuracy: 3887/10000 (38.87%)
+2023-11-08 18:35:41,877 | Model update B: Average loss: 0.0240, Accuracy: 3784/10000 (37.84%)
+2023-11-08 18:35:44,102 | Model update C: Average loss: 0.0368, Accuracy: 1591/10000 (15.91%)
+2023-11-08 18:35:46,244 | Model update D: Average loss: 0.0757, Accuracy: 1011/10000 (10.11%)
+2023-11-08 18:35:48,515 | Model update E: Average loss: 0.0325, Accuracy: 3129/10000 (31.29%)
+2023-11-08 18:35:50,810 | Model update F: Average loss: 0.1224, Accuracy: 892/10000 (8.92%)
+2023-11-08 18:35:52,988 | Model update G: Average loss: 0.0204, Accuracy: 3579/10000 (35.79%)
+2023-11-08 18:35:55,218 | Model update H: Average loss: 0.0258, Accuracy: 2721/10000 (27.21%)
+2023-11-08 18:35:57,407 | Model update I: Average loss: 0.1616, Accuracy: 974/10000 (9.74%)
+2023-11-08 18:35:59,635 | Model update J: Average loss: 0.1063, Accuracy: 1009/10000 (10.09%)
+2023-11-08 18:36:02,063 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:36:02,063 | Federated model: Average loss: 0.0038, Accuracy: 8638/10000 (86.38%)
+2023-11-08 18:36:02,063 | Training round 36/100
+User-A Training start time: 2023-11-08 18:36:02.063806
+User-B Training start time: 2023-11-08 18:36:02.521426
+User-C Training start time: 2023-11-08 18:36:02.964768
+User-D Training start time: 2023-11-08 18:36:03.401536
+User-E Training start time: 2023-11-08 18:36:03.888168
+User-F Training start time: 2023-11-08 18:36:04.357575
+User-G Training start time: 2023-11-08 18:36:04.800654
+User-H Training start time: 2023-11-08 18:36:05.238389
+User-I Training start time: 2023-11-08 18:36:05.688252
+User-J Training start time: 2023-11-08 18:36:06.123086
+User-A Training end time: 2023-11-08 18:36:11.678445
+User-H Training end time: 2023-11-08 18:36:12.841598
+User-D Training end time: 2023-11-08 18:36:14.000005
+User-C Training end time: 2023-11-08 18:36:15.183833
+User-F Training end time: 2023-11-08 18:36:16.386057
+User-I Training end time: 2023-11-08 18:36:17.602044
+User-B Training end time: 2023-11-08 18:36:18.746768
+User-J Training end time: 2023-11-08 18:36:19.937802
+User-E Training end time: 2023-11-08 18:36:21.089393
+User-G Training end time: 2023-11-08 18:36:22.282964
+User-A Training start time: 2023-11-08 18:36:22.290971
+2023-11-08 18:36:22,289 | Training round 37/100
+User-B Training start time: 2023-11-08 18:36:22.723982
+User-C Training start time: 2023-11-08 18:36:23.186801
+User-D Training start time: 2023-11-08 18:36:23.664787
+User-E Training start time: 2023-11-08 18:36:24.108443
+User-F Training start time: 2023-11-08 18:36:24.600764
+User-G Training start time: 2023-11-08 18:36:25.076510
+User-H Training start time: 2023-11-08 18:36:25.562949
+User-I Training start time: 2023-11-08 18:36:26.038818
+User-J Training start time: 2023-11-08 18:36:26.513741
+User-A Training end time: 2023-11-08 18:36:32.060779
+User-J Training end time: 2023-11-08 18:36:33.183423
+User-I Training end time: 2023-11-08 18:36:34.312595
+User-B Training end time: 2023-11-08 18:36:35.461983
+User-C Training end time: 2023-11-08 18:36:36.641773
+User-F Training end time: 2023-11-08 18:36:37.849843
+User-E Training end time: 2023-11-08 18:36:38.998447
+User-H Training end time: 2023-11-08 18:36:40.201217
+User-D Training end time: 2023-11-08 18:36:41.409102
+User-G Training end time: 2023-11-08 18:36:42.534321
+2023-11-08 18:36:42,544 | Training round 38/100
+User-A Training start time: 2023-11-08 18:36:42.544236
+User-B Training start time: 2023-11-08 18:36:43.001437
+User-C Training start time: 2023-11-08 18:36:43.442950
+User-D Training start time: 2023-11-08 18:36:43.883919
+User-E Training start time: 2023-11-08 18:36:44.354119
+User-F Training start time: 2023-11-08 18:36:44.841721
+User-G Training start time: 2023-11-08 18:36:45.321070
+User-H Training start time: 2023-11-08 18:36:45.820957
+User-I Training start time: 2023-11-08 18:36:46.294967
+User-J Training start time: 2023-11-08 18:36:46.773754
+User-A Training end time: 2023-11-08 18:36:52.274999
+User-F Training end time: 2023-11-08 18:36:53.441165
+User-D Training end time: 2023-11-08 18:36:54.586872
+User-H Training end time: 2023-11-08 18:36:55.741597
+User-E Training end time: 2023-11-08 18:36:56.918821
+User-I Training end time: 2023-11-08 18:36:58.125543
+User-C Training end time: 2023-11-08 18:36:59.271199
+User-B Training end time: 2023-11-08 18:37:00.466332
+User-J Training end time: 2023-11-08 18:37:01.630459
+User-G Training end time: 2023-11-08 18:37:02.819188
+User-A Training start time: 2023-11-08 18:37:02.827188
+2023-11-08 18:37:02,827 | Training round 39/100
+User-B Training start time: 2023-11-08 18:37:03.278108
+User-C Training start time: 2023-11-08 18:37:03.744970
+User-D Training start time: 2023-11-08 18:37:04.214341
+User-E Training start time: 2023-11-08 18:37:04.674114
+User-F Training start time: 2023-11-08 18:37:05.153643
+User-G Training start time: 2023-11-08 18:37:05.613199
+User-H Training start time: 2023-11-08 18:37:06.048031
+User-I Training start time: 2023-11-08 18:37:06.519896
+User-J Training start time: 2023-11-08 18:37:06.982307
+User-A Training end time: 2023-11-08 18:37:12.464989
+User-J Training end time: 2023-11-08 18:37:13.606666
+User-C Training end time: 2023-11-08 18:37:14.728477
+User-H Training end time: 2023-11-08 18:37:15.878242
+User-F Training end time: 2023-11-08 18:37:17.027971
+User-I Training end time: 2023-11-08 18:37:18.206255
+User-D Training end time: 2023-11-08 18:37:19.398232
+User-B Training end time: 2023-11-08 18:37:20.584166
+User-E Training end time: 2023-11-08 18:37:21.709573
+User-G Training end time: 2023-11-08 18:37:22.839348
+User-A Training start time: 2023-11-08 18:37:22.847279
+2023-11-08 18:37:22,847 | Training round 40/100
+User-B Training start time: 2023-11-08 18:37:23.275089
+User-C Training start time: 2023-11-08 18:37:23.765556
+User-D Training start time: 2023-11-08 18:37:24.226489
+User-E Training start time: 2023-11-08 18:37:24.688701
+User-F Training start time: 2023-11-08 18:37:25.139849
+User-G Training start time: 2023-11-08 18:37:25.613315
+User-H Training start time: 2023-11-08 18:37:26.071303
+User-I Training start time: 2023-11-08 18:37:26.550465
+User-J Training start time: 2023-11-08 18:37:27.039621
+User-A Training end time: 2023-11-08 18:37:32.518143
+User-F Training end time: 2023-11-08 18:37:33.629298
+User-H Training end time: 2023-11-08 18:37:34.752045
+User-J Training end time: 2023-11-08 18:37:35.855102
+User-E Training end time: 2023-11-08 18:37:37.032049
+User-B Training end time: 2023-11-08 18:37:38.139698
+User-C Training end time: 2023-11-08 18:37:39.303449
+User-I Training end time: 2023-11-08 18:37:40.444188
+User-D Training end time: 2023-11-08 18:37:41.591865
+User-G Training end time: 2023-11-08 18:37:42.746551
+2023-11-08 18:37:42,747 | Evaluating models
+2023-11-08 18:37:44,897 | Model update A: Average loss: 0.0140, Accuracy: 5069/10000 (50.69%)
+2023-11-08 18:37:47,209 | Model update B: Average loss: 0.0158, Accuracy: 5665/10000 (56.65%)
+2023-11-08 18:37:49,455 | Model update C: Average loss: 0.0443, Accuracy: 1587/10000 (15.87%)
+2023-11-08 18:37:51,660 | Model update D: Average loss: 0.1335, Accuracy: 1010/10000 (10.10%)
+2023-11-08 18:37:53,846 | Model update E: Average loss: 0.0895, Accuracy: 1000/10000 (10.00%)
+2023-11-08 18:37:56,088 | Model update F: Average loss: 0.0616, Accuracy: 939/10000 (9.39%)
+2023-11-08 18:37:58,482 | Model update G: Average loss: 0.0407, Accuracy: 2144/10000 (21.44%)
+2023-11-08 18:38:00,748 | Model update H: Average loss: 0.0267, Accuracy: 2957/10000 (29.57%)
+2023-11-08 18:38:02,970 | Model update I: Average loss: 0.1439, Accuracy: 974/10000 (9.74%)
+2023-11-08 18:38:05,270 | Model update J: Average loss: 0.0966, Accuracy: 1010/10000 (10.10%)
+2023-11-08 18:38:07,564 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:38:07,564 | Federated model: Average loss: 0.0034, Accuracy: 8670/10000 (86.70%)
+2023-11-08 18:38:07,564 | Training round 41/100
+User-A Training start time: 2023-11-08 18:38:07.564766
+User-B Training start time: 2023-11-08 18:38:08.013488
+User-C Training start time: 2023-11-08 18:38:08.503429
+User-D Training start time: 2023-11-08 18:38:08.970169
+User-E Training start time: 2023-11-08 18:38:09.433102
+User-F Training start time: 2023-11-08 18:38:09.905997
+User-G Training start time: 2023-11-08 18:38:10.380399
+User-H Training start time: 2023-11-08 18:38:10.843446
+User-I Training start time: 2023-11-08 18:38:11.328955
+User-J Training start time: 2023-11-08 18:38:11.846290
+User-A Training end time: 2023-11-08 18:38:17.425505
+User-C Training end time: 2023-11-08 18:38:18.560467
+User-H Training end time: 2023-11-08 18:38:19.712106
+User-D Training end time: 2023-11-08 18:38:20.900258
+User-I Training end time: 2023-11-08 18:38:22.038691
+User-J Training end time: 2023-11-08 18:38:23.168716
+User-B Training end time: 2023-11-08 18:38:24.291445
+User-F Training end time: 2023-11-08 18:38:25.482047
+User-E Training end time: 2023-11-08 18:38:26.601660
+User-G Training end time: 2023-11-08 18:38:27.793030
+User-A Training start time: 2023-11-08 18:38:27.800617
+2023-11-08 18:38:27,800 | Training round 42/100
+User-B Training start time: 2023-11-08 18:38:28.239027
+User-C Training start time: 2023-11-08 18:38:28.714096
+User-D Training start time: 2023-11-08 18:38:29.196323
+User-E Training start time: 2023-11-08 18:38:29.671880
+User-F Training start time: 2023-11-08 18:38:30.164900
+User-G Training start time: 2023-11-08 18:38:30.650260
+User-H Training start time: 2023-11-08 18:38:31.133083
+User-I Training start time: 2023-11-08 18:38:31.589451
+User-J Training start time: 2023-11-08 18:38:32.077961
+User-A Training end time: 2023-11-08 18:38:37.591376
+User-F Training end time: 2023-11-08 18:38:38.716961
+User-B Training end time: 2023-11-08 18:38:39.868906
+User-J Training end time: 2023-11-08 18:38:41.008939
+User-D Training end time: 2023-11-08 18:38:42.181891
+User-C Training end time: 2023-11-08 18:38:43.311823
+User-E Training end time: 2023-11-08 18:38:44.474411
+User-I Training end time: 2023-11-08 18:38:45.655141
+User-H Training end time: 2023-11-08 18:38:46.836657
+User-G Training end time: 2023-11-08 18:38:47.963463
+User-A Training start time: 2023-11-08 18:38:47.972463
+2023-11-08 18:38:47,971 | Training round 43/100
+User-B Training start time: 2023-11-08 18:38:48.403697
+User-C Training start time: 2023-11-08 18:38:48.881237
+User-D Training start time: 2023-11-08 18:38:49.334320
+User-E Training start time: 2023-11-08 18:38:49.769164
+User-F Training start time: 2023-11-08 18:38:50.234622
+User-G Training start time: 2023-11-08 18:38:50.686044
+User-H Training start time: 2023-11-08 18:38:51.137066
+User-I Training start time: 2023-11-08 18:38:51.631105
+User-J Training start time: 2023-11-08 18:38:52.099434
+User-A Training end time: 2023-11-08 18:38:57.660748
+User-F Training end time: 2023-11-08 18:38:58.818007
+User-J Training end time: 2023-11-08 18:38:59.952598
+User-H Training end time: 2023-11-08 18:39:01.111097
+User-C Training end time: 2023-11-08 18:39:02.245059
+User-B Training end time: 2023-11-08 18:39:03.400182
+User-I Training end time: 2023-11-08 18:39:04.603899
+User-D Training end time: 2023-11-08 18:39:05.811224
+User-E Training end time: 2023-11-08 18:39:06.987118
+User-G Training end time: 2023-11-08 18:39:08.179733
+User-A Training start time: 2023-11-08 18:39:08.186661
+2023-11-08 18:39:08,186 | Training round 44/100
+User-B Training start time: 2023-11-08 18:39:08.641992
+User-C Training start time: 2023-11-08 18:39:09.092845
+User-D Training start time: 2023-11-08 18:39:09.566112
+User-E Training start time: 2023-11-08 18:39:10.007683
+User-F Training start time: 2023-11-08 18:39:10.466992
+User-G Training start time: 2023-11-08 18:39:10.928735
+User-H Training start time: 2023-11-08 18:39:11.403528
+User-I Training start time: 2023-11-08 18:39:11.851547
+User-J Training start time: 2023-11-08 18:39:12.318634
+User-A Training end time: 2023-11-08 18:39:17.774849
+User-D Training end time: 2023-11-08 18:39:18.931890
+User-I Training end time: 2023-11-08 18:39:20.067213
+User-C Training end time: 2023-11-08 18:39:21.216531
+User-B Training end time: 2023-11-08 18:39:22.399823
+User-H Training end time: 2023-11-08 18:39:23.582364
+User-J Training end time: 2023-11-08 18:39:24.752517
+User-F Training end time: 2023-11-08 18:39:25.917877
+User-E Training end time: 2023-11-08 18:39:27.093608
+User-G Training end time: 2023-11-08 18:39:28.231632
+User-A Training start time: 2023-11-08 18:39:28.238630
+2023-11-08 18:39:28,238 | Training round 45/100
+User-B Training start time: 2023-11-08 18:39:28.698409
+User-C Training start time: 2023-11-08 18:39:29.168270
+User-D Training start time: 2023-11-08 18:39:29.667144
+User-E Training start time: 2023-11-08 18:39:30.128262
+User-F Training start time: 2023-11-08 18:39:30.606378
+User-G Training start time: 2023-11-08 18:39:31.105629
+User-H Training start time: 2023-11-08 18:39:31.558554
+User-I Training start time: 2023-11-08 18:39:31.995829
+User-J Training start time: 2023-11-08 18:39:32.496679
+User-A Training end time: 2023-11-08 18:39:38.018357
+User-D Training end time: 2023-11-08 18:39:39.129201
+User-B Training end time: 2023-11-08 18:39:40.239538
+User-H Training end time: 2023-11-08 18:39:41.362929
+User-I Training end time: 2023-11-08 18:39:42.471372
+User-F Training end time: 2023-11-08 18:39:43.632609
+User-C Training end time: 2023-11-08 18:39:44.794476
+User-J Training end time: 2023-11-08 18:39:45.959931
+User-E Training end time: 2023-11-08 18:39:47.109723
+User-G Training end time: 2023-11-08 18:39:48.279975
+2023-11-08 18:39:48,280 | Evaluating models
+2023-11-08 18:39:50,520 | Model update A: Average loss: 0.0082, Accuracy: 6759/10000 (67.59%)
+2023-11-08 18:39:52,634 | Model update B: Average loss: 0.0307, Accuracy: 3572/10000 (35.72%)
+2023-11-08 18:39:54,928 | Model update C: Average loss: 0.0366, Accuracy: 1936/10000 (19.36%)
+2023-11-08 18:39:57,178 | Model update D: Average loss: 0.0390, Accuracy: 1532/10000 (15.32%)
+2023-11-08 18:39:59,398 | Model update E: Average loss: 0.0179, Accuracy: 5321/10000 (53.21%)
+2023-11-08 18:40:01,616 | Model update F: Average loss: 0.1129, Accuracy: 892/10000 (8.92%)
+2023-11-08 18:40:04,083 | Model update G: Average loss: 0.0213, Accuracy: 3831/10000 (38.31%)
+2023-11-08 18:40:06,271 | Model update H: Average loss: 0.0310, Accuracy: 2282/10000 (22.82%)
+2023-11-08 18:40:08,388 | Model update I: Average loss: 0.0763, Accuracy: 974/10000 (9.74%)
+2023-11-08 18:40:10,598 | Model update J: Average loss: 0.1348, Accuracy: 1009/10000 (10.09%)
+2023-11-08 18:40:12,906 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:40:12,906 | Federated model: Average loss: 0.0032, Accuracy: 8643/10000 (86.43%)
+2023-11-08 18:40:12,906 | Training round 46/100
+User-A Training start time: 2023-11-08 18:40:12.906683
+User-B Training start time: 2023-11-08 18:40:13.356992
+User-C Training start time: 2023-11-08 18:40:13.832225
+User-D Training start time: 2023-11-08 18:40:14.318676
+User-E Training start time: 2023-11-08 18:40:14.771812
+User-F Training start time: 2023-11-08 18:40:15.210917
+User-G Training start time: 2023-11-08 18:40:15.680831
+User-H Training start time: 2023-11-08 18:40:16.135244
+User-I Training start time: 2023-11-08 18:40:16.625135
+User-J Training start time: 2023-11-08 18:40:17.053991
+User-A Training end time: 2023-11-08 18:40:22.572211
+User-B Training end time: 2023-11-08 18:40:23.722621
+User-E Training end time: 2023-11-08 18:40:24.840803
+User-I Training end time: 2023-11-08 18:40:25.993894
+User-C Training end time: 2023-11-08 18:40:27.150388
+User-F Training end time: 2023-11-08 18:40:28.339627
+User-D Training end time: 2023-11-08 18:40:29.543659
+User-H Training end time: 2023-11-08 18:40:30.736492
+User-J Training end time: 2023-11-08 18:40:31.937543
+User-G Training end time: 2023-11-08 18:40:33.135267
+User-A Training start time: 2023-11-08 18:40:33.142195
+2023-11-08 18:40:33,142 | Training round 47/100
+User-B Training start time: 2023-11-08 18:40:33.613521
+User-C Training start time: 2023-11-08 18:40:34.082323
+User-D Training start time: 2023-11-08 18:40:34.568818
+User-E Training start time: 2023-11-08 18:40:35.042803
+User-F Training start time: 2023-11-08 18:40:35.506283
+User-G Training start time: 2023-11-08 18:40:35.970299
+User-H Training start time: 2023-11-08 18:40:36.431818
+User-I Training start time: 2023-11-08 18:40:36.866945
+User-J Training start time: 2023-11-08 18:40:37.357225
+User-A Training end time: 2023-11-08 18:40:42.869709
+User-E Training end time: 2023-11-08 18:40:44.042366
+User-D Training end time: 2023-11-08 18:40:45.160001
+User-F Training end time: 2023-11-08 18:40:46.276166
+User-B Training end time: 2023-11-08 18:40:47.401871
+User-J Training end time: 2023-11-08 18:40:48.535590
+User-I Training end time: 2023-11-08 18:40:49.725645
+User-H Training end time: 2023-11-08 18:40:50.917148
+User-C Training end time: 2023-11-08 18:40:52.095329
+User-G Training end time: 2023-11-08 18:40:53.244927
+User-A Training start time: 2023-11-08 18:40:53.254345
+2023-11-08 18:40:53,253 | Training round 48/100
+User-B Training start time: 2023-11-08 18:40:53.684199
+User-C Training start time: 2023-11-08 18:40:54.164544
+User-D Training start time: 2023-11-08 18:40:54.648053
+User-E Training start time: 2023-11-08 18:40:55.138880
+User-F Training start time: 2023-11-08 18:40:55.619700
+User-G Training start time: 2023-11-08 18:40:56.106441
+User-H Training start time: 2023-11-08 18:40:56.545950
+User-I Training start time: 2023-11-08 18:40:56.983054
+User-J Training start time: 2023-11-08 18:40:57.459106
+User-A Training end time: 2023-11-08 18:41:02.957081
+User-C Training end time: 2023-11-08 18:41:04.103753
+User-H Training end time: 2023-11-08 18:41:05.231690
+User-I Training end time: 2023-11-08 18:41:06.385083
+User-J Training end time: 2023-11-08 18:41:07.512211
+User-F Training end time: 2023-11-08 18:41:08.721724
+User-B Training end time: 2023-11-08 18:41:09.848397
+User-D Training end time: 2023-11-08 18:41:11.017002
+User-E Training end time: 2023-11-08 18:41:12.176155
+User-G Training end time: 2023-11-08 18:41:13.372699
+User-A Training start time: 2023-11-08 18:41:13.381126
+2023-11-08 18:41:13,380 | Training round 49/100
+User-B Training start time: 2023-11-08 18:41:13.832660
+User-C Training start time: 2023-11-08 18:41:14.314236
+User-D Training start time: 2023-11-08 18:41:14.794243
+User-E Training start time: 2023-11-08 18:41:15.287127
+User-F Training start time: 2023-11-08 18:41:15.731349
+User-G Training start time: 2023-11-08 18:41:16.185505
+User-H Training start time: 2023-11-08 18:41:16.696362
+User-I Training start time: 2023-11-08 18:41:17.163404
+User-J Training start time: 2023-11-08 18:41:17.646977
+User-A Training end time: 2023-11-08 18:41:23.155113
+User-C Training end time: 2023-11-08 18:41:24.287414
+User-E Training end time: 2023-11-08 18:41:25.425813
+User-B Training end time: 2023-11-08 18:41:26.535671
+User-J Training end time: 2023-11-08 18:41:27.662956
+User-H Training end time: 2023-11-08 18:41:28.835641
+User-D Training end time: 2023-11-08 18:41:30.000008
+User-F Training end time: 2023-11-08 18:41:31.153755
+User-I Training end time: 2023-11-08 18:41:32.294068
+User-G Training end time: 2023-11-08 18:41:33.432023
+User-A Training start time: 2023-11-08 18:41:33.441023
+2023-11-08 18:41:33,441 | Training round 50/100
+User-B Training start time: 2023-11-08 18:41:33.877995
+User-C Training start time: 2023-11-08 18:41:34.358596
+User-D Training start time: 2023-11-08 18:41:34.808270
+User-E Training start time: 2023-11-08 18:41:35.304993
+User-F Training start time: 2023-11-08 18:41:35.756406
+User-G Training start time: 2023-11-08 18:41:36.230443
+User-H Training start time: 2023-11-08 18:41:36.706854
+User-I Training start time: 2023-11-08 18:41:37.190434
+User-J Training start time: 2023-11-08 18:41:37.644568
+User-A Training end time: 2023-11-08 18:41:43.110046
+User-C Training end time: 2023-11-08 18:41:44.207720
+User-J Training end time: 2023-11-08 18:41:45.329757
+User-F Training end time: 2023-11-08 18:41:46.432186
+User-H Training end time: 2023-11-08 18:41:47.533974
+User-D Training end time: 2023-11-08 18:41:48.692938
+User-B Training end time: 2023-11-08 18:41:49.792011
+User-E Training end time: 2023-11-08 18:41:50.949641
+User-I Training end time: 2023-11-08 18:41:52.110300
+User-G Training end time: 2023-11-08 18:41:53.294301
+2023-11-08 18:41:53,295 | Evaluating models
+2023-11-08 18:41:55,514 | Model update A: Average loss: 0.0121, Accuracy: 5577/10000 (55.77%)
+2023-11-08 18:41:57,731 | Model update B: Average loss: 0.0132, Accuracy: 5869/10000 (58.69%)
+2023-11-08 18:41:59,906 | Model update C: Average loss: 0.0249, Accuracy: 2934/10000 (29.34%)
+2023-11-08 18:42:02,123 | Model update D: Average loss: 0.0432, Accuracy: 1228/10000 (12.28%)
+2023-11-08 18:42:04,316 | Model update E: Average loss: 0.0568, Accuracy: 2071/10000 (20.71%)
+2023-11-08 18:42:06,600 | Model update F: Average loss: 0.0617, Accuracy: 925/10000 (9.25%)
+2023-11-08 18:42:08,906 | Model update G: Average loss: 0.0112, Accuracy: 6064/10000 (60.64%)
+2023-11-08 18:42:11,085 | Model update H: Average loss: 0.0441, Accuracy: 1746/10000 (17.46%)
+2023-11-08 18:42:13,190 | Model update I: Average loss: 0.1862, Accuracy: 974/10000 (9.74%)
+2023-11-08 18:42:15,490 | Model update J: Average loss: 0.0478, Accuracy: 1440/10000 (14.40%)
+2023-11-08 18:42:17,768 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:42:17,769 | Federated model: Average loss: 0.0032, Accuracy: 8688/10000 (86.88%)
+2023-11-08 18:42:17,769 | Training round 51/100
+User-A Training start time: 2023-11-08 18:42:17.769811
+User-B Training start time: 2023-11-08 18:42:18.248028
+User-C Training start time: 2023-11-08 18:42:18.687699
+User-D Training start time: 2023-11-08 18:42:19.166236
+User-E Training start time: 2023-11-08 18:42:19.640317
+User-F Training start time: 2023-11-08 18:42:20.107088
+User-G Training start time: 2023-11-08 18:42:20.593968
+User-H Training start time: 2023-11-08 18:42:21.058044
+User-I Training start time: 2023-11-08 18:42:21.514052
+User-J Training start time: 2023-11-08 18:42:21.965144
+User-A Training end time: 2023-11-08 18:42:27.492146
+User-J Training end time: 2023-11-08 18:42:28.625272
+User-D Training end time: 2023-11-08 18:42:29.780698
+User-C Training end time: 2023-11-08 18:42:30.981051
+User-E Training end time: 2023-11-08 18:42:32.160852
+User-B Training end time: 2023-11-08 18:42:33.274689
+User-I Training end time: 2023-11-08 18:42:34.475180
+User-H Training end time: 2023-11-08 18:42:35.658333
+User-F Training end time: 2023-11-08 18:42:36.835189
+User-G Training end time: 2023-11-08 18:42:38.058740
+User-A Training start time: 2023-11-08 18:42:38.066743
+2023-11-08 18:42:38,065 | Training round 52/100
+User-B Training start time: 2023-11-08 18:42:38.490414
+User-C Training start time: 2023-11-08 18:42:38.937079
+User-D Training start time: 2023-11-08 18:42:39.410456
+User-E Training start time: 2023-11-08 18:42:39.869692
+User-F Training start time: 2023-11-08 18:42:40.306257
+User-G Training start time: 2023-11-08 18:42:40.806012
+User-H Training start time: 2023-11-08 18:42:41.270625
+User-I Training start time: 2023-11-08 18:42:41.723303
+User-J Training start time: 2023-11-08 18:42:42.186185
+User-A Training end time: 2023-11-08 18:42:47.737387
+User-C Training end time: 2023-11-08 18:42:48.864873
+User-D Training end time: 2023-11-08 18:42:49.996923
+User-E Training end time: 2023-11-08 18:42:51.133795
+User-B Training end time: 2023-11-08 18:42:52.255237
+User-I Training end time: 2023-11-08 18:42:53.441115
+User-J Training end time: 2023-11-08 18:42:54.641333
+User-H Training end time: 2023-11-08 18:42:55.825264
+User-F Training end time: 2023-11-08 18:42:57.001537
+User-G Training end time: 2023-11-08 18:42:58.153377
+User-A Training start time: 2023-11-08 18:42:58.160832
+2023-11-08 18:42:58,160 | Training round 53/100
+User-B Training start time: 2023-11-08 18:42:58.593401
+User-C Training start time: 2023-11-08 18:42:59.053012
+User-D Training start time: 2023-11-08 18:42:59.530265
+User-E Training start time: 2023-11-08 18:42:59.977962
+User-F Training start time: 2023-11-08 18:43:00.434772
+User-G Training start time: 2023-11-08 18:43:00.891528
+User-H Training start time: 2023-11-08 18:43:01.363641
+User-I Training start time: 2023-11-08 18:43:01.847162
+User-J Training start time: 2023-11-08 18:43:02.323756
+User-A Training end time: 2023-11-08 18:43:07.892888
+User-C Training end time: 2023-11-08 18:43:09.039372
+User-F Training end time: 2023-11-08 18:43:10.167702
+User-J Training end time: 2023-11-08 18:43:11.292729
+User-I Training end time: 2023-11-08 18:43:12.436619
+User-E Training end time: 2023-11-08 18:43:13.626615
+User-H Training end time: 2023-11-08 18:43:14.818245
+User-D Training end time: 2023-11-08 18:43:15.997368
+User-B Training end time: 2023-11-08 18:43:17.182722
+User-G Training end time: 2023-11-08 18:43:18.345391
+User-A Training start time: 2023-11-08 18:43:18.353391
+2023-11-08 18:43:18,353 | Training round 54/100
+User-B Training start time: 2023-11-08 18:43:18.791694
+User-C Training start time: 2023-11-08 18:43:19.279926
+User-D Training start time: 2023-11-08 18:43:19.744501
+User-E Training start time: 2023-11-08 18:43:20.231121
+User-F Training start time: 2023-11-08 18:43:20.703879
+User-G Training start time: 2023-11-08 18:43:21.195039
+User-H Training start time: 2023-11-08 18:43:21.643560
+User-I Training start time: 2023-11-08 18:43:22.122896
+User-J Training start time: 2023-11-08 18:43:22.576868
+User-A Training end time: 2023-11-08 18:43:28.067399
+User-J Training end time: 2023-11-08 18:43:29.200905
+User-B Training end time: 2023-11-08 18:43:30.337185
+User-F Training end time: 2023-11-08 18:43:31.447891
+User-H Training end time: 2023-11-08 18:43:32.574948
+User-E Training end time: 2023-11-08 18:43:33.720925
+User-D Training end time: 2023-11-08 18:43:34.883465
+User-I Training end time: 2023-11-08 18:43:36.054484
+User-C Training end time: 2023-11-08 18:43:37.229435
+User-G Training end time: 2023-11-08 18:43:38.361818
+User-A Training start time: 2023-11-08 18:43:38.370324
+2023-11-08 18:43:38,369 | Training round 55/100
+User-B Training start time: 2023-11-08 18:43:38.822078
+User-C Training start time: 2023-11-08 18:43:39.294446
+User-D Training start time: 2023-11-08 18:43:39.753973
+User-E Training start time: 2023-11-08 18:43:40.242930
+User-F Training start time: 2023-11-08 18:43:40.730917
+User-G Training start time: 2023-11-08 18:43:41.181868
+User-H Training start time: 2023-11-08 18:43:41.650262
+User-I Training start time: 2023-11-08 18:43:42.110965
+User-J Training start time: 2023-11-08 18:43:42.600130
+User-H Training end time: 2023-11-08 18:43:48.575351
+User-B Training end time: 2023-11-08 18:43:49.704664
+User-I Training end time: 2023-11-08 18:43:50.831733
+User-D Training end time: 2023-11-08 18:43:52.018683
+User-F Training end time: 2023-11-08 18:43:53.225119
+User-C Training end time: 2023-11-08 18:43:54.418190
+User-J Training end time: 2023-11-08 18:43:55.617054
+User-E Training end time: 2023-11-08 18:43:56.786395
+User-A Training end time: 2023-11-08 18:43:57.961832
+User-G Training end time: 2023-11-08 18:43:59.149622
+2023-11-08 18:43:59,151 | Evaluating models
+2023-11-08 18:44:01,364 | Model update A: Average loss: 0.0054, Accuracy: 7794/10000 (77.94%)
+2023-11-08 18:44:03,484 | Model update B: Average loss: 0.0194, Accuracy: 4910/10000 (49.10%)
+2023-11-08 18:44:05,600 | Model update C: Average loss: 0.0461, Accuracy: 1280/10000 (12.80%)
+2023-11-08 18:44:07,707 | Model update D: Average loss: 0.0294, Accuracy: 2409/10000 (24.09%)
+2023-11-08 18:44:09,873 | Model update E: Average loss: 0.0131, Accuracy: 6210/10000 (62.10%)
+2023-11-08 18:44:12,039 | Model update F: Average loss: 0.0564, Accuracy: 1099/10000 (10.99%)
+2023-11-08 18:44:14,245 | Model update G: Average loss: 0.0118, Accuracy: 5803/10000 (58.03%)
+2023-11-08 18:44:16,467 | Model update H: Average loss: 0.0246, Accuracy: 2928/10000 (29.28%)
+2023-11-08 18:44:18,678 | Model update I: Average loss: 0.0641, Accuracy: 974/10000 (9.74%)
+2023-11-08 18:44:20,882 | Model update J: Average loss: 0.1128, Accuracy: 1009/10000 (10.09%)
+2023-11-08 18:44:23,189 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:44:23,189 | Federated model: Average loss: 0.0027, Accuracy: 9000/10000 (90.00%)
+2023-11-08 18:44:23,189 | Training round 56/100
+User-A Training start time: 2023-11-08 18:44:23.189681
+User-B Training start time: 2023-11-08 18:44:23.622393
+User-C Training start time: 2023-11-08 18:44:24.109930
+User-D Training start time: 2023-11-08 18:44:24.580272
+User-E Training start time: 2023-11-08 18:44:25.044202
+User-F Training start time: 2023-11-08 18:44:25.502725
+User-G Training start time: 2023-11-08 18:44:25.975525
+User-H Training start time: 2023-11-08 18:44:26.429426
+User-I Training start time: 2023-11-08 18:44:26.901898
+User-J Training start time: 2023-11-08 18:44:27.370316
+User-A Training end time: 2023-11-08 18:44:32.882061
+User-H Training end time: 2023-11-08 18:44:34.032203
+User-D Training end time: 2023-11-08 18:44:35.155364
+User-B Training end time: 2023-11-08 18:44:36.289295
+User-I Training end time: 2023-11-08 18:44:37.442564
+User-E Training end time: 2023-11-08 18:44:38.616926
+User-C Training end time: 2023-11-08 18:44:39.810805
+User-J Training end time: 2023-11-08 18:44:40.995302
+User-F Training end time: 2023-11-08 18:44:42.210139
+User-G Training end time: 2023-11-08 18:44:43.335135
+User-A Training start time: 2023-11-08 18:44:43.344564
+2023-11-08 18:44:43,344 | Training round 57/100
+User-B Training start time: 2023-11-08 18:44:43.798780
+User-C Training start time: 2023-11-08 18:44:44.287218
+User-D Training start time: 2023-11-08 18:44:44.768347
+User-E Training start time: 2023-11-08 18:44:45.250646
+User-F Training start time: 2023-11-08 18:44:45.713848
+User-G Training start time: 2023-11-08 18:44:46.159283
+User-H Training start time: 2023-11-08 18:44:46.666428
+User-I Training start time: 2023-11-08 18:44:47.128308
+User-J Training start time: 2023-11-08 18:44:47.597390
+User-A Training end time: 2023-11-08 18:44:53.124356
+User-J Training end time: 2023-11-08 18:44:54.245786
+User-B Training end time: 2023-11-08 18:44:55.390183
+User-C Training end time: 2023-11-08 18:44:56.521683
+User-F Training end time: 2023-11-08 18:44:57.661364
+User-D Training end time: 2023-11-08 18:44:58.838905
+User-H Training end time: 2023-11-08 18:45:00.020808
+User-E Training end time: 2023-11-08 18:45:01.213959
+User-I Training end time: 2023-11-08 18:45:02.407564
+User-G Training end time: 2023-11-08 18:45:03.599467
+User-A Training start time: 2023-11-08 18:45:03.608389
+2023-11-08 18:45:03,607 | Training round 58/100
+User-B Training start time: 2023-11-08 18:45:04.052072
+User-C Training start time: 2023-11-08 18:45:04.517684
+User-D Training start time: 2023-11-08 18:45:04.988563
+User-E Training start time: 2023-11-08 18:45:05.436830
+User-F Training start time: 2023-11-08 18:45:05.912026
+User-G Training start time: 2023-11-08 18:45:06.352234
+User-H Training start time: 2023-11-08 18:45:06.822148
+User-I Training start time: 2023-11-08 18:45:07.287505
+User-J Training start time: 2023-11-08 18:45:07.757372
+User-A Training end time: 2023-11-08 18:45:13.246791
+User-B Training end time: 2023-11-08 18:45:14.373135
+User-I Training end time: 2023-11-08 18:45:15.521995
+User-F Training end time: 2023-11-08 18:45:16.669112
+User-D Training end time: 2023-11-08 18:45:17.828815
+User-C Training end time: 2023-11-08 18:45:18.971288
+User-H Training end time: 2023-11-08 18:45:20.161601
+User-E Training end time: 2023-11-08 18:45:21.308641
+User-J Training end time: 2023-11-08 18:45:22.491492
+User-G Training end time: 2023-11-08 18:45:23.615341
+User-A Training start time: 2023-11-08 18:45:23.624340
+2023-11-08 18:45:23,623 | Training round 59/100
+User-B Training start time: 2023-11-08 18:45:24.084480
+User-C Training start time: 2023-11-08 18:45:24.541543
+User-D Training start time: 2023-11-08 18:45:25.009926
+User-E Training start time: 2023-11-08 18:45:25.459983
+User-F Training start time: 2023-11-08 18:45:25.923966
+User-G Training start time: 2023-11-08 18:45:26.388854
+User-H Training start time: 2023-11-08 18:45:26.887937
+User-I Training start time: 2023-11-08 18:45:27.360007
+User-J Training start time: 2023-11-08 18:45:27.871514
+User-A Training end time: 2023-11-08 18:45:33.382205
+User-C Training end time: 2023-11-08 18:45:34.500543
+User-E Training end time: 2023-11-08 18:45:35.604928
+User-J Training end time: 2023-11-08 18:45:36.707129
+User-B Training end time: 2023-11-08 18:45:37.808736
+User-D Training end time: 2023-11-08 18:45:38.974727
+User-I Training end time: 2023-11-08 18:45:40.162789
+User-H Training end time: 2023-11-08 18:45:41.325818
+User-F Training end time: 2023-11-08 18:45:42.479748
+User-G Training end time: 2023-11-08 18:45:43.589461
+User-A Training start time: 2023-11-08 18:45:43.598461
+2023-11-08 18:45:43,598 | Training round 60/100
+User-B Training start time: 2023-11-08 18:45:44.021306
+User-C Training start time: 2023-11-08 18:45:44.498477
+User-D Training start time: 2023-11-08 18:45:44.947670
+User-E Training start time: 2023-11-08 18:45:45.456917
+User-F Training start time: 2023-11-08 18:45:45.951675
+User-G Training start time: 2023-11-08 18:45:46.414915
+User-H Training start time: 2023-11-08 18:45:46.902880
+User-I Training start time: 2023-11-08 18:45:47.347704
+User-J Training start time: 2023-11-08 18:45:47.796632
+User-A Training end time: 2023-11-08 18:45:53.323268
+User-C Training end time: 2023-11-08 18:45:54.456177
+User-E Training end time: 2023-11-08 18:45:55.612338
+User-F Training end time: 2023-11-08 18:45:56.774965
+User-D Training end time: 2023-11-08 18:45:58.007623
+User-J Training end time: 2023-11-08 18:45:59.206199
+User-H Training end time: 2023-11-08 18:46:00.404659
+User-I Training end time: 2023-11-08 18:46:01.621918
+User-B Training end time: 2023-11-08 18:46:02.811450
+User-G Training end time: 2023-11-08 18:46:03.943757
+2023-11-08 18:46:03,944 | Evaluating models
+2023-11-08 18:46:06,285 | Model update A: Average loss: 0.0087, Accuracy: 6604/10000 (66.04%)
+2023-11-08 18:46:08,473 | Model update B: Average loss: 0.0152, Accuracy: 5399/10000 (53.99%)
+2023-11-08 18:46:10,719 | Model update C: Average loss: 0.0301, Accuracy: 2390/10000 (23.90%)
+2023-11-08 18:46:12,953 | Model update D: Average loss: 0.0547, Accuracy: 1187/10000 (11.87%)
+2023-11-08 18:46:15,222 | Model update E: Average loss: 0.0398, Accuracy: 3167/10000 (31.67%)
+2023-11-08 18:46:17,401 | Model update F: Average loss: 0.0361, Accuracy: 2099/10000 (20.99%)
+2023-11-08 18:46:19,457 | Model update G: Average loss: 0.0062, Accuracy: 7504/10000 (75.04%)
+2023-11-08 18:46:21,556 | Model update H: Average loss: 0.0264, Accuracy: 2894/10000 (28.94%)
+2023-11-08 18:46:23,672 | Model update I: Average loss: 0.0630, Accuracy: 976/10000 (9.76%)
+2023-11-08 18:46:26,013 | Model update J: Average loss: 0.0396, Accuracy: 2399/10000 (23.99%)
+2023-11-08 18:46:28,122 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:46:28,122 | Federated model: Average loss: 0.0025, Accuracy: 9075/10000 (90.75%)
+2023-11-08 18:46:28,122 | Training round 61/100
+User-A Training start time: 2023-11-08 18:46:28.122137
+User-B Training start time: 2023-11-08 18:46:28.548570
+User-C Training start time: 2023-11-08 18:46:29.022098
+User-D Training start time: 2023-11-08 18:46:29.459969
+User-E Training start time: 2023-11-08 18:46:29.915697
+User-F Training start time: 2023-11-08 18:46:30.446227
+User-G Training start time: 2023-11-08 18:46:30.921735
+User-H Training start time: 2023-11-08 18:46:31.409156
+User-I Training start time: 2023-11-08 18:46:31.881091
+User-J Training start time: 2023-11-08 18:46:32.329029
+User-A Training end time: 2023-11-08 18:46:37.863805
+User-J Training end time: 2023-11-08 18:46:38.991627
+User-I Training end time: 2023-11-08 18:46:40.144839
+User-D Training end time: 2023-11-08 18:46:41.335382
+User-H Training end time: 2023-11-08 18:46:42.458243
+User-E Training end time: 2023-11-08 18:46:43.604584
+User-F Training end time: 2023-11-08 18:46:44.789511
+User-C Training end time: 2023-11-08 18:46:45.974777
+User-B Training end time: 2023-11-08 18:46:47.167985
+User-G Training end time: 2023-11-08 18:46:48.303444
+User-A Training start time: 2023-11-08 18:46:48.311432
+2023-11-08 18:46:48,311 | Training round 62/100
+User-B Training start time: 2023-11-08 18:46:48.743375
+User-C Training start time: 2023-11-08 18:46:49.225247
+User-D Training start time: 2023-11-08 18:46:49.670142
+User-E Training start time: 2023-11-08 18:46:50.132251
+User-F Training start time: 2023-11-08 18:46:50.606859
+User-G Training start time: 2023-11-08 18:46:51.086351
+User-H Training start time: 2023-11-08 18:46:51.541459
+User-I Training start time: 2023-11-08 18:46:52.033194
+User-J Training start time: 2023-11-08 18:46:52.483192
+User-A Training end time: 2023-11-08 18:46:57.971498
+User-E Training end time: 2023-11-08 18:46:59.112146
+User-I Training end time: 2023-11-08 18:47:00.270538
+User-D Training end time: 2023-11-08 18:47:01.457020
+User-J Training end time: 2023-11-08 18:47:02.601770
+User-F Training end time: 2023-11-08 18:47:03.802093
+User-C Training end time: 2023-11-08 18:47:04.986481
+User-B Training end time: 2023-11-08 18:47:06.173039
+User-H Training end time: 2023-11-08 18:47:07.354624
+User-G Training end time: 2023-11-08 18:47:08.507000
+User-A Training start time: 2023-11-08 18:47:08.516000
+2023-11-08 18:47:08,516 | Training round 63/100
+User-B Training start time: 2023-11-08 18:47:08.974433
+User-C Training start time: 2023-11-08 18:47:09.454978
+User-D Training start time: 2023-11-08 18:47:09.914061
+User-E Training start time: 2023-11-08 18:47:10.433940
+User-F Training start time: 2023-11-08 18:47:10.897661
+User-G Training start time: 2023-11-08 18:47:11.426890
+User-H Training start time: 2023-11-08 18:47:11.897797
+User-I Training start time: 2023-11-08 18:47:12.335624
+User-J Training start time: 2023-11-08 18:47:12.796577
+User-A Training end time: 2023-11-08 18:47:18.355974
+User-C Training end time: 2023-11-08 18:47:19.509061
+User-H Training end time: 2023-11-08 18:47:20.657566
+User-D Training end time: 2023-11-08 18:47:21.837061
+User-I Training end time: 2023-11-08 18:47:22.977108
+User-F Training end time: 2023-11-08 18:47:24.135647
+User-B Training end time: 2023-11-08 18:47:25.325288
+User-E Training end time: 2023-11-08 18:47:26.488269
+User-J Training end time: 2023-11-08 18:47:27.664427
+User-G Training end time: 2023-11-08 18:47:28.778217
+User-A Training start time: 2023-11-08 18:47:28.786217
+2023-11-08 18:47:28,786 | Training round 64/100
+User-B Training start time: 2023-11-08 18:47:29.232871
+User-C Training start time: 2023-11-08 18:47:29.667770
+User-D Training start time: 2023-11-08 18:47:30.135894
+User-E Training start time: 2023-11-08 18:47:30.602412
+User-F Training start time: 2023-11-08 18:47:31.050847
+User-G Training start time: 2023-11-08 18:47:31.518488
+User-H Training start time: 2023-11-08 18:47:32.048741
+User-I Training start time: 2023-11-08 18:47:32.508598
+User-J Training start time: 2023-11-08 18:47:32.979744
+User-A Training end time: 2023-11-08 18:47:38.459461
+User-J Training end time: 2023-11-08 18:47:39.571956
+User-E Training end time: 2023-11-08 18:47:40.714078
+User-H Training end time: 2023-11-08 18:47:41.830432
+User-I Training end time: 2023-11-08 18:47:42.935207
+User-D Training end time: 2023-11-08 18:47:44.110030
+User-C Training end time: 2023-11-08 18:47:45.227163
+User-B Training end time: 2023-11-08 18:47:46.392255
+User-F Training end time: 2023-11-08 18:47:47.574930
+User-G Training end time: 2023-11-08 18:47:48.742639
+User-A Training start time: 2023-11-08 18:47:48.751568
+2023-11-08 18:47:48,751 | Training round 65/100
+User-B Training start time: 2023-11-08 18:47:49.230717
+User-C Training start time: 2023-11-08 18:47:49.703573
+User-D Training start time: 2023-11-08 18:47:50.179137
+User-E Training start time: 2023-11-08 18:47:50.666081
+User-F Training start time: 2023-11-08 18:47:51.131805
+User-G Training start time: 2023-11-08 18:47:51.642423
+User-H Training start time: 2023-11-08 18:47:52.105884
+User-I Training start time: 2023-11-08 18:47:52.587163
+User-J Training start time: 2023-11-08 18:47:53.063521
+User-A Training end time: 2023-11-08 18:47:58.547608
+User-C Training end time: 2023-11-08 18:47:59.698352
+User-B Training end time: 2023-11-08 18:48:00.835427
+User-H Training end time: 2023-11-08 18:48:01.968648
+User-I Training end time: 2023-11-08 18:48:03.104446
+User-J Training end time: 2023-11-08 18:48:04.227430
+User-D Training end time: 2023-11-08 18:48:05.421049
+User-E Training end time: 2023-11-08 18:48:06.599488
+User-F Training end time: 2023-11-08 18:48:07.805210
+User-G Training end time: 2023-11-08 18:48:08.937675
+2023-11-08 18:48:08,939 | Evaluating models
+2023-11-08 18:48:11,203 | Model update A: Average loss: 0.0070, Accuracy: 7240/10000 (72.40%)
+2023-11-08 18:48:13,624 | Model update B: Average loss: 0.0069, Accuracy: 7316/10000 (73.16%)
+2023-11-08 18:48:15,954 | Model update C: Average loss: 0.0250, Accuracy: 3099/10000 (30.99%)
+2023-11-08 18:48:18,261 | Model update D: Average loss: 0.0226, Accuracy: 3223/10000 (32.23%)
+2023-11-08 18:48:20,533 | Model update E: Average loss: 0.0284, Accuracy: 4350/10000 (43.50%)
+2023-11-08 18:48:22,790 | Model update F: Average loss: 0.0311, Accuracy: 2358/10000 (23.58%)
+2023-11-08 18:48:25,051 | Model update G: Average loss: 0.0083, Accuracy: 6862/10000 (68.62%)
+2023-11-08 18:48:27,170 | Model update H: Average loss: 0.0207, Accuracy: 4108/10000 (41.08%)
+2023-11-08 18:48:29,573 | Model update I: Average loss: 0.0925, Accuracy: 974/10000 (9.74%)
+2023-11-08 18:48:31,825 | Model update J: Average loss: 0.0456, Accuracy: 1697/10000 (16.97%)
+2023-11-08 18:48:34,047 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:48:34,047 | Federated model: Average loss: 0.0024, Accuracy: 9085/10000 (90.85%)
+2023-11-08 18:48:34,047 | Training round 66/100
+User-A Training start time: 2023-11-08 18:48:34.047169
+User-B Training start time: 2023-11-08 18:48:34.506744
+User-C Training start time: 2023-11-08 18:48:34.967574
+User-D Training start time: 2023-11-08 18:48:35.428180
+User-E Training start time: 2023-11-08 18:48:35.906533
+User-F Training start time: 2023-11-08 18:48:36.364773
+User-G Training start time: 2023-11-08 18:48:36.848211
+User-H Training start time: 2023-11-08 18:48:37.336511
+User-I Training start time: 2023-11-08 18:48:37.810233
+User-J Training start time: 2023-11-08 18:48:38.274407
+User-A Training end time: 2023-11-08 18:48:43.750140
+User-I Training end time: 2023-11-08 18:48:44.903466
+User-B Training end time: 2023-11-08 18:48:46.046805
+User-E Training end time: 2023-11-08 18:48:47.235553
+User-H Training end time: 2023-11-08 18:48:48.365287
+User-J Training end time: 2023-11-08 18:48:49.549484
+User-D Training end time: 2023-11-08 18:48:50.737225
+User-F Training end time: 2023-11-08 18:48:51.934139
+User-C Training end time: 2023-11-08 18:48:53.127844
+User-G Training end time: 2023-11-08 18:48:54.317573
+User-A Training start time: 2023-11-08 18:48:54.327573
+2023-11-08 18:48:54,327 | Training round 67/100
+User-B Training start time: 2023-11-08 18:48:54.773338
+User-C Training start time: 2023-11-08 18:48:55.250065
+User-D Training start time: 2023-11-08 18:48:55.725719
+User-E Training start time: 2023-11-08 18:48:56.203640
+User-F Training start time: 2023-11-08 18:48:56.689069
+User-G Training start time: 2023-11-08 18:48:57.175352
+User-H Training start time: 2023-11-08 18:48:57.638120
+User-I Training start time: 2023-11-08 18:48:58.126014
+User-J Training start time: 2023-11-08 18:48:58.612258
+User-A Training end time: 2023-11-08 18:49:04.130161
+User-F Training end time: 2023-11-08 18:49:05.304515
+User-I Training end time: 2023-11-08 18:49:06.451716
+User-D Training end time: 2023-11-08 18:49:07.610191
+User-J Training end time: 2023-11-08 18:49:08.760558
+User-E Training end time: 2023-11-08 18:49:09.948488
+User-H Training end time: 2023-11-08 18:49:11.135599
+User-C Training end time: 2023-11-08 18:49:12.333485
+User-B Training end time: 2023-11-08 18:49:13.531852
+User-G Training end time: 2023-11-08 18:49:14.671250
+User-A Training start time: 2023-11-08 18:49:14.680179
+2023-11-08 18:49:14,679 | Training round 68/100
+User-B Training start time: 2023-11-08 18:49:15.155123
+User-C Training start time: 2023-11-08 18:49:15.607895
+User-D Training start time: 2023-11-08 18:49:16.076067
+User-E Training start time: 2023-11-08 18:49:16.565822
+User-F Training start time: 2023-11-08 18:49:17.052170
+User-G Training start time: 2023-11-08 18:49:17.540226
+User-H Training start time: 2023-11-08 18:49:18.026928
+User-I Training start time: 2023-11-08 18:49:18.472648
+User-J Training start time: 2023-11-08 18:49:18.924029
+User-A Training end time: 2023-11-08 18:49:24.365119
+User-D Training end time: 2023-11-08 18:49:25.470603
+User-J Training end time: 2023-11-08 18:49:26.577694
+User-I Training end time: 2023-11-08 18:49:27.698342
+User-H Training end time: 2023-11-08 18:49:28.823178
+User-B Training end time: 2023-11-08 18:49:29.939070
+User-E Training end time: 2023-11-08 18:49:31.102912
+User-F Training end time: 2023-11-08 18:49:32.263389
+User-C Training end time: 2023-11-08 18:49:33.429212
+User-G Training end time: 2023-11-08 18:49:34.598441
+User-A Training start time: 2023-11-08 18:49:34.605363
+2023-11-08 18:49:34,605 | Training round 69/100
+User-B Training start time: 2023-11-08 18:49:35.075562
+User-C Training start time: 2023-11-08 18:49:35.531567
+User-D Training start time: 2023-11-08 18:49:36.003822
+User-E Training start time: 2023-11-08 18:49:36.453327
+User-F Training start time: 2023-11-08 18:49:36.920086
+User-G Training start time: 2023-11-08 18:49:37.352367
+User-H Training start time: 2023-11-08 18:49:37.808592
+User-I Training start time: 2023-11-08 18:49:38.266414
+User-J Training start time: 2023-11-08 18:49:38.751349
+User-A Training end time: 2023-11-08 18:49:44.237479
+User-C Training end time: 2023-11-08 18:49:45.384379
+User-F Training end time: 2023-11-08 18:49:46.490708
+User-B Training end time: 2023-11-08 18:49:47.613155
+User-D Training end time: 2023-11-08 18:49:48.765666
+User-H Training end time: 2023-11-08 18:49:49.927343
+User-E Training end time: 2023-11-08 18:49:51.082878
+User-I Training end time: 2023-11-08 18:49:52.247045
+User-J Training end time: 2023-11-08 18:49:53.424693
+User-G Training end time: 2023-11-08 18:49:54.562498
+User-A Training start time: 2023-11-08 18:49:54.572440
+2023-11-08 18:49:54,572 | Training round 70/100
+User-B Training start time: 2023-11-08 18:49:55.056445
+User-C Training start time: 2023-11-08 18:49:55.512333
+User-D Training start time: 2023-11-08 18:49:55.964137
+User-E Training start time: 2023-11-08 18:49:56.426375
+User-F Training start time: 2023-11-08 18:49:56.878843
+User-G Training start time: 2023-11-08 18:49:57.359445
+User-H Training start time: 2023-11-08 18:49:57.820997
+User-I Training start time: 2023-11-08 18:49:58.302402
+User-J Training start time: 2023-11-08 18:49:58.764708
+User-A Training end time: 2023-11-08 18:50:04.302043
+User-J Training end time: 2023-11-08 18:50:05.426319
+User-D Training end time: 2023-11-08 18:50:06.555251
+User-B Training end time: 2023-11-08 18:50:07.771661
+User-H Training end time: 2023-11-08 18:50:08.886956
+User-E Training end time: 2023-11-08 18:50:10.068533
+User-C Training end time: 2023-11-08 18:50:11.203040
+User-I Training end time: 2023-11-08 18:50:12.419875
+User-F Training end time: 2023-11-08 18:50:13.612170
+User-G Training end time: 2023-11-08 18:50:14.795525
+2023-11-08 18:50:14,797 | Evaluating models
+2023-11-08 18:50:16,972 | Model update A: Average loss: 0.0059, Accuracy: 7738/10000 (77.38%)
+2023-11-08 18:50:19,189 | Model update B: Average loss: 0.0099, Accuracy: 6356/10000 (63.56%)
+2023-11-08 18:50:21,255 | Model update C: Average loss: 0.0186, Accuracy: 3895/10000 (38.95%)
+2023-11-08 18:50:23,365 | Model update D: Average loss: 0.0374, Accuracy: 1938/10000 (19.38%)
+2023-11-08 18:50:25,563 | Model update E: Average loss: 0.0091, Accuracy: 7333/10000 (73.33%)
+2023-11-08 18:50:27,613 | Model update F: Average loss: 0.0228, Accuracy: 3601/10000 (36.01%)
+2023-11-08 18:50:29,902 | Model update G: Average loss: 0.0102, Accuracy: 6425/10000 (64.25%)
+2023-11-08 18:50:32,141 | Model update H: Average loss: 0.0219, Accuracy: 4189/10000 (41.89%)
+2023-11-08 18:50:34,355 | Model update I: Average loss: 0.0617, Accuracy: 989/10000 (9.89%)
+2023-11-08 18:50:36,585 | Model update J: Average loss: 0.0475, Accuracy: 1843/10000 (18.43%)
+2023-11-08 18:50:38,727 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:50:38,727 | Federated model: Average loss: 0.0024, Accuracy: 9092/10000 (90.92%)
+2023-11-08 18:50:38,727 | Training round 71/100
+User-A Training start time: 2023-11-08 18:50:38.727809
+User-B Training start time: 2023-11-08 18:50:39.205019
+User-C Training start time: 2023-11-08 18:50:39.677478
+User-D Training start time: 2023-11-08 18:50:40.161848
+User-E Training start time: 2023-11-08 18:50:40.609732
+User-F Training start time: 2023-11-08 18:50:41.071173
+User-G Training start time: 2023-11-08 18:50:41.525888
+User-H Training start time: 2023-11-08 18:50:41.998888
+User-I Training start time: 2023-11-08 18:50:42.478767
+User-J Training start time: 2023-11-08 18:50:42.958832
+User-A Training end time: 2023-11-08 18:50:48.464940
+User-B Training end time: 2023-11-08 18:50:49.617854
+User-I Training end time: 2023-11-08 18:50:50.760361
+User-E Training end time: 2023-11-08 18:50:51.950884
+User-C Training end time: 2023-11-08 18:50:53.089043
+User-J Training end time: 2023-11-08 18:50:54.278274
+User-H Training end time: 2023-11-08 18:50:55.475118
+User-F Training end time: 2023-11-08 18:50:56.669301
+User-D Training end time: 2023-11-08 18:50:57.856546
+User-G Training end time: 2023-11-08 18:50:59.031135
+User-A Training start time: 2023-11-08 18:50:59.038061
+2023-11-08 18:50:59,038 | Training round 72/100
+User-B Training start time: 2023-11-08 18:50:59.477950
+User-C Training start time: 2023-11-08 18:50:59.941338
+User-D Training start time: 2023-11-08 18:51:00.401053
+User-E Training start time: 2023-11-08 18:51:00.833072
+User-F Training start time: 2023-11-08 18:51:01.306566
+User-G Training start time: 2023-11-08 18:51:01.803460
+User-H Training start time: 2023-11-08 18:51:02.249712
+User-I Training start time: 2023-11-08 18:51:02.715356
+User-J Training start time: 2023-11-08 18:51:03.200777
+User-A Training end time: 2023-11-08 18:51:08.710718
+User-C Training end time: 2023-11-08 18:51:09.835442
+User-F Training end time: 2023-11-08 18:51:10.965609
+User-H Training end time: 2023-11-08 18:51:12.092518
+User-D Training end time: 2023-11-08 18:51:13.222457
+User-J Training end time: 2023-11-08 18:51:14.346357
+User-E Training end time: 2023-11-08 18:51:15.459993
+User-I Training end time: 2023-11-08 18:51:16.652017
+User-B Training end time: 2023-11-08 18:51:17.855576
+User-G Training end time: 2023-11-08 18:51:18.998829
+2023-11-08 18:51:19,009 | Training round 73/100
+User-A Training start time: 2023-11-08 18:51:19.010152
+User-B Training start time: 2023-11-08 18:51:19.457977
+User-C Training start time: 2023-11-08 18:51:19.924164
+User-D Training start time: 2023-11-08 18:51:20.385185
+User-E Training start time: 2023-11-08 18:51:20.854964
+User-F Training start time: 2023-11-08 18:51:21.341224
+User-G Training start time: 2023-11-08 18:51:21.782253
+User-H Training start time: 2023-11-08 18:51:22.255071
+User-I Training start time: 2023-11-08 18:51:22.738700
+User-J Training start time: 2023-11-08 18:51:23.219291
+User-A Training end time: 2023-11-08 18:51:28.654338
+User-I Training end time: 2023-11-08 18:51:29.767149
+User-D Training end time: 2023-11-08 18:51:30.869984
+User-B Training end time: 2023-11-08 18:51:31.971790
+User-C Training end time: 2023-11-08 18:51:33.117432
+User-F Training end time: 2023-11-08 18:51:34.253357
+User-J Training end time: 2023-11-08 18:51:35.420290
+User-H Training end time: 2023-11-08 18:51:36.573774
+User-E Training end time: 2023-11-08 18:51:37.725512
+User-G Training end time: 2023-11-08 18:51:38.890222
+User-A Training start time: 2023-11-08 18:51:38.897149
+2023-11-08 18:51:38,897 | Training round 74/100
+User-B Training start time: 2023-11-08 18:51:39.359398
+User-C Training start time: 2023-11-08 18:51:39.834612
+User-D Training start time: 2023-11-08 18:51:40.307757
+User-E Training start time: 2023-11-08 18:51:40.794529
+User-F Training start time: 2023-11-08 18:51:41.278262
+User-G Training start time: 2023-11-08 18:51:41.745845
+User-H Training start time: 2023-11-08 18:51:42.218103
+User-I Training start time: 2023-11-08 18:51:42.682144
+User-J Training start time: 2023-11-08 18:51:43.187197
+User-A Training end time: 2023-11-08 18:51:48.690688
+User-J Training end time: 2023-11-08 18:51:49.817248
+User-C Training end time: 2023-11-08 18:51:50.949500
+User-D Training end time: 2023-11-08 18:51:52.130170
+User-F Training end time: 2023-11-08 18:51:53.313373
+User-I Training end time: 2023-11-08 18:51:54.505250
+User-B Training end time: 2023-11-08 18:51:55.643649
+User-H Training end time: 2023-11-08 18:51:56.810948
+User-E Training end time: 2023-11-08 18:51:57.957326
+User-G Training end time: 2023-11-08 18:51:59.084218
+User-A Training start time: 2023-11-08 18:51:59.091218
+2023-11-08 18:51:59,091 | Training round 75/100
+User-B Training start time: 2023-11-08 18:51:59.553684
+User-C Training start time: 2023-11-08 18:51:59.994164
+User-D Training start time: 2023-11-08 18:52:00.432615
+User-E Training start time: 2023-11-08 18:52:00.892784
+User-F Training start time: 2023-11-08 18:52:01.392065
+User-G Training start time: 2023-11-08 18:52:01.845444
+User-H Training start time: 2023-11-08 18:52:02.302348
+User-I Training start time: 2023-11-08 18:52:02.779817
+User-J Training start time: 2023-11-08 18:52:03.247420
+User-A Training end time: 2023-11-08 18:52:08.757051
+User-D Training end time: 2023-11-08 18:52:09.887301
+User-C Training end time: 2023-11-08 18:52:11.017707
+User-J Training end time: 2023-11-08 18:52:12.146873
+User-B Training end time: 2023-11-08 18:52:13.353750
+User-F Training end time: 2023-11-08 18:52:14.534720
+User-I Training end time: 2023-11-08 18:52:15.724325
+User-H Training end time: 2023-11-08 18:52:16.906873
+User-E Training end time: 2023-11-08 18:52:18.081102
+User-G Training end time: 2023-11-08 18:52:19.284268
+2023-11-08 18:52:19,285 | Evaluating models
+2023-11-08 18:52:21,547 | Model update A: Average loss: 0.0050, Accuracy: 8015/10000 (80.15%)
+2023-11-08 18:52:23,871 | Model update B: Average loss: 0.0077, Accuracy: 7228/10000 (72.28%)
+2023-11-08 18:52:26,101 | Model update C: Average loss: 0.0256, Accuracy: 2899/10000 (28.99%)
+2023-11-08 18:52:28,366 | Model update D: Average loss: 0.0209, Accuracy: 4005/10000 (40.05%)
+2023-11-08 18:52:30,559 | Model update E: Average loss: 0.0210, Accuracy: 5451/10000 (54.51%)
+2023-11-08 18:52:32,829 | Model update F: Average loss: 0.0690, Accuracy: 909/10000 (9.09%)
+2023-11-08 18:52:35,079 | Model update G: Average loss: 0.0083, Accuracy: 6965/10000 (69.65%)
+2023-11-08 18:52:37,389 | Model update H: Average loss: 0.0162, Accuracy: 5091/10000 (50.91%)
+2023-11-08 18:52:39,778 | Model update I: Average loss: 0.0432, Accuracy: 1392/10000 (13.92%)
+2023-11-08 18:52:41,958 | Model update J: Average loss: 0.0489, Accuracy: 1837/10000 (18.37%)
+2023-11-08 18:52:44,285 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:52:44,286 | Federated model: Average loss: 0.0023, Accuracy: 9153/10000 (91.53%)
+2023-11-08 18:52:44,286 | Training round 76/100
+User-A Training start time: 2023-11-08 18:52:44.286100
+User-B Training start time: 2023-11-08 18:52:44.714632
+User-C Training start time: 2023-11-08 18:52:45.196992
+User-D Training start time: 2023-11-08 18:52:45.672328
+User-E Training start time: 2023-11-08 18:52:46.144094
+User-F Training start time: 2023-11-08 18:52:46.605426
+User-G Training start time: 2023-11-08 18:52:47.080168
+User-H Training start time: 2023-11-08 18:52:47.552280
+User-I Training start time: 2023-11-08 18:52:47.984952
+User-J Training start time: 2023-11-08 18:52:48.463301
+User-A Training end time: 2023-11-08 18:52:53.993423
+User-I Training end time: 2023-11-08 18:52:55.144284
+User-H Training end time: 2023-11-08 18:52:56.277968
+User-D Training end time: 2023-11-08 18:52:57.465819
+User-J Training end time: 2023-11-08 18:52:58.602509
+User-B Training end time: 2023-11-08 18:52:59.749021
+User-C Training end time: 2023-11-08 18:53:00.871377
+User-F Training end time: 2023-11-08 18:53:02.068178
+User-E Training end time: 2023-11-08 18:53:03.258199
+User-G Training end time: 2023-11-08 18:53:04.455783
+2023-11-08 18:53:04,466 | Training round 77/100
+User-A Training start time: 2023-11-08 18:53:04.466705
+User-B Training start time: 2023-11-08 18:53:04.925109
+User-C Training start time: 2023-11-08 18:53:05.410370
+User-D Training start time: 2023-11-08 18:53:05.850458
+User-E Training start time: 2023-11-08 18:53:06.318636
+User-F Training start time: 2023-11-08 18:53:06.790361
+User-G Training start time: 2023-11-08 18:53:07.256862
+User-H Training start time: 2023-11-08 18:53:07.706447
+User-I Training start time: 2023-11-08 18:53:08.142194
+User-J Training start time: 2023-11-08 18:53:08.569541
+User-A Training end time: 2023-11-08 18:53:14.130810
+User-C Training end time: 2023-11-08 18:53:15.261508
+User-I Training end time: 2023-11-08 18:53:16.415053
+User-D Training end time: 2023-11-08 18:53:17.589276
+User-E Training end time: 2023-11-08 18:53:18.719609
+User-J Training end time: 2023-11-08 18:53:19.918271
+User-H Training end time: 2023-11-08 18:53:21.081537
+User-B Training end time: 2023-11-08 18:53:22.268705
+User-F Training end time: 2023-11-08 18:53:23.448971
+User-G Training end time: 2023-11-08 18:53:24.569028
+User-A Training start time: 2023-11-08 18:53:24.577028
+2023-11-08 18:53:24,577 | Training round 78/100
+User-B Training start time: 2023-11-08 18:53:25.045397
+User-C Training start time: 2023-11-08 18:53:25.522198
+User-D Training start time: 2023-11-08 18:53:25.983825
+User-E Training start time: 2023-11-08 18:53:26.451832
+User-F Training start time: 2023-11-08 18:53:26.905949
+User-G Training start time: 2023-11-08 18:53:27.373987
+User-H Training start time: 2023-11-08 18:53:27.840577
+User-I Training start time: 2023-11-08 18:53:28.327170
+User-J Training start time: 2023-11-08 18:53:28.803119
+User-A Training end time: 2023-11-08 18:53:34.362210
+User-E Training end time: 2023-11-08 18:53:35.467773
+User-I Training end time: 2023-11-08 18:53:36.599535
+User-H Training end time: 2023-11-08 18:53:37.718855
+User-J Training end time: 2023-11-08 18:53:38.854394
+User-F Training end time: 2023-11-08 18:53:40.016467
+User-D Training end time: 2023-11-08 18:53:41.205398
+User-C Training end time: 2023-11-08 18:53:42.382788
+User-B Training end time: 2023-11-08 18:53:43.561489
+User-G Training end time: 2023-11-08 18:53:44.723866
+User-A Training start time: 2023-11-08 18:53:44.732464
+2023-11-08 18:53:44,732 | Training round 79/100
+User-B Training start time: 2023-11-08 18:53:45.161573
+User-C Training start time: 2023-11-08 18:53:45.596098
+User-D Training start time: 2023-11-08 18:53:46.047744
+User-E Training start time: 2023-11-08 18:53:46.516046
+User-F Training start time: 2023-11-08 18:53:46.965570
+User-G Training start time: 2023-11-08 18:53:47.421262
+User-H Training start time: 2023-11-08 18:53:47.907451
+User-I Training start time: 2023-11-08 18:53:48.397549
+User-J Training start time: 2023-11-08 18:53:48.865005
+User-A Training end time: 2023-11-08 18:53:54.498739
+User-B Training end time: 2023-11-08 18:53:55.632849
+User-D Training end time: 2023-11-08 18:53:56.764759
+User-J Training end time: 2023-11-08 18:53:57.902104
+User-F Training end time: 2023-11-08 18:53:59.112368
+User-C Training end time: 2023-11-08 18:54:00.267070
+User-E Training end time: 2023-11-08 18:54:01.456453
+User-H Training end time: 2023-11-08 18:54:02.637739
+User-I Training end time: 2023-11-08 18:54:03.855795
+User-G Training end time: 2023-11-08 18:54:04.993335
+User-A Training start time: 2023-11-08 18:54:05.002335
+2023-11-08 18:54:05,001 | Training round 80/100
+User-B Training start time: 2023-11-08 18:54:05.430231
+User-C Training start time: 2023-11-08 18:54:05.896344
+User-D Training start time: 2023-11-08 18:54:06.334945
+User-E Training start time: 2023-11-08 18:54:06.807884
+User-F Training start time: 2023-11-08 18:54:07.265245
+User-G Training start time: 2023-11-08 18:54:07.713920
+User-H Training start time: 2023-11-08 18:54:08.164150
+User-I Training start time: 2023-11-08 18:54:08.600017
+User-J Training start time: 2023-11-08 18:54:09.064382
+User-A Training end time: 2023-11-08 18:54:14.521018
+User-C Training end time: 2023-11-08 18:54:15.654070
+User-F Training end time: 2023-11-08 18:54:16.803879
+User-I Training end time: 2023-11-08 18:54:17.950706
+User-H Training end time: 2023-11-08 18:54:19.107202
+User-E Training end time: 2023-11-08 18:54:20.277888
+User-J Training end time: 2023-11-08 18:54:21.453838
+User-B Training end time: 2023-11-08 18:54:22.652967
+User-D Training end time: 2023-11-08 18:54:23.849573
+User-G Training end time: 2023-11-08 18:54:25.024002
+2023-11-08 18:54:25,026 | Evaluating models
+2023-11-08 18:54:27,100 | Model update A: Average loss: 0.0101, Accuracy: 6492/10000 (64.92%)
+2023-11-08 18:54:29,295 | Model update B: Average loss: 0.0063, Accuracy: 7574/10000 (75.74%)
+2023-11-08 18:54:31,653 | Model update C: Average loss: 0.0244, Accuracy: 3528/10000 (35.28%)
+2023-11-08 18:54:33,959 | Model update D: Average loss: 0.0239, Accuracy: 3198/10000 (31.98%)
+2023-11-08 18:54:36,187 | Model update E: Average loss: 0.0187, Accuracy: 5624/10000 (56.24%)
+2023-11-08 18:54:38,448 | Model update F: Average loss: 0.0492, Accuracy: 1674/10000 (16.74%)
+2023-11-08 18:54:40,788 | Model update G: Average loss: 0.0074, Accuracy: 7264/10000 (72.64%)
+2023-11-08 18:54:43,063 | Model update H: Average loss: 0.0203, Accuracy: 4157/10000 (41.57%)
+2023-11-08 18:54:45,438 | Model update I: Average loss: 0.0434, Accuracy: 1470/10000 (14.70%)
+2023-11-08 18:54:47,832 | Model update J: Average loss: 0.0317, Accuracy: 3114/10000 (31.14%)
+2023-11-08 18:54:50,216 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:54:50,216 | Federated model: Average loss: 0.0022, Accuracy: 9194/10000 (91.94%)
+2023-11-08 18:54:50,216 | Training round 81/100
+User-A Training start time: 2023-11-08 18:54:50.216564
+User-B Training start time: 2023-11-08 18:54:50.671682
+User-C Training start time: 2023-11-08 18:54:51.121815
+User-D Training start time: 2023-11-08 18:54:51.588540
+User-E Training start time: 2023-11-08 18:54:52.071548
+User-F Training start time: 2023-11-08 18:54:52.554518
+User-G Training start time: 2023-11-08 18:54:52.992940
+User-H Training start time: 2023-11-08 18:54:53.478970
+User-I Training start time: 2023-11-08 18:54:53.956934
+User-J Training start time: 2023-11-08 18:54:54.449448
+User-A Training end time: 2023-11-08 18:54:59.972689
+User-I Training end time: 2023-11-08 18:55:01.097466
+User-E Training end time: 2023-11-08 18:55:02.249932
+User-C Training end time: 2023-11-08 18:55:03.393173
+User-F Training end time: 2023-11-08 18:55:04.576451
+User-B Training end time: 2023-11-08 18:55:05.714591
+User-J Training end time: 2023-11-08 18:55:06.908520
+User-H Training end time: 2023-11-08 18:55:08.098083
+User-D Training end time: 2023-11-08 18:55:09.278333
+User-G Training end time: 2023-11-08 18:55:10.468432
+User-A Training start time: 2023-11-08 18:55:10.475430
+2023-11-08 18:55:10,475 | Training round 82/100
+User-B Training start time: 2023-11-08 18:55:10.931653
+User-C Training start time: 2023-11-08 18:55:11.363605
+User-D Training start time: 2023-11-08 18:55:11.861263
+User-E Training start time: 2023-11-08 18:55:12.303104
+User-F Training start time: 2023-11-08 18:55:12.765994
+User-G Training start time: 2023-11-08 18:55:13.252577
+User-H Training start time: 2023-11-08 18:55:13.746720
+User-I Training start time: 2023-11-08 18:55:14.246044
+User-J Training start time: 2023-11-08 18:55:14.701076
+User-A Training end time: 2023-11-08 18:55:20.211826
+User-F Training end time: 2023-11-08 18:55:21.374783
+User-E Training end time: 2023-11-08 18:55:22.508417
+User-D Training end time: 2023-11-08 18:55:23.615112
+User-H Training end time: 2023-11-08 18:55:24.716681
+User-J Training end time: 2023-11-08 18:55:25.826532
+User-B Training end time: 2023-11-08 18:55:26.986400
+User-I Training end time: 2023-11-08 18:55:28.158257
+User-C Training end time: 2023-11-08 18:55:29.315461
+User-G Training end time: 2023-11-08 18:55:30.425195
+User-A Training start time: 2023-11-08 18:55:30.432195
+2023-11-08 18:55:30,432 | Training round 83/100
+User-B Training start time: 2023-11-08 18:55:30.891716
+User-C Training start time: 2023-11-08 18:55:31.363200
+User-D Training start time: 2023-11-08 18:55:31.825046
+User-E Training start time: 2023-11-08 18:55:32.296040
+User-F Training start time: 2023-11-08 18:55:32.791276
+User-G Training start time: 2023-11-08 18:55:33.278752
+User-H Training start time: 2023-11-08 18:55:33.778961
+User-I Training start time: 2023-11-08 18:55:34.243731
+User-J Training start time: 2023-11-08 18:55:34.709203
+User-A Training end time: 2023-11-08 18:55:40.200927
+User-C Training end time: 2023-11-08 18:55:41.320932
+User-B Training end time: 2023-11-08 18:55:42.426740
+User-I Training end time: 2023-11-08 18:55:43.538729
+User-J Training end time: 2023-11-08 18:55:44.669211
+User-D Training end time: 2023-11-08 18:55:45.839762
+User-H Training end time: 2023-11-08 18:55:47.007354
+User-E Training end time: 2023-11-08 18:55:48.134608
+User-F Training end time: 2023-11-08 18:55:49.330934
+User-G Training end time: 2023-11-08 18:55:50.467270
+User-A Training start time: 2023-11-08 18:55:50.476201
+2023-11-08 18:55:50,476 | Training round 84/100
+User-B Training start time: 2023-11-08 18:55:50.947037
+User-C Training start time: 2023-11-08 18:55:51.410588
+User-D Training start time: 2023-11-08 18:55:51.873222
+User-E Training start time: 2023-11-08 18:55:52.334671
+User-F Training start time: 2023-11-08 18:55:52.783558
+User-G Training start time: 2023-11-08 18:55:53.250386
+User-H Training start time: 2023-11-08 18:55:53.735541
+User-I Training start time: 2023-11-08 18:55:54.192083
+User-J Training start time: 2023-11-08 18:55:54.665295
+User-A Training end time: 2023-11-08 18:56:00.417530
+User-B Training end time: 2023-11-08 18:56:01.574723
+User-I Training end time: 2023-11-08 18:56:02.720449
+User-F Training end time: 2023-11-08 18:56:03.862125
+User-C Training end time: 2023-11-08 18:56:05.012441
+User-E Training end time: 2023-11-08 18:56:06.210777
+User-D Training end time: 2023-11-08 18:56:07.411251
+User-J Training end time: 2023-11-08 18:56:08.602918
+User-H Training end time: 2023-11-08 18:56:09.788389
+User-G Training end time: 2023-11-08 18:56:10.938528
+User-A Training start time: 2023-11-08 18:56:10.949087
+2023-11-08 18:56:10,949 | Training round 85/100
+User-B Training start time: 2023-11-08 18:56:11.409471
+User-C Training start time: 2023-11-08 18:56:11.885790
+User-D Training start time: 2023-11-08 18:56:12.361735
+User-E Training start time: 2023-11-08 18:56:12.816425
+User-F Training start time: 2023-11-08 18:56:13.284723
+User-G Training start time: 2023-11-08 18:56:13.736729
+User-H Training start time: 2023-11-08 18:56:14.218425
+User-I Training start time: 2023-11-08 18:56:14.681420
+User-J Training start time: 2023-11-08 18:56:15.151668
+User-A Training end time: 2023-11-08 18:56:20.639254
+User-J Training end time: 2023-11-08 18:56:21.794358
+User-I Training end time: 2023-11-08 18:56:22.920137
+User-D Training end time: 2023-11-08 18:56:24.133325
+User-B Training end time: 2023-11-08 18:56:25.290764
+User-E Training end time: 2023-11-08 18:56:26.481472
+User-C Training end time: 2023-11-08 18:56:27.637096
+User-F Training end time: 2023-11-08 18:56:28.837492
+User-H Training end time: 2023-11-08 18:56:30.016254
+User-G Training end time: 2023-11-08 18:56:31.174344
+2023-11-08 18:56:31,175 | Evaluating models
+2023-11-08 18:56:33,539 | Model update A: Average loss: 0.0051, Accuracy: 7967/10000 (79.67%)
+2023-11-08 18:56:35,775 | Model update B: Average loss: 0.0042, Accuracy: 8228/10000 (82.28%)
+2023-11-08 18:56:37,814 | Model update C: Average loss: 0.0258, Accuracy: 3240/10000 (32.40%)
+2023-11-08 18:56:40,083 | Model update D: Average loss: 0.0162, Accuracy: 4450/10000 (44.50%)
+2023-11-08 18:56:42,266 | Model update E: Average loss: 0.0113, Accuracy: 6501/10000 (65.01%)
+2023-11-08 18:56:44,402 | Model update F: Average loss: 0.0215, Accuracy: 3840/10000 (38.40%)
+2023-11-08 18:56:46,703 | Model update G: Average loss: 0.0058, Accuracy: 7722/10000 (77.22%)
+2023-11-08 18:56:48,838 | Model update H: Average loss: 0.0169, Accuracy: 4609/10000 (46.09%)
+2023-11-08 18:56:51,034 | Model update I: Average loss: 0.0666, Accuracy: 981/10000 (9.81%)
+2023-11-08 18:56:53,365 | Model update J: Average loss: 0.0427, Accuracy: 2130/10000 (21.30%)
+2023-11-08 18:56:55,712 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:56:55,712 | Federated model: Average loss: 0.0022, Accuracy: 9158/10000 (91.58%)
+2023-11-08 18:56:55,712 | Training round 86/100
+User-A Training start time: 2023-11-08 18:56:55.712994
+User-B Training start time: 2023-11-08 18:56:56.140656
+User-C Training start time: 2023-11-08 18:56:56.622189
+User-D Training start time: 2023-11-08 18:56:57.118949
+User-E Training start time: 2023-11-08 18:56:57.576952
+User-F Training start time: 2023-11-08 18:56:58.016523
+User-G Training start time: 2023-11-08 18:56:58.491190
+User-H Training start time: 2023-11-08 18:56:58.950765
+User-I Training start time: 2023-11-08 18:56:59.421908
+User-J Training start time: 2023-11-08 18:56:59.876215
+User-A Training end time: 2023-11-08 18:57:05.375756
+User-D Training end time: 2023-11-08 18:57:06.497161
+User-I Training end time: 2023-11-08 18:57:07.638096
+User-C Training end time: 2023-11-08 18:57:08.814516
+User-B Training end time: 2023-11-08 18:57:09.938750
+User-H Training end time: 2023-11-08 18:57:11.139984
+User-F Training end time: 2023-11-08 18:57:12.320354
+User-J Training end time: 2023-11-08 18:57:13.506320
+User-E Training end time: 2023-11-08 18:57:14.651909
+User-G Training end time: 2023-11-08 18:57:15.836609
+User-A Training start time: 2023-11-08 18:57:15.844609
+2023-11-08 18:57:15,843 | Training round 87/100
+User-B Training start time: 2023-11-08 18:57:16.300865
+User-C Training start time: 2023-11-08 18:57:16.747198
+User-D Training start time: 2023-11-08 18:57:17.188331
+User-E Training start time: 2023-11-08 18:57:17.650163
+User-F Training start time: 2023-11-08 18:57:18.186888
+User-G Training start time: 2023-11-08 18:57:18.653951
+User-H Training start time: 2023-11-08 18:57:19.129211
+User-I Training start time: 2023-11-08 18:57:19.594665
+User-J Training start time: 2023-11-08 18:57:20.079758
+User-A Training end time: 2023-11-08 18:57:25.607784
+User-E Training end time: 2023-11-08 18:57:26.722207
+User-F Training end time: 2023-11-08 18:57:27.825655
+User-B Training end time: 2023-11-08 18:57:28.941471
+User-H Training end time: 2023-11-08 18:57:30.049379
+User-D Training end time: 2023-11-08 18:57:31.250936
+User-I Training end time: 2023-11-08 18:57:32.428270
+User-C Training end time: 2023-11-08 18:57:33.568914
+User-J Training end time: 2023-11-08 18:57:34.750878
+User-G Training end time: 2023-11-08 18:57:35.869133
+User-A Training start time: 2023-11-08 18:57:35.878045
+2023-11-08 18:57:35,878 | Training round 88/100
+User-B Training start time: 2023-11-08 18:57:36.338373
+User-C Training start time: 2023-11-08 18:57:36.816984
+User-D Training start time: 2023-11-08 18:57:37.304863
+User-E Training start time: 2023-11-08 18:57:37.740696
+User-F Training start time: 2023-11-08 18:57:38.217227
+User-G Training start time: 2023-11-08 18:57:38.677136
+User-H Training start time: 2023-11-08 18:57:39.125287
+User-I Training start time: 2023-11-08 18:57:39.575664
+User-J Training start time: 2023-11-08 18:57:40.055439
+User-A Training end time: 2023-11-08 18:57:45.511434
+User-B Training end time: 2023-11-08 18:57:46.622125
+User-I Training end time: 2023-11-08 18:57:47.748151
+User-F Training end time: 2023-11-08 18:57:48.846540
+User-E Training end time: 2023-11-08 18:57:49.948530
+User-J Training end time: 2023-11-08 18:57:51.042571
+User-H Training end time: 2023-11-08 18:57:52.178221
+User-D Training end time: 2023-11-08 18:57:53.355713
+User-C Training end time: 2023-11-08 18:57:54.545446
+User-G Training end time: 2023-11-08 18:57:55.742902
+User-A Training start time: 2023-11-08 18:57:55.749824
+2023-11-08 18:57:55,749 | Training round 89/100
+User-B Training start time: 2023-11-08 18:57:56.194778
+User-C Training start time: 2023-11-08 18:57:56.656071
+User-D Training start time: 2023-11-08 18:57:57.119907
+User-E Training start time: 2023-11-08 18:57:57.598087
+User-F Training start time: 2023-11-08 18:57:58.082126
+User-G Training start time: 2023-11-08 18:57:58.563676
+User-H Training start time: 2023-11-08 18:57:59.054766
+User-I Training start time: 2023-11-08 18:57:59.525132
+User-J Training start time: 2023-11-08 18:57:59.995974
+User-A Training end time: 2023-11-08 18:58:05.584265
+User-B Training end time: 2023-11-08 18:58:06.709644
+User-F Training end time: 2023-11-08 18:58:07.841355
+User-I Training end time: 2023-11-08 18:58:08.994921
+User-H Training end time: 2023-11-08 18:58:10.147866
+User-E Training end time: 2023-11-08 18:58:11.319829
+User-C Training end time: 2023-11-08 18:58:12.503119
+User-J Training end time: 2023-11-08 18:58:13.702001
+User-D Training end time: 2023-11-08 18:58:14.887038
+User-G Training end time: 2023-11-08 18:58:16.023280
+User-A Training start time: 2023-11-08 18:58:16.030280
+2023-11-08 18:58:16,030 | Training round 90/100
+User-B Training start time: 2023-11-08 18:58:16.480957
+User-C Training start time: 2023-11-08 18:58:16.925996
+User-D Training start time: 2023-11-08 18:58:17.391649
+User-E Training start time: 2023-11-08 18:58:17.868480
+User-F Training start time: 2023-11-08 18:58:18.363094
+User-G Training start time: 2023-11-08 18:58:18.813300
+User-H Training start time: 2023-11-08 18:58:19.286480
+User-I Training start time: 2023-11-08 18:58:19.766839
+User-J Training start time: 2023-11-08 18:58:20.227725
+User-A Training end time: 2023-11-08 18:58:25.762384
+User-B Training end time: 2023-11-08 18:58:26.911414
+User-E Training end time: 2023-11-08 18:58:28.043720
+User-C Training end time: 2023-11-08 18:58:29.188980
+User-I Training end time: 2023-11-08 18:58:30.318358
+User-D Training end time: 2023-11-08 18:58:31.449670
+User-F Training end time: 2023-11-08 18:58:32.659305
+User-H Training end time: 2023-11-08 18:58:33.842218
+User-J Training end time: 2023-11-08 18:58:35.049248
+User-G Training end time: 2023-11-08 18:58:36.252979
+2023-11-08 18:58:36,254 | Evaluating models
+2023-11-08 18:58:38,451 | Model update A: Average loss: 0.0050, Accuracy: 8071/10000 (80.71%)
+2023-11-08 18:58:40,713 | Model update B: Average loss: 0.0077, Accuracy: 7241/10000 (72.41%)
+2023-11-08 18:58:42,959 | Model update C: Average loss: 0.0320, Accuracy: 2261/10000 (22.61%)
+2023-11-08 18:58:45,200 | Model update D: Average loss: 0.0410, Accuracy: 1870/10000 (18.70%)
+2023-11-08 18:58:47,417 | Model update E: Average loss: 0.0152, Accuracy: 5883/10000 (58.83%)
+2023-11-08 18:58:49,852 | Model update F: Average loss: 0.0262, Accuracy: 3244/10000 (32.44%)
+2023-11-08 18:58:52,092 | Model update G: Average loss: 0.0050, Accuracy: 8010/10000 (80.10%)
+2023-11-08 18:58:54,247 | Model update H: Average loss: 0.0148, Accuracy: 5561/10000 (55.61%)
+2023-11-08 18:58:56,749 | Model update I: Average loss: 0.0199, Accuracy: 3761/10000 (37.61%)
+2023-11-08 18:58:59,077 | Model update J: Average loss: 0.0249, Accuracy: 3859/10000 (38.59%)
+2023-11-08 18:59:01,535 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 18:59:01,535 | Federated model: Average loss: 0.0021, Accuracy: 9219/10000 (92.19%)
+2023-11-08 18:59:01,535 | Training round 91/100
+User-A Training start time: 2023-11-08 18:59:01.536017
+User-B Training start time: 2023-11-08 18:59:01.981697
+User-C Training start time: 2023-11-08 18:59:02.477579
+User-D Training start time: 2023-11-08 18:59:02.975656
+User-E Training start time: 2023-11-08 18:59:03.446314
+User-F Training start time: 2023-11-08 18:59:03.916220
+User-G Training start time: 2023-11-08 18:59:04.363754
+User-H Training start time: 2023-11-08 18:59:04.811405
+User-I Training start time: 2023-11-08 18:59:05.310573
+User-J Training start time: 2023-11-08 18:59:05.783721
+User-A Training end time: 2023-11-08 18:59:11.302898
+User-J Training end time: 2023-11-08 18:59:12.417098
+User-B Training end time: 2023-11-08 18:59:13.547411
+User-D Training end time: 2023-11-08 18:59:14.729333
+User-H Training end time: 2023-11-08 18:59:15.880380
+User-E Training end time: 2023-11-08 18:59:17.071933
+User-F Training end time: 2023-11-08 18:59:18.259429
+User-I Training end time: 2023-11-08 18:59:19.422726
+User-C Training end time: 2023-11-08 18:59:20.605137
+User-G Training end time: 2023-11-08 18:59:21.782474
+2023-11-08 18:59:21,793 | Training round 92/100
+User-A Training start time: 2023-11-08 18:59:21.794473
+User-B Training start time: 2023-11-08 18:59:22.255013
+User-C Training start time: 2023-11-08 18:59:22.721668
+User-D Training start time: 2023-11-08 18:59:23.187778
+User-E Training start time: 2023-11-08 18:59:23.665998
+User-F Training start time: 2023-11-08 18:59:24.128666
+User-G Training start time: 2023-11-08 18:59:24.608468
+User-H Training start time: 2023-11-08 18:59:25.077343
+User-I Training start time: 2023-11-08 18:59:25.550517
+User-J Training start time: 2023-11-08 18:59:25.992251
+User-A Training end time: 2023-11-08 18:59:31.500612
+User-E Training end time: 2023-11-08 18:59:32.605619
+User-C Training end time: 2023-11-08 18:59:33.704365
+User-H Training end time: 2023-11-08 18:59:34.827351
+User-I Training end time: 2023-11-08 18:59:35.941741
+User-J Training end time: 2023-11-08 18:59:37.060007
+User-B Training end time: 2023-11-08 18:59:38.172440
+User-D Training end time: 2023-11-08 18:59:39.332213
+User-F Training end time: 2023-11-08 18:59:40.488080
+User-G Training end time: 2023-11-08 18:59:41.617194
+User-A Training start time: 2023-11-08 18:59:41.626460
+2023-11-08 18:59:41,626 | Training round 93/100
+User-B Training start time: 2023-11-08 18:59:42.096518
+User-C Training start time: 2023-11-08 18:59:42.594996
+User-D Training start time: 2023-11-08 18:59:43.059318
+User-E Training start time: 2023-11-08 18:59:43.528664
+User-F Training start time: 2023-11-08 18:59:43.987658
+User-G Training start time: 2023-11-08 18:59:44.438632
+User-H Training start time: 2023-11-08 18:59:44.888196
+User-I Training start time: 2023-11-08 18:59:45.352980
+User-J Training start time: 2023-11-08 18:59:45.826413
+User-A Training end time: 2023-11-08 18:59:51.296566
+User-B Training end time: 2023-11-08 18:59:52.414537
+User-I Training end time: 2023-11-08 18:59:53.561254
+User-H Training end time: 2023-11-08 18:59:54.691547
+User-J Training end time: 2023-11-08 18:59:55.836831
+User-D Training end time: 2023-11-08 18:59:57.023565
+User-C Training end time: 2023-11-08 18:59:58.205586
+User-F Training end time: 2023-11-08 18:59:59.375036
+User-E Training end time: 2023-11-08 19:00:00.513646
+User-G Training end time: 2023-11-08 19:00:01.715485
+User-A Training start time: 2023-11-08 19:00:01.725441
+2023-11-08 19:00:01,724 | Training round 94/100
+User-B Training start time: 2023-11-08 19:00:02.178711
+User-C Training start time: 2023-11-08 19:00:02.673116
+User-D Training start time: 2023-11-08 19:00:03.167866
+User-E Training start time: 2023-11-08 19:00:03.649828
+User-F Training start time: 2023-11-08 19:00:04.152447
+User-G Training start time: 2023-11-08 19:00:04.593578
+User-H Training start time: 2023-11-08 19:00:05.063239
+User-I Training start time: 2023-11-08 19:00:05.536098
+User-J Training start time: 2023-11-08 19:00:05.984035
+User-A Training end time: 2023-11-08 19:00:11.494216
+User-H Training end time: 2023-11-08 19:00:12.608359
+User-D Training end time: 2023-11-08 19:00:13.729444
+User-J Training end time: 2023-11-08 19:00:14.858881
+User-I Training end time: 2023-11-08 19:00:15.990631
+User-C Training end time: 2023-11-08 19:00:17.146946
+User-F Training end time: 2023-11-08 19:00:18.323963
+User-B Training end time: 2023-11-08 19:00:19.505364
+User-E Training end time: 2023-11-08 19:00:20.659511
+User-G Training end time: 2023-11-08 19:00:21.824615
+User-A Training start time: 2023-11-08 19:00:21.831610
+2023-11-08 19:00:21,831 | Training round 95/100
+User-B Training start time: 2023-11-08 19:00:22.281883
+User-C Training start time: 2023-11-08 19:00:22.725513
+User-D Training start time: 2023-11-08 19:00:23.199050
+User-E Training start time: 2023-11-08 19:00:23.654298
+User-F Training start time: 2023-11-08 19:00:24.144334
+User-G Training start time: 2023-11-08 19:00:24.610611
+User-H Training start time: 2023-11-08 19:00:25.040423
+User-I Training start time: 2023-11-08 19:00:25.474277
+User-J Training start time: 2023-11-08 19:00:25.923287
+User-A Training end time: 2023-11-08 19:00:31.465431
+User-B Training end time: 2023-11-08 19:00:32.590479
+User-F Training end time: 2023-11-08 19:00:33.733850
+User-D Training end time: 2023-11-08 19:00:34.928461
+User-H Training end time: 2023-11-08 19:00:36.078372
+User-J Training end time: 2023-11-08 19:00:37.282619
+User-C Training end time: 2023-11-08 19:00:38.469895
+User-I Training end time: 2023-11-08 19:00:39.654250
+User-E Training end time: 2023-11-08 19:00:40.816537
+User-G Training end time: 2023-11-08 19:00:42.021562
+2023-11-08 19:00:42,023 | Evaluating models
+2023-11-08 19:00:44,432 | Model update A: Average loss: 0.0045, Accuracy: 8224/10000 (82.24%)
+2023-11-08 19:00:46,793 | Model update B: Average loss: 0.0040, Accuracy: 8357/10000 (83.57%)
+2023-11-08 19:00:49,247 | Model update C: Average loss: 0.0152, Accuracy: 4814/10000 (48.14%)
+2023-11-08 19:00:51,526 | Model update D: Average loss: 0.0158, Accuracy: 4382/10000 (43.82%)
+2023-11-08 19:00:53,714 | Model update E: Average loss: 0.0134, Accuracy: 6536/10000 (65.36%)
+2023-11-08 19:00:55,878 | Model update F: Average loss: 0.0309, Accuracy: 3134/10000 (31.34%)
+2023-11-08 19:00:58,019 | Model update G: Average loss: 0.0129, Accuracy: 5814/10000 (58.14%)
+2023-11-08 19:01:00,266 | Model update H: Average loss: 0.0116, Accuracy: 5882/10000 (58.82%)
+2023-11-08 19:01:02,575 | Model update I: Average loss: 0.0280, Accuracy: 2272/10000 (22.72%)
+2023-11-08 19:01:04,875 | Model update J: Average loss: 0.0198, Accuracy: 4631/10000 (46.31%)
+2023-11-08 19:01:07,076 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 19:01:07,076 | Federated model: Average loss: 0.0021, Accuracy: 9223/10000 (92.23%)
+2023-11-08 19:01:07,076 | Training round 96/100
+User-A Training start time: 2023-11-08 19:01:07.076419
+User-B Training start time: 2023-11-08 19:01:07.538044
+User-C Training start time: 2023-11-08 19:01:08.006908
+User-D Training start time: 2023-11-08 19:01:08.477175
+User-E Training start time: 2023-11-08 19:01:08.947913
+User-F Training start time: 2023-11-08 19:01:09.408795
+User-G Training start time: 2023-11-08 19:01:09.884702
+User-H Training start time: 2023-11-08 19:01:10.337325
+User-I Training start time: 2023-11-08 19:01:10.800986
+User-J Training start time: 2023-11-08 19:01:11.280294
+User-A Training end time: 2023-11-08 19:01:16.894945
+User-E Training end time: 2023-11-08 19:01:18.032999
+User-D Training end time: 2023-11-08 19:01:19.178478
+User-C Training end time: 2023-11-08 19:01:20.326368
+User-I Training end time: 2023-11-08 19:01:21.452948
+User-J Training end time: 2023-11-08 19:01:22.568539
+User-F Training end time: 2023-11-08 19:01:23.733859
+User-B Training end time: 2023-11-08 19:01:24.894650
+User-H Training end time: 2023-11-08 19:01:26.087107
+User-G Training end time: 2023-11-08 19:01:27.201621
+User-A Training start time: 2023-11-08 19:01:27.211049
+2023-11-08 19:01:27,211 | Training round 97/100
+User-B Training start time: 2023-11-08 19:01:27.673111
+User-C Training start time: 2023-11-08 19:01:28.135745
+User-D Training start time: 2023-11-08 19:01:28.588664
+User-E Training start time: 2023-11-08 19:01:29.075719
+User-F Training start time: 2023-11-08 19:01:29.551388
+User-G Training start time: 2023-11-08 19:01:30.031011
+User-H Training start time: 2023-11-08 19:01:30.489183
+User-I Training start time: 2023-11-08 19:01:30.959679
+User-J Training start time: 2023-11-08 19:01:31.425205
+User-A Training end time: 2023-11-08 19:01:37.015335
+User-I Training end time: 2023-11-08 19:01:38.153359
+User-D Training end time: 2023-11-08 19:01:39.272342
+User-H Training end time: 2023-11-08 19:01:40.388788
+User-F Training end time: 2023-11-08 19:01:41.566175
+User-B Training end time: 2023-11-08 19:01:42.676839
+User-J Training end time: 2023-11-08 19:01:43.841122
+User-E Training end time: 2023-11-08 19:01:45.000989
+User-C Training end time: 2023-11-08 19:01:46.169021
+User-G Training end time: 2023-11-08 19:01:47.304607
+User-A Training start time: 2023-11-08 19:01:47.311608
+2023-11-08 19:01:47,311 | Training round 98/100
+User-B Training start time: 2023-11-08 19:01:47.750487
+User-C Training start time: 2023-11-08 19:01:48.238722
+User-D Training start time: 2023-11-08 19:01:48.698103
+User-E Training start time: 2023-11-08 19:01:49.163358
+User-F Training start time: 2023-11-08 19:01:49.654344
+User-G Training start time: 2023-11-08 19:01:50.117693
+User-H Training start time: 2023-11-08 19:01:50.552445
+User-I Training start time: 2023-11-08 19:01:51.016626
+User-J Training start time: 2023-11-08 19:01:51.492794
+User-A Training end time: 2023-11-08 19:01:57.107241
+User-B Training end time: 2023-11-08 19:01:58.246015
+User-F Training end time: 2023-11-08 19:01:59.407999
+User-H Training end time: 2023-11-08 19:02:00.561116
+User-I Training end time: 2023-11-08 19:02:01.722821
+User-C Training end time: 2023-11-08 19:02:02.866501
+User-D Training end time: 2023-11-08 19:02:04.078622
+User-E Training end time: 2023-11-08 19:02:05.279581
+User-J Training end time: 2023-11-08 19:02:06.483342
+User-G Training end time: 2023-11-08 19:02:07.636887
+User-A Training start time: 2023-11-08 19:02:07.643809
+2023-11-08 19:02:07,643 | Training round 99/100
+User-B Training start time: 2023-11-08 19:02:08.111600
+User-C Training start time: 2023-11-08 19:02:08.564598
+User-D Training start time: 2023-11-08 19:02:09.046755
+User-E Training start time: 2023-11-08 19:02:09.531988
+User-F Training start time: 2023-11-08 19:02:10.011993
+User-G Training start time: 2023-11-08 19:02:10.459083
+User-H Training start time: 2023-11-08 19:02:10.941352
+User-I Training start time: 2023-11-08 19:02:11.423661
+User-J Training start time: 2023-11-08 19:02:11.906772
+User-A Training end time: 2023-11-08 19:02:17.395599
+User-J Training end time: 2023-11-08 19:02:18.539454
+User-I Training end time: 2023-11-08 19:02:19.695241
+User-F Training end time: 2023-11-08 19:02:20.830118
+User-H Training end time: 2023-11-08 19:02:21.954467
+User-D Training end time: 2023-11-08 19:02:23.142064
+User-C Training end time: 2023-11-08 19:02:24.264339
+User-B Training end time: 2023-11-08 19:02:25.445648
+User-E Training end time: 2023-11-08 19:02:26.618408
+User-G Training end time: 2023-11-08 19:02:27.801447
+User-A Training start time: 2023-11-08 19:02:27.810362
+2023-11-08 19:02:27,810 | Training round 100/100
+User-B Training start time: 2023-11-08 19:02:28.261525
+User-C Training start time: 2023-11-08 19:02:28.717537
+User-D Training start time: 2023-11-08 19:02:29.214855
+User-E Training start time: 2023-11-08 19:02:29.689818
+User-F Training start time: 2023-11-08 19:02:30.163937
+User-G Training start time: 2023-11-08 19:02:30.622541
+User-H Training start time: 2023-11-08 19:02:31.098236
+User-I Training start time: 2023-11-08 19:02:31.574409
+User-J Training start time: 2023-11-08 19:02:32.030286
+User-A Training end time: 2023-11-08 19:02:37.528119
+User-I Training end time: 2023-11-08 19:02:38.686372
+User-E Training end time: 2023-11-08 19:02:39.840091
+User-F Training end time: 2023-11-08 19:02:40.980570
+User-C Training end time: 2023-11-08 19:02:42.131482
+User-B Training end time: 2023-11-08 19:02:43.281989
+User-D Training end time: 2023-11-08 19:02:44.455363
+User-H Training end time: 2023-11-08 19:02:45.604051
+User-J Training end time: 2023-11-08 19:02:46.824374
+User-G Training end time: 2023-11-08 19:02:47.977954
+2023-11-08 19:02:47,979 | Evaluating models
+2023-11-08 19:02:50,259 | Model update A: Average loss: 0.0039, Accuracy: 8460/10000 (84.60%)
+2023-11-08 19:02:52,409 | Model update B: Average loss: 0.0077, Accuracy: 7054/10000 (70.54%)
+2023-11-08 19:02:54,637 | Model update C: Average loss: 0.0144, Accuracy: 5205/10000 (52.05%)
+2023-11-08 19:02:56,814 | Model update D: Average loss: 0.0205, Accuracy: 3710/10000 (37.10%)
+2023-11-08 19:02:59,058 | Model update E: Average loss: 0.0158, Accuracy: 6077/10000 (60.77%)
+2023-11-08 19:03:01,254 | Model update F: Average loss: 0.0147, Accuracy: 4938/10000 (49.38%)
+2023-11-08 19:03:03,383 | Model update G: Average loss: 0.0045, Accuracy: 8219/10000 (82.19%)
+2023-11-08 19:03:05,576 | Model update H: Average loss: 0.0134, Accuracy: 5255/10000 (52.55%)
+2023-11-08 19:03:07,788 | Model update I: Average loss: 0.0181, Accuracy: 4041/10000 (40.41%)
+2023-11-08 19:03:09,927 | Model update J: Average loss: 0.0229, Accuracy: 3937/10000 (39.37%)
+2023-11-08 19:03:12,105 | Target histogram: [ 980  1135  1032  1010  982  892  958  1028  974  1009]
+2023-11-08 19:03:12,105 | Federated model: Average loss: 0.0021, Accuracy: 9215/10000 (92.15%)

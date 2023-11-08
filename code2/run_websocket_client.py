@@ -6,6 +6,10 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+from datetime import datetime
+import matplotlib.pyplot as plt
+import pandas as pd
+
 
 import syft as sy
 from syft.workers import websocket_client
@@ -81,6 +85,7 @@ async def fit_model_on_worker(
     curr_round: int,
     max_nr_batches: int,
     lr: float,
+    User: str
 ):
     """Send the model to the worker and fit the model on the worker's training data.
 
@@ -98,20 +103,29 @@ async def fit_model_on_worker(
             * improved model: torch.jit.ScriptModule, model after training at the worker.
             * loss: Loss on last training batch, torch.tensor.
     """
+    # print("The Training Round: ", curr_round)
+    start_time = datetime.now()
+    print(f"User-{User} Training start time: {start_time}")
+
     train_config = sy.TrainConfig(
         model=traced_model,
         loss_fn=loss_fn,
         batch_size=batch_size,
         shuffle=True,
         max_nr_batches=max_nr_batches,
-        epochs=1,
+        epochs=3,
         optimizer="SGD",
         optimizer_args={"lr": lr},
     )
     train_config.send(worker)
     loss = await worker.async_fit(dataset_key="mnist", return_ids=[0])
     model = train_config.model_ptr.get().obj
-    return worker.id, model, loss
+
+    end_time = datetime.now()
+    print(f"User-{User} Training end time: {end_time}")
+    consuming_time = end_time - start_time
+
+    return worker.id, model, loss, consuming_time.total_seconds()
 
 
 def evaluate_model_on_worker(
@@ -169,16 +183,21 @@ def evaluate_model_on_worker(
         f"{100.0 * correct / len_dataset:.2f}",
     )
 
+    accuracy = correct / len_dataset
+
+    return test_loss, accuracy
+
 
 async def main():
     args = define_and_get_arguments()
 
     hook = sy.TorchHook(torch)
-
+    loss_list = []
+    accuracy_list = []
 
     raspberries = [
         {"host": "192.168.3.33", "hook": hook, "verbose": args.verbose},
-        {"host": "192.168.3.38", "hook": hook, "verbose": args.verbose},
+        {"host": "192.168.3.34", "hook": hook, "verbose": args.verbose},
         {"host": "192.168.3.40", "hook": hook, "verbose": args.verbose},
         {"host": "192.168.3.41", "hook": hook, "verbose": args.verbose},
         {"host": "192.168.3.42", "hook": hook, "verbose": args.verbose},
@@ -194,7 +213,7 @@ async def main():
         kwargs_websocket = raspi
         worker_instances.append(WebsocketClientWorker(id=id, port=9292, **kwargs_websocket))
 
-    kwargs_websocket = {"host": "192.168.3.39", "hook": hook, "verbose": args.verbose}
+    kwargs_websocket = {"host": "192.168.3.30", "hook": hook, "verbose": args.verbose}
     testing = WebsocketClientWorker(id="testing", port=9292, **kwargs_websocket)
 
     all_nodes = worker_instances + [testing]
@@ -213,6 +232,9 @@ async def main():
     traced_model = torch.jit.trace(model, torch.zeros([1, 1, 28, 28], dtype=torch.float).to(device))
     learning_rate = args.lr
 
+    time_list = []
+    test_num = 5
+
     for curr_round in range(1, args.training_rounds + 1):
         logger.info("Training round %s/%s", curr_round, args.training_rounds)
 
@@ -225,18 +247,21 @@ async def main():
                     curr_round=curr_round,
                     max_nr_batches=args.federate_after_n_batches,
                     lr=learning_rate,
+                    User=worker.id
                 )
                 for worker in worker_instances
             ]
         )
         models = {}
         loss_values = {}
+        time_consuming = {}
 
-        test_models = curr_round % 10 == 1 or curr_round == args.training_rounds
+        test_models = curr_round % test_num == 0 or curr_round == args.training_rounds or curr_round == 1
+        # test_models = True
         if test_models:
             logger.info("Evaluating models")
             np.set_printoptions(formatter={"float": "{: .0f}".format})
-            for worker_id, worker_model, _ in results:
+            for worker_id, worker_model, _, _1 in results:
                 evaluate_model_on_worker(
                     model_identifier="Model update " + worker_id,
                     worker=testing,
@@ -249,15 +274,18 @@ async def main():
                 )
 
         # Federate models (note that this will also change the model in models[0]
-        for worker_id, worker_model, worker_loss in results:
+        for worker_id, worker_model, worker_loss, worker_time in results:
             if worker_model is not None:
                 models[worker_id] = worker_model
                 loss_values[worker_id] = worker_loss
+                time_consuming[worker_id] = worker_time
+
+        time_list.append(time_consuming)
 
         traced_model = utils.federated_avg(models)
 
         if test_models:
-            evaluate_model_on_worker(
+            loss, accuracy = evaluate_model_on_worker(
                 model_identifier="Federated model",
                 worker=testing,
                 dataset_key="mnist_testing",
@@ -267,12 +295,41 @@ async def main():
                 device=device,
                 print_target_hist=True,
             )
+            loss_list.append(loss)
+            accuracy_list.append(accuracy)
 
         # decay learning rate
         learning_rate = max(0.98 * learning_rate, args.lr * 0.01)
 
+    current_time = datetime.now()
+    formatted_time = current_time.strftime("%Y-%m-%d_%H-%M-%S")
+    # Visualization
+    # loss
+    plt.figure(figsize=(10, 5))
+    plt.subplot(1, 2, 1)
+    plt.plot([i*10 for i in range(len(loss_list))], loss_list, label='Loss', color='red', linewidth=2, alpha=0.7, marker='o')
+    plt.title('Loss Function Curve')
+    plt.xlabel('Training Round')
+    plt.ylabel('Loss')
+
+    # accuracy
+    plt.subplot(1, 2, 2)
+    plt.plot([i*10 for i in range(len(accuracy_list))], accuracy_list, label='Accuracy', color='blue', linewidth=2, alpha=0.7, marker='o')
+    plt.title('Accuracy Curve')
+    plt.xlabel('Training Round')
+    plt.ylabel('Accuracy')
+
+    plt.tight_layout()
+    plt.savefig(f'log/result_curve_{formatted_time}.png')
+    plt.show()
+
     if args.save_model:
         torch.save(model.state_dict(), "mnist_cnn.pt")
+
+    time_df = pd.DataFrame(time_list)
+    time_df.to_csv(f'log/time_consuming_{formatted_time}.csv')
+    accuracy_df = pd.DataFrame(accuracy_list, index=[i * test_num for i in range(len(accuracy_list))])
+    accuracy_df.to_csv(f'log/accuracy_{formatted_time}.csv')
 
 
 if __name__ == "__main__":
