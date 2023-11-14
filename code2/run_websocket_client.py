@@ -9,7 +9,6 @@ import torch.nn.functional as F
 from datetime import datetime
 import matplotlib.pyplot as plt
 import pandas as pd
-import os
 
 
 import syft as sy
@@ -188,27 +187,6 @@ def evaluate_model_on_worker(
 
     return test_loss, accuracy
 
-def save_raspi_result(input, test_num):
-    columns = []
-    for i in '0123456789':
-        columns.append('raspi' + i)
-    index = [test_num * i for i in range(int(len(input)/10))]
-    input_array = np.array(input).reshape((-1, 10))
-    output_df = pd.DataFrame(input_array, columns=columns, index=index)
-    return output_df
-
-def visualization(input_df:pd.DataFrame, title, ylabel, log_path):
-    if not os.path.exists(log_path):
-        os.mkdir(log_path)
-    for column in input_df.columns:
-        plt.figure(figsize=(5, 5))
-        plt.plot(input_df.index, input_df[column], label=column, color='red', linewidth=2, alpha=0.7, marker='o')
-
-        plt.xlabel('Training Round')
-        plt.ylabel(ylabel)
-        plt.title(f'{column}_{title}')
-        plt.savefig(f'{log_path}/{column}_accuracy.png')
-        plt.show()
 
 async def main():
     args = define_and_get_arguments()
@@ -216,8 +194,6 @@ async def main():
     hook = sy.TorchHook(torch)
     loss_list = []
     accuracy_list = []
-    raspi_loss_list = []
-    raspi_accuracy_list = []
 
     raspberries = [
         {"host": "192.168.3.33", "hook": hook, "verbose": args.verbose},
@@ -286,7 +262,7 @@ async def main():
             logger.info("Evaluating models")
             np.set_printoptions(formatter={"float": "{: .0f}".format})
             for worker_id, worker_model, _, _1 in results:
-                loss, accuracy = evaluate_model_on_worker(
+                evaluate_model_on_worker(
                     model_identifier="Model update " + worker_id,
                     worker=testing,
                     dataset_key="mnist_testing",
@@ -296,8 +272,6 @@ async def main():
                     device=device,
                     print_target_hist=False,
                 )
-                raspi_loss_list.append(loss)
-                raspi_accuracy_list.append(accuracy)
 
         # Federate models (note that this will also change the model in models[0]
         for worker_id, worker_model, worker_loss, worker_time in results:
@@ -329,42 +303,33 @@ async def main():
 
     current_time = datetime.now()
     formatted_time = current_time.strftime("%Y-%m-%d_%H-%M-%S")
-    log_path = f'log/{formatted_time}'
-    if not os.path.exists(log_path):
-        os.mkdir(log_path)
-
     # Visualization
     # loss
-    plt.figure(figsize=(5, 5))
-    # plt.subplot(1, 2, 1)
-    # plt.plot([i * test_num for i in range(len(loss_list))], loss_list, label='Loss', color='red', linewidth=2, alpha=0.7, marker='o')
-    # plt.title('Loss Function Curve')
-    # plt.xlabel('Training Round')
-    # plt.ylabel('Loss')
+    plt.figure(figsize=(10, 5))
+    plt.subplot(1, 2, 1)
+    plt.plot([i*10 for i in range(len(loss_list))], loss_list, label='Loss', color='red', linewidth=2, alpha=0.7, marker='o')
+    plt.title('Loss Function Curve')
+    plt.xlabel('Training Round')
+    plt.ylabel('Loss')
 
     # accuracy
-    # plt.subplot(1, 2, 2)
-    plt.plot([i * test_num for i in range(len(accuracy_list))], accuracy_list, label='Accuracy', color='blue', linewidth=2, alpha=0.7, marker='o')
+    plt.subplot(1, 2, 2)
+    plt.plot([i*10 for i in range(len(accuracy_list))], accuracy_list, label='Accuracy', color='blue', linewidth=2, alpha=0.7, marker='o')
     plt.title('Accuracy Curve')
     plt.xlabel('Training Round')
     plt.ylabel('Accuracy')
 
     plt.tight_layout()
-
-
-    plt.savefig(f'{log_path}/accuracy.png')
+    plt.savefig(f'log/result_curve_{formatted_time}.png')
     plt.show()
 
     if args.save_model:
         torch.save(model.state_dict(), "mnist_cnn.pt")
 
     time_df = pd.DataFrame(time_list)
-    time_df.to_csv(f'{log_path}/time_consuming.csv')
+    time_df.to_csv(f'log/time_consuming_{formatted_time}.csv')
     accuracy_df = pd.DataFrame(accuracy_list, index=[i * test_num for i in range(len(accuracy_list))])
-    accuracy_df.to_csv(f'{log_path}/global_accuracy.csv')
-    raspi_accuracy = save_raspi_result(raspi_accuracy_list,test_num)
-    raspi_accuracy.to_csv(f'{log_path}/raspi_accuracy.csv')
-    visualization(raspi_accuracy, title='Accuracy Curve', ylabel='Accuracy', log_path=log_path+'/raspi_pic')
+    accuracy_df.to_csv(f'log/accuracy_{formatted_time}.csv')
 
 
 if __name__ == "__main__":
