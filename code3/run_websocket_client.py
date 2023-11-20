@@ -84,6 +84,7 @@ def define_and_get_arguments(args=sys.argv[1:]): # 选定参数
         action="store_true",
         help="if set, websocket client workers will be started in verbose mode",
     )
+    parser.add_argument("--test_num", type=int, default=5, help="test number")
 
     args = parser.parse_args(args=args)
     return args
@@ -345,7 +346,7 @@ async def main():
     plt.show()
 
     if args.save_model:
-        torch.save(model.state_dict(), "mnist_cnn.pt")
+        torch.save(model.state_dict(), "HAR_1d_cnn.pt")
 
 
     time_df = pd.DataFrame(time_list)
