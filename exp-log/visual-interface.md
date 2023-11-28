@@ -7,11 +7,14 @@
 
 # Ubuntu界面说明
 
-## 开始-Start
-联邦学习的开始界面，按下开始按钮以后，通过websocket连接各个树莓派，并开始我们的训练和测试。
+## 开始-start
+功能：联邦学习的开始界面，按下开始按钮以后，通过websocket连接各个树莓派，并开始我们的训练和测试。
+按钮：start
 
 ## 训练阶段-stage
-stage是每次训练必不可少的参数，因为每次训练都需要在上一阶段训练完成的模型下接着训练，以此达到持续学习的目的。
+功能：stage是每次训练必不可少的参数，因为每次训练都需要在上一阶段训练完成的模型下接着训练，以此达到持续学习的目的。
+按钮：stage
+
 
 ## 随机种子-random seed
 由于神经网络最开始的权重初始化具有随机性，为了可以复现或者更好地观察其变化，我们需要设置随机数种子。
@@ -22,5 +25,5 @@ stage是每次训练必不可少的参数，因为每次训练都需要在上一
 # Raspi说明
 Raspi只需要在后台进程中挂起websocket通信，并保证不会间断；同时在Raspi中，需要注意的是，每次要输入所执行的任务。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4MTE2MDQ1LDU2NzI5MDQ4OF19
+eyJoaXN0b3J5IjpbLTE2Mjg4NDQzOTUsNTY3MjkwNDg4XX0=
 -->
