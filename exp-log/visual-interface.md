@@ -17,10 +17,10 @@ stage是每次训练必不可少的参数，因为每次训练都需要在上一
 由于神经网络最开始的权重初始化具有随机性，为了可以复现或者更好地观察其变化，我们需要设置随机数种子。
 
 ## 训练次数-round
-
+一个round是指一次模型聚合并更新；随着数据量的变化，我们训练的round也随之变化。
 
 # Raspi说明
 Raspi只需要在后台进程中挂起websocket通信，并保证不会间断；同时在Raspi中，需要注意的是，每次要输入所执行的任务。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NjM1Mzg1Myw1NjcyOTA0ODhdfQ==
+eyJoaXN0b3J5IjpbMjU4MTE2MDQ1LDU2NzI5MDQ4OF19
 -->
