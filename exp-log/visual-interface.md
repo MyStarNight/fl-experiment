@@ -10,6 +10,8 @@
 ## 开始-Start
 联邦学习的开始界面，按下开始按钮以后，通过websocket连接各个树莓派，并开始我们的训练和测试。
 
+## 训练阶段-stage
+stage是每次训练必不可少的参数，因为每次训练都需要在上一阶段训练完成的模型下接着训练
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTc0OTgxMV19
+eyJoaXN0b3J5IjpbMTM5MDYyNTAxM119
 -->
