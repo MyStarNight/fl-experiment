@@ -11,7 +11,10 @@
 联邦学习的开始界面，按下开始按钮以后，通过websocket连接各个树莓派，并开始我们的训练和测试。
 
 ## 训练阶段-stage
-stage是每次训练必不可少的参数，因为每次训练都需要在上一阶段训练完成的模型下接着训练
+stage是每次训练必不可少的参数，因为每次训练都需要在上一阶段训练完成的模型下接着训练，以此达到持续学习的目的。
+
+## 随机种子数-random seed
+由于神经网络最开始的quan'zhong
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDYyNTAxM119
+eyJoaXN0b3J5IjpbMzQyNDAwNjc3XX0=
 -->
