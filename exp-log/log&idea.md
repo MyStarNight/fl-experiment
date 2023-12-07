@@ -137,17 +137,22 @@ Windows运行指令如下：
 
 当前Federated Learning Plarform已经搭建完成，并在联邦学习的框架下加入了Continual Learning算法。
 
-**short **：如果需要进一步发展，有以下几个发展方向：
+**Short Term**：如果需要进一步发展，有以下几个发展方向：
 
 1. Decentrialized Fedarated Learning:去中心化
 2. 基于分簇的FL
 3. RealFL：利用设备的异构性去实现一个实际的Federated
+4. 设备的可获得性（accessibility）
+
+**Long Term**
+
+1. 尝试加入一些算法，比如强化学习算法（FRL）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTk0MzI0NDYsLTIwOTM4NjQzOTcsMT
-Y4NDk5MjAxMSwtMTUyMjkxNTg1NywtMjU0NTQwOTI1LDExMzEw
-NDUxNTMsNzk0NTg3Mzg3LC0yMTYzOTU4NzMsLTEzMTk4NDQ3OD
-UsLTI3NjcxMDY5OCwxNDYzNjYzNjkzLDE0NjIwMjk0MzgsMTIx
-MjAxODQyNCwxOTM5NTMyODEwLDExNDcyMTYwMTQsLTEyMjU4Mz
-MzMzcsMTAzOTkwMDY5NSwtMTMzNTI3MzA0OSw3MjQ3MTk5Mywt
-NTc2MzgyNDA4XX0=
+eyJoaXN0b3J5IjpbLTg2OTE0NTUxNCwtMjA5Mzg2NDM5NywxNj
+g0OTkyMDExLC0xNTIyOTE1ODU3LC0yNTQ1NDA5MjUsMTEzMTA0
+NTE1Myw3OTQ1ODczODcsLTIxNjM5NTg3MywtMTMxOTg0NDc4NS
+wtMjc2NzEwNjk4LDE0NjM2NjM2OTMsMTQ2MjAyOTQzOCwxMjEy
+MDE4NDI0LDE5Mzk1MzI4MTAsMTE0NzIxNjAxNCwtMTIyNTgzMz
+MzNywxMDM5OTAwNjk1LC0xMzM1MjczMDQ5LDcyNDcxOTkzLC01
+NzYzODI0MDhdfQ==
 -->
