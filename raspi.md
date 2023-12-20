@@ -16,11 +16,11 @@
 ---
 |liuhang| FUCHUANG02 IP | Mac |
 |--|--|--|
-|1|192.168.1.121|dc:a6:32:6b:9e:0a|
-|2|192.168.1.119|dc:a6:32:6b:a2:9c|
-|3|192.168.1.117|dc:a6:32:6b:a0:da|
-|4|192.168.1.122|dc:a6:32:6b:a2:4b|
+|1|192.168.1.121|dc:a6:32:6b:a0:fe|
+|2|192.168.1.119|dc:a6:32:6b:a1:23|
+|3|192.168.1.117|dc:a6:32:3a:3f:29|
+|4|192.168.1.122|dc:a6:32:6b:a1:0a|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDIwMjA0NDNdfQ==
+eyJoaXN0b3J5IjpbNzc0ODA5NjQ2XX0=
 -->
