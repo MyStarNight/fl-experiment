@@ -84,7 +84,7 @@ def define_and_get_arguments(args=sys.argv[1:]): # 选定参数
         action="store_true",
         help="if set, websocket client workers will be started in verbose mode",
     )
-    parser.add_argument("--task", type=int, help="continual learning task")
+    parser.add_argument("--stage", type=int, help="continual learning stage")
 
     args = parser.parse_args(args=args)
     return args
@@ -209,9 +209,9 @@ def visualization(input_df:pd.DataFrame, title, ylabel, log_path):
 
 async def main():
     args = define_and_get_arguments()
-    task = 'task' + str(args.task)
+    stage = 'stage' + str(args.stage)
 
-    if args.task == 1:
+    if args.stage == 1:
         hook = sy.TorchHook(torch)
         loss_list = []
         accuracy_list = []
@@ -219,16 +219,16 @@ async def main():
         raspi_accuracy_list = []
 
         raspberries = [
-            {"host": "192.168.3.33", "hook": hook, "verbose": args.verbose},
-            {"host": "192.168.3.34", "hook": hook, "verbose": args.verbose},
-            {"host": "192.168.3.40", "hook": hook, "verbose": args.verbose},
-            {"host": "192.168.3.41", "hook": hook, "verbose": args.verbose},
-            {"host": "192.168.3.42", "hook": hook, "verbose": args.verbose},
-            {"host": "192.168.3.43", "hook": hook, "verbose": args.verbose},
-            {"host": "192.168.3.44", "hook": hook, "verbose": args.verbose},
-            {"host": "192.168.3.45", "hook": hook, "verbose": args.verbose},
-            {"host": "192.168.3.46", "hook": hook, "verbose": args.verbose},
-            {"host": "192.168.3.47", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.117", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.118", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.119", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.120", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.121", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.122", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.123", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.124", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.125", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.127", "hook": hook, "verbose": args.verbose},
         ]
 
         worker_instances = []
@@ -236,7 +236,7 @@ async def main():
             kwargs_websocket = raspi
             worker_instances.append(WebsocketClientWorker(id=id, port=9292, **kwargs_websocket))
 
-        kwargs_websocket = {"host": "192.168.3.80", "hook": hook, "verbose": args.verbose}
+        kwargs_websocket = {"host": "192.168.1.116", "hook": hook, "verbose": args.verbose}
         testing = WebsocketClientWorker(id="testing", port=9292, **kwargs_websocket)
 
         all_nodes = worker_instances + [testing]
@@ -319,7 +319,7 @@ async def main():
 
             traced_model = utils.federated_avg(models)
             if curr_round == args.training_rounds:
-                torch.save(traced_model.state_dict(), f"model/HAR_{task}.pt")
+                torch.save(traced_model.state_dict(), f"model/HAR_{stage}.pt")
 
             if test_models:
                 loss, accuracy = evaluate_model_on_worker(
@@ -342,7 +342,7 @@ async def main():
 
         current_time = datetime.now()
         formatted_time = current_time.strftime("%Y-%m-%d_%H-%M-%S")
-        log_path = f'log/{task}_{formatted_time}'
+        log_path = f'log/{stage}_{formatted_time}'
         if not os.path.exists(log_path):
             os.mkdir(log_path)
 
@@ -367,7 +367,7 @@ async def main():
         plt.show()
 
         # if args.save_model:
-        #     torch.save(traced_model.state_dict(), f"model/HAR_{task}.pt")
+        #     torch.save(traced_model.state_dict(), f"model/HAR_{stage}.pt")
 
 
         time_df = pd.DataFrame(time_list)
@@ -387,16 +387,16 @@ async def main():
         raspi_accuracy_list = []
 
         raspberries = [
-            {"host": "192.168.3.33", "hook": hook, "verbose": args.verbose},
-            {"host": "192.168.3.34", "hook": hook, "verbose": args.verbose},
-            {"host": "192.168.3.40", "hook": hook, "verbose": args.verbose},
-            {"host": "192.168.3.41", "hook": hook, "verbose": args.verbose},
-            {"host": "192.168.3.42", "hook": hook, "verbose": args.verbose},
-            {"host": "192.168.3.43", "hook": hook, "verbose": args.verbose},
-            {"host": "192.168.3.44", "hook": hook, "verbose": args.verbose},
-            {"host": "192.168.3.45", "hook": hook, "verbose": args.verbose},
-            {"host": "192.168.3.46", "hook": hook, "verbose": args.verbose},
-            {"host": "192.168.3.47", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.117", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.118", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.119", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.120", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.121", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.122", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.123", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.124", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.125", "hook": hook, "verbose": args.verbose},
+            {"host": "192.168.1.127", "hook": hook, "verbose": args.verbose},
         ]
 
         worker_instances = []
@@ -404,7 +404,7 @@ async def main():
             kwargs_websocket = raspi
             worker_instances.append(WebsocketClientWorker(id=id, port=9292, **kwargs_websocket))
 
-        kwargs_websocket = {"host": "192.168.3.80", "hook": hook, "verbose": args.verbose}
+        kwargs_websocket = {"host": "192.168.1.116", "hook": hook, "verbose": args.verbose}
         testing = WebsocketClientWorker(id="testing", port=9292, **kwargs_websocket)
 
         all_nodes = worker_instances + [testing]
@@ -420,7 +420,7 @@ async def main():
 
         model = ConvNet1D(input_size=400, num_classes=7).to(device)
 
-        model_path = f'model/HAR_task{str(args.task-1)}.pt'
+        model_path = f'model/HAR_stage{str(args.stage-1)}.pt'
         checkpoint = torch.load(model_path)
         model.load_state_dict(checkpoint)
         model.train()
@@ -492,7 +492,7 @@ async def main():
 
             traced_model = utils.federated_avg(models)
             if curr_round == args.training_rounds:
-                torch.save(traced_model.state_dict(), f"model/HAR_{task}.pt")
+                torch.save(traced_model.state_dict(), f"model/HAR_{stage}.pt")
 
             if test_models:
                 loss, accuracy = evaluate_model_on_worker(
@@ -514,7 +514,7 @@ async def main():
 
         current_time = datetime.now()
         formatted_time = current_time.strftime("%Y-%m-%d_%H-%M-%S")
-        log_path = f'log/{task}_{formatted_time}'
+        log_path = f'log/{stage}_{formatted_time}'
         if not os.path.exists(log_path):
             os.mkdir(log_path)
 
@@ -540,7 +540,7 @@ async def main():
         plt.show()
 
         # if args.save_model:
-        #     torch.save(traced_model.state_dict(), f"model/HAR_{task}.pt")
+        #     torch.save(traced_model.state_dict(), f"model/HAR_{stage}.pt")
 
         time_df = pd.DataFrame(time_list)
         time_df.to_csv(f'{log_path}/time_consuming.csv')

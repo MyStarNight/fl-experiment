@@ -26,7 +26,7 @@ KEEP_LABELS_DICT = {
     None: [11, 12],
 }
 
-def start_websocket_server_worker(id, host, port, hook, verbose, task, keep_users=None, training=True):
+def start_websocket_server_worker(id, host, port, hook, verbose, stage, keep_users=None, training=True):
     """Helper function for spinning up a websocket server and setting up the local datasets."""
 
     server = websocket_server.WebsocketServerWorker(
@@ -40,7 +40,7 @@ def start_websocket_server_worker(id, host, port, hook, verbose, task, keep_user
     with open(data_path, 'rb') as f:
         HAR_datasets = pickle.load(f)
 
-    task_str = 'task' + str(task)
+    stage_str = 'stage' + str(stage)
 
     if training:
         selected_data = []
@@ -49,8 +49,8 @@ def start_websocket_server_worker(id, host, port, hook, verbose, task, keep_user
             selected_data.append(HAR_datasets[user].tensors[0])
             selected_target.append(HAR_datasets[user].tensors[-1])
 
-        selected_data_tensor = torch.cat(selected_data, dim=0)[: 40*task]
-        selected_target_tensor = torch.cat(selected_target, dim=0)[: 40*task]
+        selected_data_tensor = torch.cat(selected_data, dim=0)[: 40*stage]
+        selected_target_tensor = torch.cat(selected_target, dim=0)[: 40*stage]
 
         dataset = sy.BaseDataset(
             data=selected_data_tensor,
@@ -117,15 +117,15 @@ if __name__ == '__main__':
         help="if set, websocket server worker will be started in verbose mode",
     )
     # parser.add_argument(
-    #     "--task",
+    #     "--stage",
     #     "-t",
     #     type=int,
-    #     help="the task of continual learning."
+    #     help="the stage of continual learning."
     # )
 
     args = parser.parse_args()
 
-    task = int(input("Please select a task for training:"))
+    stage = int(input("Please select a stage for training:"))
 
     hook = sy.TorchHook(torch)
     server = start_websocket_server_worker(
@@ -134,7 +134,7 @@ if __name__ == '__main__':
         port=args.port,
         hook=hook,
         verbose=args.verbose,
-        task=task,
+        stage=stage,
         keep_users=KEEP_LABELS_DICT[args.id],
         training=not args.testing,
     )

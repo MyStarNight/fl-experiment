@@ -21,7 +21,7 @@ def main(model_path):
     selected_target_tensor = torch.cat(selected_target, dim=0).argmax(dim=1)
     Test_Data = TensorDataset(selected_data_tensor, selected_target_tensor)
 
-    # model_path = "model/HAR_task1.pt"
+    # model_path = "model/HAR_stage1.pt"
     model = ConvNet1D(input_size=400, num_classes=7)
     model.load_state_dict(torch.load(model_path))
     traced_model = torch.jit.trace(model, torch.zeros([1, 400, 3], dtype=torch.float))
@@ -71,6 +71,6 @@ if __name__ == '__main__':
     parser.add_argument('--model', '-m', type=int, default=1, help="select one model for evaluating")
     args =parser.parse_args()
 
-    model_path = f'model/HAR_task{str(args.model)}.pt'
+    model_path = f'model/HAR_stage{str(args.model)}.pt'
     main(model_path)
 
