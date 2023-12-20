@@ -115,29 +115,34 @@ async def fit_model_on_worker(
             * loss: Loss on last training batch, torch.tensor.
     """
     # print("The Training Round: ", curr_round)
-    start_time = datetime.now()
-    print(f"User-{User} Training start time: {start_time}")
+    try:
+        start_time = datetime.now()
+        print(f"User-{User} Training start time: {start_time}")
 
-    train_config = sy.TrainConfig(
-        model=traced_model,
-        loss_fn=loss_fn,
-        batch_size=batch_size,
-        shuffle=True,
-        max_nr_batches=max_nr_batches,
-        epochs=3,
-        optimizer="SGD",
-        optimizer_args={"lr": lr},
-    )
-    train_config.send(worker)
-    # 远程训练模型；等待远程训练模型的完成
-    loss = await worker.async_fit(dataset_key="HAR", return_ids=[0])
-    model = train_config.model_ptr.get().obj
+        train_config = sy.TrainConfig(
+            model=traced_model,
+            loss_fn=loss_fn,
+            batch_size=batch_size,
+            shuffle=True,
+            max_nr_batches=max_nr_batches,
+            epochs=3,
+            optimizer="SGD",
+            optimizer_args={"lr": lr},
+        )
+        train_config.send(worker)
+        # 远程训练模型；等待远程训练模型的完成
+        loss = await worker.async_fit(dataset_key="HAR", return_ids=[0])
+        model = train_config.model_ptr.get().obj
 
-    end_time = datetime.now()
-    print(f"User-{User} Training end time: {end_time}")
-    consuming_time = end_time - start_time
+        end_time = datetime.now()
+        print(f"User-{User} Training end time: {end_time}")
+        consuming_time = end_time - start_time
 
-    return worker.id, model, loss, consuming_time.total_seconds()
+        return worker.id, model, loss, consuming_time.total_seconds()
+
+    except Exception as e:
+        print(f"User-{User} {datetime.now()} Inaccessible: {e}")
+        return worker.id, None, None, None
 
 def evaluate_model_on_worker(
     model_identifier,
@@ -273,6 +278,8 @@ async def main():
             models = {}
             loss_values = {}
             time_consuming = {}
+            accuracy_dict = {}
+            loss_test_values = {}
 
 
             test_models = curr_round % test_num == 0 or curr_round == args.training_rounds or curr_round == 1
@@ -281,18 +288,25 @@ async def main():
                 logger.info("Evaluating models")
                 np.set_printoptions(formatter={"float": "{: .0f}".format})
                 for worker_id, worker_model, _, _1 in results:
-                    loss, accuracy = evaluate_model_on_worker(
-                        model_identifier="Model update " + worker_id,
-                        worker=testing,
-                        dataset_key="HAR_testing",
-                        model=worker_model,
-                        nr_bins=7,
-                        batch_size=32,
-                        device=device,
-                        print_target_hist=False,
-                    )
-                    raspi_loss_list.append(loss)
-                    raspi_accuracy_list.append(accuracy)
+                    if worker_model is not None:
+                        loss, accuracy = evaluate_model_on_worker(
+                            model_identifier="Model update " + worker_id,
+                            worker=testing,
+                            dataset_key="HAR_testing",
+                            model=worker_model,
+                            nr_bins=7,
+                            batch_size=32,
+                            device=device,
+                            print_target_hist=False,
+                        )
+                        accuracy_dict[worker_id] = accuracy
+                        loss_test_values[worker_id] = loss
+                    else:
+                        accuracy_dict[worker_id] = None
+                        loss_test_values[worker_id] = None
+
+                raspi_loss_list.append(loss_test_values)
+                raspi_accuracy_list.append(accuracy_dict)
 
             # Federate models (note that this will also change the model in models[0]
             for worker_id, worker_model, worker_loss, worker_time in results:
@@ -360,7 +374,8 @@ async def main():
         time_df.to_csv(f'{log_path}/time_consuming.csv')
         accuracy_df = pd.DataFrame(accuracy_list, index=[i * test_num for i in range(len(accuracy_list))])
         accuracy_df.to_csv(f'{log_path}/global_accuracy.csv')
-        raspi_accuracy = save_raspi_result(raspi_accuracy_list, test_num)
+        # raspi_accuracy = save_raspi_result(raspi_accuracy_list, test_num)
+        raspi_accuracy = pd.DataFrame(raspi_accuracy_list, index=[i*test_num for i in range(len(accuracy_list))])
         raspi_accuracy.to_csv(f'{log_path}/raspi_accuracy.csv')
         visualization(raspi_accuracy, title='Accuracy Curve', ylabel='Accuracy', log_path=log_path + '/raspi_pic')
 
@@ -437,6 +452,8 @@ async def main():
             models = {}
             loss_values = {}
             time_consuming = {}
+            accuracy_dict = {}
+            loss_test_values = {}
 
             test_models = curr_round % test_num == 0 or curr_round == args.training_rounds or curr_round == 1
             # test_models = True
@@ -444,18 +461,25 @@ async def main():
                 logger.info("Evaluating models")
                 np.set_printoptions(formatter={"float": "{: .0f}".format})
                 for worker_id, worker_model, _, _1 in results:
-                    loss, accuracy = evaluate_model_on_worker(
-                        model_identifier="Model update " + worker_id,
-                        worker=testing,
-                        dataset_key="HAR_testing",
-                        model=worker_model,
-                        nr_bins=7,
-                        batch_size=32,
-                        device=device,
-                        print_target_hist=False,
-                    )
-                    raspi_loss_list.append(loss)
-                    raspi_accuracy_list.append(accuracy)
+                    if worker_model is not None:
+                        loss, accuracy = evaluate_model_on_worker(
+                            model_identifier="Model update " + worker_id,
+                            worker=testing,
+                            dataset_key="HAR_testing",
+                            model=worker_model,
+                            nr_bins=7,
+                            batch_size=32,
+                            device=device,
+                            print_target_hist=False,
+                        )
+                        accuracy_dict[worker_id] = accuracy
+                        loss_test_values[worker_id] = loss
+                    else:
+                        accuracy_dict[worker_id] = None
+                        loss_test_values[worker_id] = None
+
+                raspi_loss_list.append(loss_test_values)
+                raspi_accuracy_list.append(accuracy_dict)
 
             # Federate models (note that this will also change the model in models[0]
             for worker_id, worker_model, worker_loss, worker_time in results:
@@ -522,7 +546,8 @@ async def main():
         time_df.to_csv(f'{log_path}/time_consuming.csv')
         accuracy_df = pd.DataFrame(accuracy_list, index=[i * test_num for i in range(len(accuracy_list))])
         accuracy_df.to_csv(f'{log_path}/global_accuracy.csv')
-        raspi_accuracy = save_raspi_result(raspi_accuracy_list, test_num)
+        # raspi_accuracy = save_raspi_result(raspi_accuracy_list, test_num)
+        raspi_accuracy = pd.DataFrame(raspi_accuracy_list, index=[i * test_num for i in range(len(accuracy_list))])
         raspi_accuracy.to_csv(f'{log_path}/raspi_accuracy.csv')
         visualization(raspi_accuracy, title='Accuracy Curve', ylabel='Accuracy', log_path=log_path + '/raspi_pic')
 

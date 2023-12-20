@@ -77,32 +77,48 @@ def command(raspberry:dict, commands_to_execute:list):
 if __name__ == '__main__':
     # 定义树莓派的IP地址、用户名和密码
     raspberries = [
-        # {"ip": "192.168.3.33", "username": "pi", "password": "raspberry"},
-        # {"ip": "192.168.3.34", "username": "pi", "password": "raspberry"},
-        # {"ip": "192.168.3.40", "username": "pi", "password": "raspberry"},
-        # {"ip": "192.168.3.41", "username": "pi", "password": "raspberry"},
+        {"ip": "192.168.3.33", "username": "pi", "password": "raspberry"},
+        {"ip": "192.168.3.34", "username": "pi", "password": "raspberry"},
+        {"ip": "192.168.3.40", "username": "pi", "password": "raspberry"},
+        {"ip": "192.168.3.41", "username": "pi", "password": "raspberry"},
         {"ip": "192.168.3.42", "username": "pi", "password": "raspberry"},
-        # {"ip": "192.168.3.43", "username": "pi", "password": "raspberry"},
-        # {"ip": "192.168.3.44", "username": "pi", "password": "raspberry"},
-        # {"ip": "192.168.3.45", "username": "pi", "password": "raspberry"},
-        # {"ip": "192.168.3.46", "username": "pi", "password": "raspberry"},
-        # {"ip": "192.168.3.47", "username": "pi", "password": "raspberry"},
+        {"ip": "192.168.3.43", "username": "pi", "password": "raspberry"},
+        {"ip": "192.168.3.44", "username": "pi", "password": "raspberry"},
+        {"ip": "192.168.3.45", "username": "pi", "password": "raspberry"},
+        {"ip": "192.168.3.46", "username": "pi", "password": "raspberry"},
+        {"ip": "192.168.3.47", "username": "pi", "password": "raspberry"},
     ]
 
-    # 要发送的文件夹和目标文件夹
-    # local_folder = r"E:\2023mem\Python-PJ\fl-experiment\code5"
-    local_file = r"E:\code\work\server.sh"
-    remote_folder = "/home/pi/work/fl-pj/fl-demo4"
+    operation_dict = {
+        1: 'send_folder',
+        2: 'send_file'
+    }
+    operation = operation_dict[2]
 
-    commands_to_execute = [
-                          # f"mkdir {remote_folder}; cd {remote_folder}; pwd",
-                          f"cd {remote_folder};rm run_websocket_server.py; ls"
-                          # f"chmod +x server.sh"
-                          ]
-    # 执行指令:创建文件夹
-    # for raspi in raspberries:
-    #     command(raspi, commands_to_execute)
-    # 发送文件夹
+    if operation == 'send_folder':
+        # 要发送目标文件夹
+        local_folder = r"E:\2023mem\Python-PJ\fl-experiment\code5"
+        remote_folder = "/home/pi/work/fl-pj/code5"
 
-    # send_folder(raspberries, local_folder, remote_folder)
-    send_file(raspberries, local_file, remote_folder)
+        commands_to_execute = [
+                              f"mkdir {remote_folder}; cd {remote_folder}; pwd",
+                                  ]
+        for raspi in raspberries:
+            command(raspi, commands_to_execute)
+
+        # 发送文件夹
+        send_folder(raspberries, local_folder, remote_folder)
+
+    else:
+        # 要发送的目标文件
+        local_file = r"E:\code\work\start_server.sh"
+        remote_folder = "/home/pi/"
+
+        commands_to_execute = [
+                              f"chmod +x start_server.sh"
+                                  ]
+        for raspi in raspberries:
+            command(raspi, commands_to_execute)
+
+        # 发送文件
+        # send_file(raspberries, local_file, remote_folder)
