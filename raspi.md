@@ -21,6 +21,12 @@
 |3|192.168.1.117|dc:a6:32:3a:3f:29|
 |4|192.168.1.122|dc:a6:32:6b:a1:0a|
 
+|Single| FUCHUANG02 IP | Mac |
+|--|--|--|
+|Unit-01|192.168.1.123|dc:a6:32:6b:a0:fe|
+|2|192.168.1.125|dc:a6:32:6b:a1:23|
+|3|192.168.1.110|dc:a6:32:3a:3f:29|
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc0ODA5NjQ2XX0=
+eyJoaXN0b3J5IjpbNDg5NjU3MTQwXX0=
 -->
