@@ -1,9 +1,9 @@
 # Raspi Backup Information
 
-|  |  |
-|--|--|
+|Raspi Position | FUCHUANG02 IP | Mac |
+|--|--|--|
 |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxODQwODk0OF19
+eyJoaXN0b3J5IjpbNTcwNzg5OTkxXX0=
 -->
