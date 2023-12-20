@@ -133,13 +133,32 @@ Windows运行指令如下：
 	./server.sh
 
 
-	
+##  2023-12-7 ideas
+
+当前Federated Learning Plarform已经搭建完成，并在联邦学习的框架下加入了Continual Learning算法。
+
+**Short Term**：如果需要进一步发展，有以下几个发展方向：
+
+1. Decentrialized Fedarated Learning:去中心化
+2. 基于分簇的FL
+3. RealFL：利用设备的异构性去实现一个实际的Federated
+4. 设备的可获得性（accessibility）
+
+**Long Term**
+
+1. 尝试加入一些算法，比如强化学习算法（FRL）
+
+**Dataset**
+ 
+> https://github.com/waico/SkAB
+
+胡姐提供的一个数据集
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTM4NjQzOTcsMTY4NDk5MjAxMSwtMT
-UyMjkxNTg1NywtMjU0NTQwOTI1LDExMzEwNDUxNTMsNzk0NTg3
-Mzg3LC0yMTYzOTU4NzMsLTEzMTk4NDQ3ODUsLTI3NjcxMDY5OC
-wxNDYzNjYzNjkzLDE0NjIwMjk0MzgsMTIxMjAxODQyNCwxOTM5
-NTMyODEwLDExNDcyMTYwMTQsLTEyMjU4MzMzMzcsMTAzOTkwMD
-Y5NSwtMTMzNTI3MzA0OSw3MjQ3MTk5MywtNTc2MzgyNDA4LC0x
-NzgxNjYwNjQ3XX0=
+eyJoaXN0b3J5IjpbLTE0MTM4MTc4NzUsLTg2OTE0NTUxNCwtMj
+A5Mzg2NDM5NywxNjg0OTkyMDExLC0xNTIyOTE1ODU3LC0yNTQ1
+NDA5MjUsMTEzMTA0NTE1Myw3OTQ1ODczODcsLTIxNjM5NTg3My
+wtMTMxOTg0NDc4NSwtMjc2NzEwNjk4LDE0NjM2NjM2OTMsMTQ2
+MjAyOTQzOCwxMjEyMDE4NDI0LDE5Mzk1MzI4MTAsMTE0NzIxNj
+AxNCwtMTIyNTgzMzMzNywxMDM5OTAwNjk1LC0xMzM1MjczMDQ5
+LDcyNDcxOTkzXX0=
 -->
