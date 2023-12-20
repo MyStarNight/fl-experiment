@@ -23,10 +23,10 @@
 
 |Single| FUCHUANG02 IP | Mac |
 |--|--|--|
-|Unit-01|192.168.1.123|dc:a6:32:6b:a0:fe|
-|2|192.168.1.125|dc:a6:32:6b:a1:23|
-|3|192.168.1.110|dc:a6:32:3a:3f:29|
+|Unit-01|192.168.1.123|e4:5f:01:03:eb:e7|
+|2|192.168.1.125|dc:a6:32:ad:cc:b3|
+|3|192.168.1.110|dc:a6:32:a2:17:9b|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg5NjU3MTQwXX0=
+eyJoaXN0b3J5IjpbLTY1NDU4MzAxOV19
 -->
