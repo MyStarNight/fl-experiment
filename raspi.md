@@ -7,12 +7,12 @@
 |3|192.168.1.146|d8:3a:dd:06:cd:59|
 |4|192.168.1.148|d8:3a:dd:06:cc:d8|
 ---
-|New Raspi| FUCHUANG02 IP | Mac |
+|sanjiao| FUCHUANG02 IP | Mac |
 |--|--|--|
-|1|192.168.1.147|d8:3a:dd:06:cd:61|
-|2|192.168.1.149|d8:3a:dd:06:cc:db|
-|3|192.168.1.146|d8:3a:dd:06:cd:59|
-|4|192.168.1.148|d8:3a:dd:06:cc:d8|
+|1|192.168.1.127|dc:a6:32:6b:9e:0a|
+|2|192.168.1.120|dc:a6:32:6b:a2:9c|
+|3|192.168.1.124|dc:a6:32:6b:a0:da|
+|4|192.168.1.118|d8:3a:dd:06:cc:d8|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTYwMDQ3N119
+eyJoaXN0b3J5IjpbLTc0ODM1NzAzXX0=
 -->
