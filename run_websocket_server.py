@@ -2,8 +2,8 @@ import logging
 import argparse
 import numpy as np
 import torch
-from torchvision import datasets
-from torchvision import transforms
+# from torchvision import datasets
+# from torchvision import transforms
 
 from torch.utils.data import ConcatDataset, DataLoader
 import pickle
@@ -12,18 +12,18 @@ from syft.workers import websocket_server
 from collections import Counter
 
 KEEP_LABELS_DICT = {
-    "A": [1, 13],
-    "B": [2, 14],
-    "C": [3, 15],
-    "D": [4, 16],
-    "E": [5, 17],
-    "F": [6, 18],
-    "G": [7, 19],
-    "H": [8, 20],
-    "I": [9, 21],
-    "J": [10, 22],
-    "testing": [11, 12],
-    None: [11, 12],
+    "A": [1, 11],
+    "B": [2, 12],
+    "C": [3, 13],
+    "D": [4, 14],
+    "E": [5, 15],
+    "F": [6, 16],
+    "G": [7, 17],
+    "H": [8, 18],
+    "I": [9, 19],
+    "J": [10, 20],
+    "testing": [21, 22, 23, 24],
+    None: [21, 22, 23, 24],
 }
 
 def start_websocket_server_worker(id, host, port, hook, verbose, stage, keep_users=None, training=True):
@@ -49,8 +49,8 @@ def start_websocket_server_worker(id, host, port, hook, verbose, stage, keep_use
             selected_data.append(HAR_datasets[user].tensors[0])
             selected_target.append(HAR_datasets[user].tensors[-1])
 
-        selected_data_tensor = torch.cat(selected_data, dim=0)[: 40*stage]
-        selected_target_tensor = torch.cat(selected_target, dim=0)[: 40*stage]
+        selected_data_tensor = torch.cat(selected_data, dim=0)[40*stage-40: 40*stage+160]
+        selected_target_tensor = torch.cat(selected_target, dim=0)[40*stage-40: 40*stage+160]
 
         dataset = sy.BaseDataset(
             data=selected_data_tensor,

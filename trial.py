@@ -1,12 +1,17 @@
-import pickle
-import torch
-from torch.utils.data import TensorDataset, DataLoader
-from collections import Counter
+import run_websocket_client
 
-data_path = 'data/shuffled_HAR_datasets.pkl'
-with open(data_path, 'rb') as f:
-    user_datasets = pickle.load(f)
+model = run_websocket_client.ConvNet1D(input_size=400, num_classes=7)
 
-labels = user_datasets[1].tensors[-1][0:40].argmax(dim=1)
-label_counts = Counter(labels.numpy())
-print(label_counts)
+def print_trainable_parameters(model):
+    """
+    Prints the number of trainable parameters in the model.
+    """
+    trainable_params = 0
+    all_param = 0
+    for _, param in model.named_parameters():
+        all_param += param.numel()
+        if param.requires_grad:
+            trainable_params += param.numel()
+    print(f"trainable params: {trainable_params} || all params: {all_param} || trainable%: {100 * trainable_params / all_param}")
+
+print_trainable_parameters(model)

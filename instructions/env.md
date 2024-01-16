@@ -307,6 +307,9 @@ B-->C[安装dependencies]
 
 ### Part3 树莓派配置环境
 树莓派安装conda教程：[树莓派上如何安装anaconda/miniconda环境配置](https://blog.csdn.net/weixin_39589455/article/details/128620393?spm=1001.2014.3001.5506)
+
+树莓派安装conda教程2：[aarch64安装](https://blog.csdn.net/weixin_43710676/article/details/129002349?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170314113816800185895610%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=170314113816800185895610&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-2-129002349-null-null.142^v96^pc_search_result_base5&utm_term=%E6%A0%91%E8%8E%93%E6%B4%BE64%E5%AE%89%E8%A3%85conda&spm=1018.2226.3001.4187)
+
 树莓派pytorch安装地址：[树莓派64位安装wheel文件合集](https://torch.kmtea.eu/whl/stable.html)
 
 首先，由于面对不同的树莓派上，可能有不同的python版本，因此我给出的解决办法是使用conda；选择python版本为3.7的conda。

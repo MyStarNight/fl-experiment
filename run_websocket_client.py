@@ -124,7 +124,7 @@ async def fit_model_on_worker(
             loss_fn=loss_fn,
             batch_size=batch_size,
             shuffle=True,
-            max_nr_batches=max_nr_batches,
+            # max_nr_batches=max_nr_batches,
             epochs=3,
             optimizer="SGD",
             optimizer_args={"lr": lr},
