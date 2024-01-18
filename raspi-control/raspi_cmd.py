@@ -90,38 +90,37 @@ if __name__ == '__main__':
         {"ip": "192.168.1.127", "username": "pi", "password": "raspberry"},
     ]
 
+    ubuntu = [
+        {"ip": "192.168.1.140", "username": "hao", "password": "929910"}
+    ]
+
     operation_dict = {
         1: 'send_folder',
-        2: 'send_file'
+        2: 'send_file',
+        3: 'command'
     }
-    operation = operation_dict[2]
+    operation = operation_dict[3]
 
     if operation == 'send_folder':
         # 要发送目标文件夹
         local_folder = r"E:\2023mem\Python-PJ\fl-experiment\data"
         remote_folder = "/home/pi/work/fl-pj/v2.0/data"
 
-        # 执行命令
-        commands_to_execute = [
-                              f"mkdir {remote_folder}; cd {remote_folder}; pwd",
-                                  ]
-        for raspi in raspberries:
-            command(raspi, commands_to_execute)
-
         # 发送文件夹
         send_folder(raspberries, local_folder, remote_folder)
 
-    else:
+    elif operation == 'send_file':
         # 要发送的目标文件
         local_file = r"E:\2023mem\Python-PJ\fl-experiment\run_websocket_server.py"
         remote_folder = "/home/pi/work/fl-pj/v2.0"
 
-        # 执行命令
-        # commands_to_execute = [
-        #                       f"mkdir /home/pi/work/fl-pj/v2.0; cd /home/pi/work/fl-pj/; ls"
-        #                           ]
-        # for raspi in raspberries:
-        #     command(raspi, commands_to_execute)
-
         # 发送文件
         send_file(raspberries, local_file, remote_folder)
+
+    elif operation == 'command':
+        # 执行命令
+        commands_to_execute = [
+            f"sudo screen -S test;conda activate fl;cd work/fl-pj/fl-experiment/;python run_websocket_client.py --training_rounds 5 --stage 1",
+        ]
+        for raspi in ubuntu:
+            command(raspi, commands_to_execute)
